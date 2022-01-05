@@ -2,8 +2,8 @@ class Solution {
 public:
     int shortestSubarray(vector<int>& nums, int k) {
         int n = nums.size();
-        long ans = INT_MAX;
-        vector<long long> prefix(n+1, 0);
+        int ans = INT_MAX;
+        vector<long> prefix(n+1, 0);
         
         // calculate prefix sum
         for(int i = 1; i <= n; i ++) {
@@ -11,15 +11,13 @@ public:
         }
         
         int r = 0;
-        deque<long> deq;
+        deque<int> deq;
         
         while(r <= n) {
-            long long curSum = prefix[r];
+            long curSum = prefix[r];
             
             // get shortest possible
             while(!deq.empty() && curSum - prefix[deq.front()] >= k) {
-                // cout << curSum << " " << prefix[deq.front()] << endl;
-                // cout << curSum - prefix[deq.front()] << endl;
                 ans = min(ans, r - deq.front());
                 deq.pop_front();
             }
