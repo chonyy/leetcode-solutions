@@ -10,21 +10,27 @@
  */
 class Solution {
 public:
-    unordered_map<int, int> m;
-    int count = 0;
+    ListNode* temp;
     
     Solution(ListNode* head) {
-        while(head) {
-            m[count] = head->val;
-            
-            count ++;
-            head = head->next;
-        }
+        temp = head;
     }
     
     int getRandom() {
-        int idx = rand() % count;
-        return m[idx];
+        ListNode* cur = temp;
+        int res = 0;
+        int size = 1;
+        
+        while(cur) {
+            if(rand() % size == 0) {
+                res = cur->val;
+            }
+            
+            size ++;
+            cur = cur->next;
+        }
+        
+        return res;
     }
 };
 
