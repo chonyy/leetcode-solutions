@@ -24,11 +24,11 @@ public:
                 }
             }
             else {
-                if(num < target) {
+                if(targetLarge) {
                     r = mid;
                 }
                 else {
-                    l = mid + 1;;
+                    l = mid + 1;
                 }
             }
         }
