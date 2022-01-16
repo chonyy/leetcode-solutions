@@ -16,10 +16,10 @@ public:
             
             char c = s[i];
             string sub = s.substr(0, i) + s.substr(i+1);
-            if(c == '(') {
+            if(c == '(' && l > 0) {
                 remove(sub, l-1, r, res, i);
             }
-            if(c == ')') {
+            if(c == ')' && r > 0) {
                 remove(sub, l, r-1, res, i);
             }
         }
