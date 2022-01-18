@@ -47,6 +47,7 @@ public:
         
         vector<vector<int>> res;
         
+        // loop through row and col
         for(int i = minVertical; i <= maxVertical; i ++) {
             int minRow = colBoundary[i].first;
             int maxRow = colBoundary[i].second;
