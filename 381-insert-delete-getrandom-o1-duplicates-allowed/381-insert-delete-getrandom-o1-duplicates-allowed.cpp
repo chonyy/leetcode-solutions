@@ -50,20 +50,12 @@ public:
         // replace last val to removeIdx
         auto removePos = valIdx[val].begin();
         int removeIdx = *removePos;
-        // cout << "remove idx " << *removePos << endl;
         int lastVal = arr.back();
         int lastPos = arr.size()-1;
-        // cout << "get val" << endl;
-        
-        // remove idx from val valIdx
-        valIdx[val].erase(removePos);
-        // cout << "removed idx" << endl;
-        // replace val with lastVal
+
+        valIdx[val].erase(removeIdx);
         arr[removeIdx] = lastVal;
-        // cout << "replaced" << endl;
-        // insert idx into lastVal
         valIdx[lastVal].insert(removeIdx);
-        // remove lastVal old idx
         valIdx[lastVal].erase(lastPos);
         
         if(valIdx[val].size() == 0) {
