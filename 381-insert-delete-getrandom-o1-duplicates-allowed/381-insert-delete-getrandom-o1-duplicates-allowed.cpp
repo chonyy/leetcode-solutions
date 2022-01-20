@@ -26,8 +26,6 @@ public:
     }
     
     bool insert(int val) {
-        cout << "insert " << val << endl;
-        // cout << "size " << valIdx.size() << endl;
         bool exist = valIdx.count(val) > 0;
         
         // add the idx to val
@@ -41,9 +39,7 @@ public:
     }
     
     bool remove(int val) {
-        cout << "remove " << val << endl;
         if(valIdx.find(val) == valIdx.end()) {
-            cout << "not found" << endl;
             return false;
         }
         
@@ -53,6 +49,7 @@ public:
         int lastVal = arr.back();
         int lastPos = arr.size()-1;
 
+        // remove old idx
         valIdx[val].erase(removeIdx);
         arr[removeIdx] = lastVal;
         valIdx[lastVal].insert(removeIdx);
