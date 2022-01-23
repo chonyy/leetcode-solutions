@@ -16,7 +16,7 @@ public:
         for(int i = 0; i < n; i ++) {
             string left = s.substr(0, i);
             string right = s.substr(i);
-            if(dict.find(left) != dict.end() && canBreak(right, dict, seen)) {
+            if(dict.find(right) != dict.end() && canBreak(left, dict, seen)) {
                 return seen[s] = true;
             }
         }
