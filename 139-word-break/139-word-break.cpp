@@ -7,14 +7,16 @@ public:
         dp[0] = true;
         
         for(int i = 1; i <= n; i ++) {
-            for(int j = i-1; j >= 0; j --) {
-                if(dp[j] == true) {
-                    int len = i - j;
-                    string sub = s.substr(j, len);
+            for(auto& word : dict) {
+                if(word.size() <= i) {
+                    int start = i - word.size();
+                    if(dp[start] == false) {
+                        continue;
+                    }
                     
-                    if(dict.find(sub) != dict.end()) {
+                    string sub = s.substr(start, word.size());
+                    if(sub == word) {
                         dp[i] = true;
-                        break;
                     }
                 }
             }
