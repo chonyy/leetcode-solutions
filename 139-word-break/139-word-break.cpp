@@ -1,33 +1,25 @@
 class Solution {
 public:
-    bool canBreak(string& s, unordered_set<string>& dict, unordered_map<string,bool>& seen) {
-        // check if seen
-        if(seen.count(s)) {
-            return seen[s];
-        }
-        
-        // check if dict
-        if(dict.find(s) != dict.end()) {
-            return true;
-        }
-        
-        // try splitting
+    bool wordBreak(string s, vector<string>& wordDict) {
         int n = s.size();
-        for(int i = 0; i < n; i ++) {
-            string left = s.substr(0, i);
-            string right = s.substr(i);
-            if(dict.find(right) != dict.end() && canBreak(left, dict, seen)) {
-                return seen[s] = true;
+        unordered_set<string> dict(wordDict.begin(), wordDict.end());
+        vector<bool> dp(n+1, false);
+        dp[0] = true;
+        
+        for(int i = 1; i <= n; i ++) {
+            for(int j = i-1; j >= 0; j --) {
+                if(dp[j] == true) {
+                    int len = i - j;
+                    string sub = s.substr(j, len);
+                    
+                    if(dict.find(sub) != dict.end()) {
+                        dp[i] = true;
+                        break;
+                    }
+                }
             }
         }
         
-        return seen[s] = false;
-    }
-    
-    bool wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string> dict(wordDict.begin(), wordDict.end());
-        unordered_map<string, bool> seen;
-        
-        return canBreak(s, dict, seen);
+        return dp[n];
     }
 };
