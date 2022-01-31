@@ -9,20 +9,22 @@ public:
         int target = sum / 2;
         if(sum % 2)
             return false;
-        vector<vector<bool>> dp(n+1, vector<bool>(target+1, false));
-        dp[0][0] = true;
+        vector<bool> dp(target+1, false);
+        dp[0] = true;
         
         for(int i = 1; i <= n; i ++) {
             int num = nums[i-1];
+            vector<bool> temp(target+1, false);
             for(int j = 1; j <= target; j ++) {
                 int need = j - num;
-                dp[i][j] = dp[i-1][j];
+                temp[j] = dp[j];
                 if(need >= 0) {
-                    dp[i][j] = dp[i][j] | dp[i-1][need];
+                    temp[j] = temp[j] | dp[need];
                 }
             }
+            swap(dp, temp);
         }
         
-        return dp[n][target];
+        return dp[target];
     }
 };
