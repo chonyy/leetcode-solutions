@@ -3,18 +3,16 @@ public:
     bool solve(vector<int>& nums, int target, int idx, vector<vector<int>>& memo) {
         if(target < 0)
             return false;
-        
         if(target == 0)
             return true;
-        
-        if(memo[idx][target] != -1) 
+        if(idx == nums.size()) 
+            return false;
+        if(memo[idx][target] != -1)
             return memo[idx][target];
         
-        for(int i = idx; i < nums.size(); i ++) {
-            if(solve(nums, target - nums[i], i+1, memo))
-                return memo[idx][target] =  true;
-        }
-        return memo[idx][target] = false;
+        bool res = solve(nums, target-nums[idx], idx+1, memo) || solve(nums, target, idx+1, memo);
+        
+        return memo[idx][target] = res;
     }
     
     
