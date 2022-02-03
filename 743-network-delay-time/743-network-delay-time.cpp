@@ -28,7 +28,7 @@ public:
             // update ans
             // push all neighbor edges
             visited.insert(curNode);
-            ans = max(ans, curTime);
+            ans = curTime;
             
             auto& neighbors = graph[curNode];
             for(auto nei : neighbors) {
