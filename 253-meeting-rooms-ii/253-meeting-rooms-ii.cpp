@@ -1,21 +1,19 @@
 class Solution {
 public:
     int minMeetingRooms(vector<vector<int>>& intervals) {
-        priority_queue<int, vector<int>, greater<int>> pq;
-        int n = intervals.size();
         sort(intervals.begin(), intervals.end());
-        pq.push(intervals[0][1]);
-        int res = 0;
+        priority_queue<int, vector<int>, greater<int>> pq;
         
-        for(int i = 1; i < n; i ++) {
-            auto earliest = pq.top();
-            auto& cur = intervals[i];
-            
-            if(cur[0] >= earliest) {
-                pq.pop();
+        for(auto& inter : intervals) {
+            if(pq.size() == 0)
+                pq.push(inter[1]);
+            else if(inter[0] < pq.top()) {
+                pq.push(inter[1]);
             }
-            
-            pq.push(cur[1]);
+            else {
+                pq.pop();
+                pq.push(inter[1]);
+            }
         }
         
         return pq.size();
