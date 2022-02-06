@@ -46,7 +46,7 @@ public:
         queue<char> q;
         
         for(auto entry : inDegree) {
-            cout << entry.first << " " << entry.second << endl;
+            // cout << entry.first << " " << entry.second << endl;
             if(entry.second == 0)
                 q.push(entry.first);
         }
