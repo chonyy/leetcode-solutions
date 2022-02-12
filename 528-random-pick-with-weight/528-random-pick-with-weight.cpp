@@ -13,7 +13,6 @@ public:
     
     int pickIndex() {
         int pick = rand() % sum;
-        cout << pick << endl;
         auto it = upper_bound(prefix.begin(), prefix.end(), pick);
         return it - prefix.begin() - 1;
     }
