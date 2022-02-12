@@ -1,20 +1,21 @@
 class Solution {
 public:
-    vector<int> prefixSum;
     int sum = 0;
+    vector<int> prefix;
+    
     Solution(vector<int>& w) {
-        int n = w.size();
-        prefixSum = w;
-        for(int i = 1; i < n; i ++) {
-            prefixSum[i] += prefixSum[i-1];
+        prefix.push_back(0);
+        for(int i = 1; i <= w.size(); i ++) {
+            prefix.push_back(prefix[i-1] + w[i-1]);
+            sum += w[i-1];
         }
-        sum = prefixSum[n-1];
     }
     
     int pickIndex() {
-        int random = rand() % sum;
-        auto it = upper_bound(prefixSum.begin(), prefixSum.end(), random);
-        return it - prefixSum.begin();
+        int pick = rand() % sum;
+        cout << pick << endl;
+        auto it = upper_bound(prefix.begin(), prefix.end(), pick);
+        return it - prefix.begin() - 1;
     }
 };
 
@@ -23,5 +24,3 @@ public:
  * Solution* obj = new Solution(w);
  * int param_1 = obj->pickIndex();
  */
-
-// 1 4
