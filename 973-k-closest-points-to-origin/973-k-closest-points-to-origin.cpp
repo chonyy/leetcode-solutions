@@ -8,7 +8,7 @@ public:
     
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
         auto cmp = [](pair<int, vector<int>> &p1, pair<int, vector<int>> &p2){
-            return p1.first > p2.first;
+            return p1.first < p2.first;
         };
         
         
@@ -17,9 +17,12 @@ public:
         
         for(auto& point : points) {
             pq.push({distance(point), point});
+            if(pq.size() > k) {
+                pq.pop();
+            }
         }
         
-        while(k --) {
+        while(!pq.empty()) {
             res.push_back(pq.top().second);
             pq.pop();
         }
