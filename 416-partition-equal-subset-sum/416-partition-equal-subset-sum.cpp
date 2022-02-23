@@ -1,40 +1,31 @@
 class Solution {
 public:
-    bool checkPartition(vector<int>& nums, int idx, int target, vector<vector<int>>& memo) {
-	// ending condition
-	if(target == 0)
-		return true;
-	if(idx == nums.size() || target < 0)
-		return false;
+    bool canPartition(vector<int>& nums) {
+        int sum = 0;
+        for(int num : nums) {
+            sum += num;
+        }        
 
-	if(memo[idx][target] != -1)
-		return memo[idx][target];
+        if(sum % 2) {
+            return false;
+        }
 
-	bool take = checkPartition(nums, idx+1, target - nums[idx], memo);
-	bool notTake = checkPartition(nums, idx+1, target, memo);
-	bool res = take || notTake;
+        int n = nums.size();
+        int target = sum / 2;
+        
+        vector<bool> dp(target + 1, false);
+	dp[0] = true;
 
-	return memo[idx][target] = res;
+	for(int num : nums) {
+		for(int i = target; i >= 0; i --) {
+			int need = i - num;
+			if(need < 0)
+				continue;
+			dp[i] = dp[i] || dp[need];
+}
 }
 
-bool canPartition(vector<int>& nums) {
-int sum = 0;
-for(int num : nums) {
-	sum += num;
-}        
-
-if(sum % 2) {
-	return false;
+return dp[target];
 }
-
-int n = nums.size();
-int target = sum / 2;
-vector<vector<int>> memo(n, vector<int>(target+1, -1));
-
-
-return checkPartition(nums, 0, target, memo);
-}
-
-
 
 };
