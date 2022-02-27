@@ -35,11 +35,7 @@ public:
             return 1;
         }
         
-        // already covered
-        if(left == 1 || right == 1)
-            return 2;
-        
-        return 0;
+        return 2;
     }
     
     int res = 0;
