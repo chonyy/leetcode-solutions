@@ -15,7 +15,7 @@ public:
         for (int j = n-1; j >= 0; --j) {
             unordered_map<int, vector<int>> seen; 
             for (int i = 0; i < m; ++i) {
-                int val = (hs[i] - (dict[i][j] - 'a')*mult + 26l*MOD) % MOD; 
+                int val = (hs[i] - (dict[i][j] - 'a') * mult + 26l*MOD) % MOD; 
                 if (seen.count(val)) 
                     for (auto& ii : seen[val]) 
                         if (dict[ii].substr(0, j) == dict[i].substr(0, j) && dict[ii].substr(j+1, n-j-1) == dict[i].substr(j+1, n-j-1)) return true; 
