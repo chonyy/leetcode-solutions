@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool differByOne(vector<string>& dict) {
-        const int MOD = 1'000'000'007; 
+        int MOD = 1e9+7; 
         vector<int> hs; 
         for (auto& word : dict) {
             long val = 0; 
