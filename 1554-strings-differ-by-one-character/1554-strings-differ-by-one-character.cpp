@@ -4,8 +4,9 @@ public:
         int MOD = 1e9+7; 
         vector<int> hs; 
         for (auto& word : dict) {
-            long val = 0; 
-            for (auto& ch : word) val = (26*val + ch - 'a') % MOD; 
+            long long val = 0; 
+            for (auto& ch : word) 
+                val = (26*val + ch - 'a') % MOD; 
             hs.push_back(val); 
         }
         
