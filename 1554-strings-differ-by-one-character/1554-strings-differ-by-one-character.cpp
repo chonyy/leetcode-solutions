@@ -11,7 +11,7 @@ public:
         }
         
         int m = dict.size(), n = dict[0].size(); 
-        long mult = 1l; 
+        long long mult = 1; 
         for (int j = n-1; j >= 0; --j) {
             unordered_map<int, vector<int>> seen; 
             for (int i = 0; i < m; ++i) {
