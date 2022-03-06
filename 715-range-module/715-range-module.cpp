@@ -1,51 +1,79 @@
 class RangeModule {
 public:
-    RangeModule() {}
+    map<int,int> ranges;
+    
+    RangeModule() {
+        
+    }
+    
+    pair<map<int,int> :: iterator, map<int,int> :: iterator> getOverlapRange(int left, int right) {
+        auto l = ranges.upper_bound(left);
+        auto r = ranges.upper_bound(right);
+        if(l != ranges.begin()) {
+            l = prev(l);
+            if(l->second < left)
+                l = next(l);
+        }
+        
+        return {l, r};
+    }
     
     void addRange(int left, int right) {
-        IT l, r;
-        getOverlapRanges(left, right, l, r);
-        // At least one range overlapping with [left, right)
-        if (l != r) {
-            // Merge intervals into [left, right)
-            auto last = r; --last;
-            left = min(left, l->first);            
+        auto ran = getOverlapRange(left, right);
+        // cout << "get range" << endl;
+        auto l = ran.first;
+        auto r = ran.second;
+        
+        if(l != r) { // at least one overlap
+            auto last = prev(r);
+            // update left and right
+            left = min(left, l->first);
             right = max(right, last->second);
-            // Remove all overlapped ranges
-            ranges_.erase(l, r);
+            
+            // remove overlapped
+            ranges.erase(l, r);
         }
-        // Add a new/merged range
-        ranges_[left] = right;
+        
+        ranges[left] = right;
+        // cout << "finish add" << endl;
     }
     
     bool queryRange(int left, int right) {
-        IT l, r;
-        getOverlapRanges(left, right, l, r);
-        // No overlapping range
-        if (l == r) return false;
-        return l->first <= left && l->second >= right;
+        auto ran = getOverlapRange(left, right);
+        auto l = ran.first;
+        auto r = ran.second;
+        
+        if(l == r)
+            return false;
+        return l->first <= left && right <= l->second;
     }
     
     void removeRange(int left, int right) {
-        IT l, r;
-        getOverlapRanges(left, right, l, r);
-        // No overlapping range
-        if (l == r) return;
-        auto last = r; --last;
-        int start = min(left, l->first);        
-        int end = max(right, last->second);
-        // Delete overlapping ranges        
-        ranges_.erase(l, r);
-        if (start < left) ranges_[start] = left;
-        if (end > right) ranges_[right] = end;
-    }
-private:
-    typedef map<int, int>::iterator IT;
-    map<int, int> ranges_;
-    void getOverlapRanges(int left, int right, IT& l, IT& r) {
-        l = ranges_.upper_bound(left);
-        r = ranges_.upper_bound(right);
-        if (l != ranges_.begin())
-            if ((--l)->second < left) l++;
+        auto ran = getOverlapRange(left, right);
+        auto l = ran.first;
+        auto r = ran.second;
+        
+        if(l == r)
+            return;
+        
+        auto last = prev(r);
+        int start = min(l->first, left);
+        int end = max(last->second, right);
+        
+        // delete
+        ranges.erase(l, r);
+        
+        if(start < left)
+            ranges[start] = left;
+        if(end > right)
+            ranges[right] = end;
     }
 };
+
+/**
+ * Your RangeModule object will be instantiated and called as such:
+ * RangeModule* obj = new RangeModule();
+ * obj->addRange(left,right);
+ * bool param_2 = obj->queryRange(left,right);
+ * obj->removeRange(left,right);
+ */
