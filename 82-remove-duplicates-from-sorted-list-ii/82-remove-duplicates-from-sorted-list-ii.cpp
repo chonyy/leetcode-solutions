@@ -32,8 +32,7 @@ public:
                 resHead = resHead->next;
             }
             
-            if(cur)
-                cur = cur->next;
+            cur = cur->next;
         }
         
         resHead->next = nullptr;
