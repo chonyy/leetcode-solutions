@@ -23,13 +23,11 @@ public:
                     break;
                 }
                 
-                cout << "same" << endl;
                 same = true;
                 cur = cur->next;
             }
             
             if(!same) {
-                cout << cur->val << endl;
                 resHead->next = cur;
                 resHead = resHead->next;
             }
@@ -39,7 +37,6 @@ public:
         }
         
         resHead->next = nullptr;
-        
         return sentinel->next;
     }
 };
