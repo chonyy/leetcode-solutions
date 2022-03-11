@@ -8,14 +8,6 @@ public:
         
         dp[0][0] = true;
         int i = 0;
-        while(i < n) {
-            if(s[i] != '*')
-                break;
-            dp[i+1][0] = true;
-            i ++;
-        }
-        
-        i = 0;
         while(i < m) {
             if(p[i] != '*')
                 break;
