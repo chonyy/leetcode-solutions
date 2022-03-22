@@ -1,13 +1,9 @@
 class FileNode {
     public:
         bool isFile;
-        // auto cmp = [](FileNode* n1, FileNode* n2) {
-        //     return n1->content < n2->content;
-        // };
     
         map<string, FileNode*> children;
         string content;
-    
         FileNode() {
             isFile = false;
             content = "";
@@ -22,6 +18,7 @@ public:
         root = new FileNode();
     }
     
+    // split string implementation, when does C++ gonna support this???
     vector<string> split(string& str, char del) {
         stringstream ss(str);
         vector<string> res;
@@ -30,39 +27,37 @@ public:
         while(getline(ss, temp, del)) {
             res.push_back(temp);
         }
-        
         return res;
     }
     
+    // find the node in trie tree
     FileNode* find(string& path) {
         auto dirs = split(path, '/');
         FileNode* cur = root;
         
+        // Trie tree traverse, create nodes on the way
         for(auto& dir : dirs) {
             if(cur->children.count(dir) == 0) {
                 cur->children[dir] = new FileNode();
             }
             cur = cur->children[dir];
         }
-        
         return cur;
     }
     
     vector<string> ls(string path) {
         auto node = find(path);
         
-        // is file
+        // if is file, return the filename
         if(node->isFile) {
             auto dirs = split(path, '/');
             return {dirs.back()};
         }
         
         vector<string> res;
-        
         for(auto& entry : node->children) {
             res.push_back(entry.first);
         }
-        
         return res;
     }
     
