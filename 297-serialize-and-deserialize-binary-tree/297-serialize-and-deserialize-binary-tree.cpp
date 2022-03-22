@@ -16,7 +16,6 @@ public:
             return "#";
         
         string encoded = to_string(root->val) + "," + serialize(root->left) + "," + serialize(root->right);
-        cout << encoded << endl;
         return encoded;
     }
 
