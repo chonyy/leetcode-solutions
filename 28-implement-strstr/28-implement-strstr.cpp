@@ -1,19 +1,20 @@
 class Solution {
 public:
-    vector<int> buildPrefix(string s) {
-        int n = s.size();
-        int l = 0, r = 1;
-        vector<int> prefix(n, 0);
+    vector<int> buildPrefix(string& str) {
+        int l = 0;
+        int r = 1;
+        int n = str.size();
+        vector<int> res(n, 0);
         
         while(r < n) {
-            if(s[l] == s[r]) {
-                prefix[r] = l+1;
-                l ++;
+            if(str[l] == str[r]) {
+                res[r] = l+1;
                 r ++;
+                l ++;
             }
             else {
                 if(l > 0) {
-                    l = prefix[l-1];
+                    l = res[l-1];
                 }
                 else {
                     r ++;
@@ -21,22 +22,14 @@ public:
             }
         }
         
-        return prefix;
+        return res;
     }
     
     int strStr(string haystack, string needle) {
+        auto lps = buildPrefix(needle);
+        
         int n = haystack.size();
         int m = needle.size();
-        
-        if(m == 0) {
-            return 0;
-        }
-        
-        if(n == 0) {
-            return -1;
-        }
-        
-        auto lps = buildPrefix(needle);
         
         int i = 0;
         int j = 0;
@@ -56,6 +49,11 @@ public:
             }
         }
         
-        return j == m ? i - j : -1;
+        if(j == m)
+            return i - m;
+        return -1;
     }
 };
+
+// "ababc"
+// 00010
