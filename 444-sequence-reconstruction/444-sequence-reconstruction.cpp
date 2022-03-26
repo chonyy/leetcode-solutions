@@ -8,12 +8,12 @@ public:
         for(auto& seq : sequences) {
             int m = seq.size();
             if(seq[0] < 1 || seq[0] > n) {
-                cout << "first bound" << endl;
+                // cout << "first bound" << endl;
                 return false;
             }
             for(int i = 1; i < m; i ++) {
                 if(seq[i] < 1 || seq[i] > n) {
-                    cout << "mid bound" << endl;
+                    // cout << "mid bound" << endl;
                     return false;   
                 }
                 
@@ -36,7 +36,7 @@ public:
         
         while(!q.empty()) {
             if(q.size() > 1) {
-                cout << "fail" << endl;
+                // cout << "fail" << endl;
                 return false;
             }
             
@@ -53,10 +53,10 @@ public:
             }
         }
         
-        for(int num : res) {
-            cout << num << " ";
-        }
-        cout << endl;
+        // for(int num : res) {
+        //     cout << num << " ";
+        // }
+        // cout << endl;
         
         return res == nums;
     }
