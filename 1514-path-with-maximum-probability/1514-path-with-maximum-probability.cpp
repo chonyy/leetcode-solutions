@@ -11,15 +11,22 @@ public:
             graph[e[1]].push_back({e[0], succProb[i]});
         }
         
-        queue<pair<int,double>> q;
-        q.push({start, 1.0});
+        auto cmp = [](pair<int,double>& p1, pair<int,double>& p2) {
+            return p1.second < p2.second;
+        };
+        priority_queue<pair<int,double>, vector<pair<int,double>>, decltype(cmp)> pq(cmp); 
+        pq.push({start, 1.0});
         
-        while(!q.empty()) {
-            auto cur = q.front();
+        while(!pq.empty()) {
+            auto cur = pq.top();
+            pq.pop();
             double curPos = cur.second;
             int curNode = cur.first;
             
-            q.pop();
+            if(curNode == end) {
+                return curPos;
+            }
+            
             auto& neighbors = graph[curNode];
             for(auto& nei : neighbors) {
                 double newPos = curPos * nei.second;
@@ -30,7 +37,7 @@ public:
                 
                 // add next
                 pos[nei.first] = newPos;
-                q.push({nei.first, newPos});
+                pq.push({nei.first, newPos});
             }
         }
         
