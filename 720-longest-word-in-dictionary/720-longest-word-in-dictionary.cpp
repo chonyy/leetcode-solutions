@@ -1,21 +1,54 @@
+class TrieNode {
+    public:
+        string word;
+        unordered_map<char,TrieNode*> children;
+};
+
 class Solution {
 public:
-    string longestWord(vector<string>& words) {
-        sort(words.begin(), words.end());
-        
-        unordered_set<string> visited;
-        string ans = "";
-        
-        for(auto& word : words) {
-            string pre = word.substr(0, word.size()-1);
-            if(word.size() == 1 || visited.count(pre)) {
-                visited.insert(word);
-                if(word.size() > ans.size()) {
-                    ans = word;
-                }
+    void insert(string& word) {
+        auto cur = root;
+        for(char c : word) {
+            if(cur->children.count(c) == 0) {
+                cur->children[c] = new TrieNode();
             }
+            cur = cur->children[c];
+        }
+        cur->word = word;
+    }
+    
+    TrieNode* root;
+        
+    void dfs(TrieNode* root, string& res) {
+        if(!root) {
+            return;
         }
         
-        return ans;
+        auto& children = root->children;
+        for(auto& entry : children) {
+            auto& child = entry.second;
+            // get ans
+            if(child->word.size() != 0) {
+                string& word = child->word;
+                // cout << word << " " << res << endl;
+                if(word.size() > res.size() || (word.size() == res.size() && word < res)) {
+                    res = word;
+                }
+                
+                dfs(child, res);
+            }
+        }
+    }
+    
+    string longestWord(vector<string>& words) {
+        root = new TrieNode();
+        
+        for(auto& word : words) {
+            insert(word);
+        }
+        
+        string res = "";
+        dfs(root, res);
+        return res;
     }
 };
