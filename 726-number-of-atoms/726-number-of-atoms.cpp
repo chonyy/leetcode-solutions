@@ -1,5 +1,17 @@
 class Solution {
 public:
+    int getNum(string& formula, int& i) {
+        int num = 0;
+        int n = formula.size();
+        while(i < n && isdigit(formula[i])) {
+            num = num * 10 + formula[i] - '0';
+            i ++;
+        }
+        if(num == 0)
+            num = 1;
+        return num;
+    }
+    
     string countOfAtoms(string formula) {
         map<string,int> m;
         stack<map<string, int>> stk;
@@ -19,13 +31,7 @@ public:
                 i ++;
                 
                 // get num
-                int num = 0;
-                while(i < n && isdigit(formula[i])) {
-                    num = num * 10 + formula[i] - '0';
-                    i ++;
-                }
-                if(num == 0)
-                    num = 1;
+                int num = getNum(formula, i);
                 
                 // update
                 for(auto& entry : m) {
@@ -44,14 +50,7 @@ public:
                 }
                 
                 // get count
-                int num = 0;
-                while(i < n && isdigit(formula[i])) {
-                    num = num * 10 + formula[i] - '0';
-                    i ++;
-                }
-                if(num == 0)
-                    num = 1;
-                
+                int num = getNum(formula, i);
                 m[ele] += num;
             }
         }
