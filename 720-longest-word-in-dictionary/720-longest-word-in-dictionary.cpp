@@ -27,16 +27,19 @@ public:
         auto& children = root->children;
         for(auto& entry : children) {
             auto& child = entry.second;
-            // get ans
-            if(child->word.size() != 0) {
-                string& word = child->word;
-                // cout << word << " " << res << endl;
-                if(word.size() > res.size() || (word.size() == res.size() && word < res)) {
-                    res = word;
-                }
-                
-                dfs(child, res);
+            
+            if(child->word.size() == 0) {
+                continue;
             }
+            
+            // get ans
+            string& word = child->word;
+            if(word.size() > res.size() || (word.size() == res.size() && word < res)) {
+                res = word;
+            }
+
+            // go next
+            dfs(child, res);
         }
     }
     
