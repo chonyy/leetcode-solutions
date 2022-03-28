@@ -23,9 +23,7 @@ public:
         
         // populate dp
         for(int i = 1; i < targetLen; i ++) {
-            // cout << i << endl;
             for(int node = 0; node < nodes; node ++) {
-                // cout << "node " << node << endl;
                 auto& neighbors = graph[node];
                 // get smallest cost from the neighbors
                 for(auto& nei : neighbors) {
@@ -34,12 +32,12 @@ public:
                         path[i][node] = nei;
                     }
                 }
-                
-                // add cur new cost
+                // add new cost is it's not same with target
                 dp[i][node] += !(names[node] == targetPath[i]);
             }
         }
         
+        // get the min cost and the starting point of path
         int minCost = targetLen;
         int start = 0;
         for(int node = 0; node < nodes; node ++) {
@@ -50,6 +48,7 @@ public:
             }
         }
         
+        // reconstruct the path
         vector<int> res;
         for(int i = targetLen-1; i >= 0; i --) {
             res.push_back(start);
@@ -57,6 +56,7 @@ public:
             start = prev;
         }
         
+        // reverse the path since we are building from the end
         reverse(res.begin(), res.end());
         return res;
     }
