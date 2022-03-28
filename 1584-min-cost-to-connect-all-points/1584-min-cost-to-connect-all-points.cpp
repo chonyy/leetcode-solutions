@@ -23,7 +23,6 @@ public:
             // get the shortest candidate
             auto shortest = pq.top();
             pq.pop();
-            // cout << shortest.first << endl;
             // skip if visited
             if(visited.find(shortest.second) != visited.end()) {
                 continue;
