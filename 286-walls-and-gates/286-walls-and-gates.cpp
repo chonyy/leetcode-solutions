@@ -38,7 +38,7 @@ public:
                         continue;
                     }
                     
-                    rooms[newRow][newCol] = min(rooms[newRow][newCol], step);
+                    rooms[newRow][newCol] = step;
                     q.push({newRow, newCol});
                 }
             }
