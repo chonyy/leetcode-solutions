@@ -54,7 +54,6 @@ public:
                         break;
                     }
                     if(newRow == destination[0] && newCol == destination[1]) {
-                        cout << newPath << " " << newStep << endl;
                         if(newStep > shortest) {
                             return *res.begin();
                         }
