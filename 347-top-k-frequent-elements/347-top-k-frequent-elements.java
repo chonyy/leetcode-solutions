@@ -1,34 +1,38 @@
 class Solution {
-public:
-    vector<int> topKFrequent(vector<int>& nums, int k) {
-        int n = nums.size();
-        unordered_map<int, int> bucket;
+    public int[] topKFrequent(int[] nums, int k) {
+        Map<Integer, Integer> freq = new HashMap<Integer, Integer>();
         
         for(int num : nums) {
-            bucket[num] ++;
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
         }
         
-        unordered_map<int, vector<int>> freq;
+        Map<Integer, List<Integer>> bucket = new HashMap<Integer, List<Integer>>();
         
-        for(auto entry : bucket) {
-            freq[entry.second].push_back(entry.first);
-        }
-        
-        vector<int> res;
-        for(int i = n; i >= 0; i --) {
-            if(k <= 0) {
-                break;
+        for(var entry : freq.entrySet()) {
+            int f = entry.getValue();
+            if(bucket.get(f) == null) {
+                bucket.put(f, new ArrayList<Integer>());
             }
-            auto& items = freq[i];
-            for(int item : items) {
-                if(k <= 0) {
+            bucket.get(f).add(entry.getKey());
+        }
+        
+        int[] res = new int[k];
+        int n = nums.length;
+        int curK = 0;
+        for(int i = n; i >= 0; i --) {
+            if(bucket.get(i) == null) {
+                continue;
+            }
+            for(int num : bucket.get(i)) {
+                if(curK >= k) {
                     break;
                 }
-                res.push_back(item);
-                k --;
+                
+                res[curK] = num;
+                curK ++;
             }
         }
         
         return res;
     }
-};
+}
