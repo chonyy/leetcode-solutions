@@ -11,15 +11,15 @@
  */
 class Solution {
 public:
-    int solve(TreeNode* root, int large) {
+    int solve(TreeNode* root, int larger) {
         if(!root) {
-            return large;
+            return larger;
         }
         
-        int right = solve(root->right, large);
-        int left = solve(root->left, right + root->val);
-        
-        root->val = root->val + right;
+        int right = solve(root->right, larger);
+        int newLarger = right + root->val;
+        root->val = newLarger;
+        int left = solve(root->left, newLarger);
         
         return left;
     }
