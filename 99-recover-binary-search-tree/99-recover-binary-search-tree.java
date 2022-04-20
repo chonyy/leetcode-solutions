@@ -30,7 +30,7 @@ class Solution {
             second = root;
         }
         
-        System.out.println(root.val);
+        // System.out.println(root.val);
         pre = root;
         dfs(root.right);
     }
