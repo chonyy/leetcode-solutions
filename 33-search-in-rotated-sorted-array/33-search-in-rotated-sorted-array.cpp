@@ -4,19 +4,18 @@ public:
         int n = nums.size();
         int l = 0;
         int r = n;
-        int first = nums[0];
         
         while(l < r) {
             int mid = l + (r - l) / 2;
-            int num = nums[mid];
-            bool targetLarge = target >= first;
-            bool isLarge = num >= first;
+            bool curLarge = nums[mid] >= nums[l];
+            bool targetLarge = target >= nums[l];
             
-            if(num == target) {
+            if(nums[mid] == target) {
                 return mid;
             }
-            else if(targetLarge == isLarge) {
-                if(num < target) {
+            
+            if(curLarge == targetLarge) {
+                if(target >= nums[mid]) {
                     l = mid + 1;
                 }
                 else {
@@ -24,7 +23,7 @@ public:
                 }
             }
             else {
-                if(targetLarge) {
+                if(target >= nums[mid]) {
                     r = mid;
                 }
                 else {
