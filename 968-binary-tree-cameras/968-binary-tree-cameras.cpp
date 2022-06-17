@@ -24,16 +24,16 @@ public:
         // cout <<"left " << left << endl;
         // cout << "right " << right << endl;
         
-        // all children covered but no camera
-        if(left == 2 && right == 2)
-            return 0;
-        
         // children need cover
         if(left == 0 || right == 0) {
             // add cam
             res ++;
             return 1;
         }
+        
+        // all children covered but no camera
+        if(left == 2 && right == 2)
+            return 0;
         
         return 2;
     }
