@@ -1,29 +1,28 @@
 class Solution {
 public:
     int minDeletions(string s) {
-        // Store the frequency of each character
-        vector<int> frequency(26, 0);
-        for (char c : s) {
-            frequency[c - 'a']++;
+        vector<int> count(26);
+        
+        for(char c : s) {
+            count[c - 'a'] ++;
         }
+        sort(count.begin(), count.end(), greater<int>());
         
-        sort(frequency.begin(), frequency.end(), greater<int>());
+        int ans = 0;
+        int curMax = s.size();
         
-        int deleteCount = 0;
-        // Maximum frequency the current character can have
-        int maxFreqAllowed = s.size();
-        
-        // Iterate over the frequencies in descending order
-        for (int i = 0; i < 26 && frequency[i] > 0; i++) {
-            // Delete characters to make the frequency equal the maximum frequency allowed
-            if (frequency[i] > maxFreqAllowed) {
-                deleteCount += frequency[i] - maxFreqAllowed;
-                frequency[i] = maxFreqAllowed;
+        for(int i = 0; i < count.size(); i ++) {
+            if(count[i] == 0) {
+                break;
             }
-            // Update the maximum allowed frequency
-            maxFreqAllowed = max(0, frequency[i] - 1);
+            
+            if(count[i] >= curMax) {
+                ans += count[i] - curMax;
+                count[i] = curMax;
+            }
+            curMax = max(count[i] - 1, 0);
         }
         
-        return deleteCount;
+        return ans;
     }
 };
