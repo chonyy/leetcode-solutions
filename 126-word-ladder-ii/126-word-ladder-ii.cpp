@@ -1,66 +1,77 @@
 class Solution
 {
-public:
-    vector<vector<string>> res;
-    vector<string> te;
-    unordered_map<string, int> mp;
-    string b;
-    void dfs(string s)  // Step 2
-    {
-        te.push_back(s);
-        if (s == b)
+    private:
+        vector<vector<string>> res;
+        vector<string> backPath;
+        unordered_map<string, int> wordDist;
+        string begin;
+        
+    public:
+        vector<vector<string>> findLadders(string beginWord, string endWord, vector<string> &wordList)
         {
-            vector<string> x = te;
-            reverse(x.begin(), x.end());
-            res.push_back(x);
-            te.pop_back();
-            return;
-        }
-        int cur = mp[s];
-        for (int i = 0; i < s.size(); i++)
-        {
-            char c = s[i];
-            for (char cc = 'a'; cc <= 'z'; cc++)
+            unordered_set<string> dict(wordList.begin(), wordList.end());
+            begin = beginWord;
+            queue<string> q;
+
+            int wordLen = beginWord.size();
+            q.push({beginWord});
+            wordDist[beginWord] = 0;
+
+            // 1. Find the shortest path distance from beginWord to the word in the wordList
+            while (!q.empty()) 
             {
-                s[i] = cc;
-                if (mp.count(s) && mp[s] == cur - 1)
-                    dfs(s);
-            }
-            s[i] = c;
-        }
-        te.pop_back();
-        return;
-    }
-    vector<vector<string>> findLadders(string beginWord, string endWord, vector<string> &wordList)
-    {
-        unordered_set<string> dict(wordList.begin(), wordList.end());
-        b = beginWord;
-        queue<string> q;
-        int k = beginWord.size();
-        q.push({beginWord});
-        mp[beginWord] = 0;
-        while (!q.empty())  // Step 1
-        {
-            int n = q.size();
-            while (n--)
-            {
-                string t = q.front();
-                q.pop();
-                int x = mp[t] + 1;
-                for (int i = 0; i < k; i++)
-                {
-                    string temp = t;
-                    for (char ch = 'a'; ch <= 'z'; ch++)
+                int size = q.size();
+                for(int i = 0; i < size; i ++) {
+                    string curWord = q.front();
+                    q.pop();
+                    
+                    // Go through neighbors
+                    for (int i = 0; i < wordLen; i++)
                     {
-                        temp[i] = ch;
-                        if (!mp.count(temp) && dict.count(temp))
-                            mp[temp] = x, q.push(temp);
+                        string temp = curWord;
+                        for (char c = 'a'; c <= 'z'; c++)
+                        {
+                            temp[i] = c;
+                            if (!wordDist.count(temp) && dict.count(temp)) {
+                                wordDist[temp] = wordDist[curWord] + 1;
+                                q.push(temp);
+                            }
+                        }
                     }
                 }
             }
+            if (wordDist.count(endWord))
+                backtrack(endWord);
+            return res;
         }
-        if (mp.count(endWord))
-            dfs(endWord);
-        return res;
-    }
+
+        // 2. Find path from endWord to beginWord
+        void backtrack(string word)
+        {
+            backPath.push_back(word);
+            if (word == begin)
+            {
+                vector<string> resPath = backPath;
+                reverse(resPath.begin(), resPath.end());
+                res.push_back(resPath);
+                backPath.pop_back();
+                return;
+            }
+            
+            // Go through neighbors
+            int curDist = wordDist[word];
+            for (int i = 0; i < word.size(); i++)
+            {
+                char originalC = word[i];
+                for (char c = 'a'; c <= 'z'; c++)
+                {
+                    word[i] = c;
+                    if (wordDist.count(word) && wordDist[word] == curDist - 1)
+                        backtrack(word);
+                }
+                word[i] = originalC;
+            }
+            backPath.pop_back();
+            return;
+        }
 };
