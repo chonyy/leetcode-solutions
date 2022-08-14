@@ -66,7 +66,7 @@ class Solution
                 for (char c = 'a'; c <= 'z'; c++)
                 {
                     word[i] = c;
-                    if (wordDist.count(word) && wordDist[word] == curDist - 1)
+                    if (wordDist[word] == curDist - 1)
                         backtrack(word);
                 }
                 word[i] = originalC;
