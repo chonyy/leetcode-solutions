@@ -5,8 +5,12 @@ public:
         int m = 0, n = 0; // char pointers
         
         while (i < word1.size() and j < word2.size()) {            
-            if (word1[i][m++] != word2[j][n++])
+            if (word1[i][m] != word2[j][n]) {
                 return false;
+            }
+            
+            m ++;
+            n ++;
             
             if (m >= word1[i].size())
                 i++, m = 0;
