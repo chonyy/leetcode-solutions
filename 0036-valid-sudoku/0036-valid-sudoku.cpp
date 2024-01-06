@@ -1,31 +1,34 @@
 class Solution {
 public:
-    int rows, cols;
-    vector<unordered_set<int>> usedRow;
-    vector<unordered_set<int>> usedCol;
-    vector<unordered_set<int>> usedBox;
+    int rows;
+    int cols;
+    vector<unordered_set<int>> rowUsed;
+    vector<unordered_set<int>> colUsed;
+    vector<unordered_set<int>> boxUsed;
     
-    bool check(int i, int j, char ele) {    
-        if(ele == '.')
+    bool isValid(int row, int col, char c) {
+        if(c == '.') {
             return true;
+        }
         
-        int val = ele - '0';
-        int row = i / 3;
-        int col = j / 3;
-        int idx = row*3 + col;
+        int num = c - '0';
+        int idx = (row / 3) * 3 + col / 3;
         
-        if(usedRow[i].count(val))
-            return false;
-         if(usedCol[j].count(val))
-            return false;
-        
-        if(usedBox[idx].count(val)) {
+        if(rowUsed[row].contains(num)) {
             return false;
         }
         
-        usedRow[i].insert(val);
-        usedCol[j].insert(val);
-        usedBox[idx].insert(val);
+        if(colUsed[col].contains(num)) {
+            return false;
+        }
+        
+        if(boxUsed[idx].contains(num)) {
+            return false;
+        }
+        
+        rowUsed[row].insert(num);
+        colUsed[col].insert(num);
+        boxUsed[idx].insert(num);
         
         return true;
     }
@@ -33,18 +36,19 @@ public:
     bool isValidSudoku(vector<vector<char>>& board) {
         rows = board.size();
         cols = board.size();
-        usedRow = vector<unordered_set<int>>(9);
-        usedCol = vector<unordered_set<int>>(9);
-        usedBox = vector<unordered_set<int>>(9);
+        
+        rowUsed = vector<unordered_set<int>>(rows);
+        colUsed = vector<unordered_set<int>>(cols);
+        boxUsed = vector<unordered_set<int>>(rows);
         
         for(int i = 0; i < rows; i ++) {
             for(int j = 0; j < cols; j ++) {
-                if(check(i, j, board[i][j]) == false) {
+                if(isValid(i, j, board[i][j]) == false) {
                     return false;
                 }
-            }    
-        }   
-       
+            }
+        }
+    
         return true;
     }
 };
