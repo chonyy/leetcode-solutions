@@ -1,20 +1,21 @@
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
-        // Store the frequency of elements in the unordered map.
-        unordered_map<int, int> freq;
-        for (int num : arr) {
-            freq[num]++;
+        unordered_map<int, int> m;
+        unordered_set<int> occur;
+        
+        for(int num : arr) {
+            m[num] ++;
         }
         
-        // Store the frequency count of elements in the unordered set.
-        unordered_set<int> freqSet;
-        for (auto [key, value] : freq) {
-            freqSet.insert(value);
+        for(auto& [num, count] : m) {
+            if(occur.contains(count)) {
+                return false;
+            }
+            
+            occur.insert(count);
         }
         
-        // If the set size is equal to the map size, 
-        // It implies frequency counts are unique.
-        return freqSet.size() == freq.size();
+        return true;
     }
 };
