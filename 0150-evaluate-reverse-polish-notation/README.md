@@ -1,10 +1,17 @@
-<h2><a href="https://leetcode.com/problems/evaluate-reverse-polish-notation/">150. Evaluate Reverse Polish Notation</a></h2><h3>Medium</h3><hr><div><p>Evaluate the value of an arithmetic expression in <a href="http://en.wikipedia.org/wiki/Reverse_Polish_notation" target="_blank">Reverse Polish Notation</a>.</p>
+<h2><a href="https://leetcode.com/problems/evaluate-reverse-polish-notation/">150. Evaluate Reverse Polish Notation</a></h2><h3>Medium</h3><hr><div><p>You are given an array of strings <code>tokens</code> that represents an arithmetic expression in a <a href="http://en.wikipedia.org/wiki/Reverse_Polish_notation" target="_blank">Reverse Polish Notation</a>.</p>
 
-<p>Valid operators are <code>+</code>, <code>-</code>, <code>*</code>, and <code>/</code>. Each operand may be an integer or another expression.</p>
+<p>Evaluate the expression. Return <em>an integer that represents the value of the expression</em>.</p>
 
-<p><strong>Note</strong> that division between two integers should truncate toward zero.</p>
+<p><strong>Note</strong> that:</p>
 
-<p>It is guaranteed that the given RPN expression is always valid. That means the expression would always evaluate to a result, and there will not be any division by zero operation.</p>
+<ul>
+	<li>The valid operators are <code>'+'</code>, <code>'-'</code>, <code>'*'</code>, and <code>'/'</code>.</li>
+	<li>Each operand may be an integer or another expression.</li>
+	<li>The division between two integers always <strong>truncates toward zero</strong>.</li>
+	<li>There will not be any division by zero.</li>
+	<li>The input represents a valid arithmetic expression in a reverse polish notation.</li>
+	<li>The answer and all the intermediate calculations can be represented in a <strong>32-bit</strong> integer.</li>
+</ul>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
