@@ -10,6 +10,7 @@ Yes, I still hate leetcode :(
 ## Array
 |  |
 | ------- |
+| [1803-average-waiting-time](https://github.com/chonyy/leetcode-solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Math
 |  |
@@ -26,5 +27,6 @@ Yes, I still hate leetcode :(
 ## Simulation
 |  |
 | ------- |
+| [1803-average-waiting-time](https://github.com/chonyy/leetcode-solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 <!---LeetCode Topics End-->
