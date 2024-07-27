@@ -19,6 +19,7 @@ Yes, I still hate leetcode :(
 | [2472-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/chonyy/leetcode-solutions/tree/master/2846-robot-collisions) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Math
 |  |
 | ------- |
@@ -43,6 +44,7 @@ Yes, I still hate leetcode :(
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Stack
 |  |
 | ------- |
@@ -91,8 +93,13 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [2472-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2472-build-a-matrix-with-conditions) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Topological Sort
 |  |
 | ------- |
 | [2472-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2472-build-a-matrix-with-conditions) |
+## Shortest Path
+|  |
+| ------- |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 <!---LeetCode Topics End-->
