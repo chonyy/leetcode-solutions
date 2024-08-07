@@ -20,6 +20,7 @@ Yes, I still hate leetcode :(
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1803-average-waiting-time](https://github.com/chonyy/leetcode-solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/chonyy/leetcode-solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2472-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
@@ -50,6 +51,7 @@ Yes, I still hate leetcode :(
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/chonyy/leetcode-solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/chonyy/leetcode-solutions/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -75,6 +77,7 @@ Yes, I still hate leetcode :(
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
 ## Tree
 |  |
@@ -136,4 +139,8 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+## Counting
+|  |
+| ------- |
+| [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 <!---LeetCode Topics End-->
