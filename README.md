@@ -16,6 +16,7 @@ Yes, I still hate leetcode :(
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1325-path-with-maximum-probability](https://github.com/chonyy/leetcode-solutions/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1333-sort-the-jumbled-numbers) |
+| [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/chonyy/leetcode-solutions/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -92,6 +93,7 @@ Yes, I still hate leetcode :(
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/chonyy/leetcode-solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -176,6 +178,7 @@ Yes, I still hate leetcode :(
 ## Counting
 |  |
 | ------- |
+| [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/chonyy/leetcode-solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
