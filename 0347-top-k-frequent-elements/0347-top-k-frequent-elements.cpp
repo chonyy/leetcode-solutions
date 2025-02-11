@@ -8,21 +8,25 @@ public:
             m[num] ++;
         }
 
-        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
-
-        for(auto& entry : m) {
-            pq.push({entry.second, entry.first});
-
-            if(pq.size() > k) {
-                pq.pop();
-            }
-        }
+        vector<vector<int>> bucket(n+1);
 
         vector<int> res;
 
-        while(!pq.empty()) {
-            res.push_back(pq.top().second);
-            pq.pop();
+        // create bucket
+        for(auto& entry : m) {
+            bucket[entry.second].push_back(entry.first);
+        }
+
+        // get items from bucket
+        for(int i = n; i > 0; i --) {
+            auto& toAdd = bucket[i];
+            int j = toAdd.size() - 1;
+
+            while(k > 0 && j >= 0) {
+                res.push_back(toAdd[j]);
+                j --;
+                k --;
+            }
         }
 
         return res;
