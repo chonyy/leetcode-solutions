@@ -12,29 +12,20 @@
 class FindElements {
 public:
     unordered_set<int> seen;
-    queue<pair<TreeNode*, int>> q;
 
     FindElements(TreeNode* root) {
-        traverse(root);        
+        traverse(root, 0);        
     }
 
-    void traverse(TreeNode* root) {
-        q.push({root, 0});
-
-        while(!q.empty()) {
-            auto cur = q.front();
-            q.pop();
-
-            if(!cur.first) {
-                continue;
-            }
-
-            int val = cur.second;
-            seen.insert(val);
-
-            q.push({cur.first->left, 2 * val + 1});
-            q.push({cur.first->right, 2 * val + 2});
+    void traverse(TreeNode* root, int val) {
+        if(!root) {
+            return;
         }
+
+        seen.insert(val);
+
+        traverse(root->left, 2 * val + 1);
+        traverse(root->right, 2 * val + 2);
     }
     
     bool find(int target) {
