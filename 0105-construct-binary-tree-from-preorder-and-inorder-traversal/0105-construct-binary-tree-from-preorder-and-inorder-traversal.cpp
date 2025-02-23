@@ -31,7 +31,7 @@ public:
         int val = preorder[idx];
         int inIdx = m[val];
 
-        if(inIdx < leftBound | inIdx > rightBound) {
+        if(inIdx < leftBound || inIdx > rightBound) {
             return nullptr;
         }
 
