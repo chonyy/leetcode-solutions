@@ -41,6 +41,7 @@ Yes, I still hate leetcode :(
 | [2472-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/chonyy/leetcode-solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2727-number-of-senior-citizens](https://github.com/chonyy/leetcode-solutions/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/chonyy/leetcode-solutions/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -156,6 +157,7 @@ Yes, I still hate leetcode :(
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -166,6 +168,7 @@ Yes, I still hate leetcode :(
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -196,6 +199,7 @@ Yes, I still hate leetcode :(
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/chonyy/leetcode-solutions/tree/master/1325-path-with-maximum-probability) |
 | [2472-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2472-build-a-matrix-with-conditions) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Topological Sort
 |  |
@@ -244,6 +248,7 @@ Yes, I still hate leetcode :(
 | ------- |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Strongly Connected Component
 |  |
 | ------- |
