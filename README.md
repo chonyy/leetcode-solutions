@@ -28,6 +28,7 @@ Yes, I still hate leetcode :(
 | [1511-count-number-of-teams](https://github.com/chonyy/leetcode-solutions/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/chonyy/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1803-average-waiting-time](https://github.com/chonyy/leetcode-solutions/tree/master/1803-average-waiting-time) |
@@ -52,6 +53,7 @@ Yes, I still hate leetcode :(
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/chonyy/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2448-count-number-of-bad-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/2448-count-number-of-bad-pairs) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/chonyy/leetcode-solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -216,6 +218,7 @@ Yes, I still hate leetcode :(
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [1196-filling-bookcase-shelves](https://github.com/chonyy/leetcode-solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1511-count-number-of-teams](https://github.com/chonyy/leetcode-solutions/tree/master/1511-count-number-of-teams) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/chonyy/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/chonyy/leetcode-solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/chonyy/leetcode-solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Binary Indexed Tree
@@ -304,6 +307,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/chonyy/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 ## Backtracking
 |  |
 | ------- |
