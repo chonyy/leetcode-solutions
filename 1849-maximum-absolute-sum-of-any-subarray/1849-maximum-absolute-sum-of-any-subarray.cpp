@@ -7,23 +7,8 @@ public:
 
         for(int num : nums) {
             // positive
-            if(posSum + num > num) {
-                posSum = posSum + num;
-            }
-            else {
-                posSum = num;
-            }
-
-            // negative
-            if(negSum + num < num) {
-                negSum = negSum + num;
-            }
-            else {
-                negSum = num;
-            }
-
-            // cout << posSum << endl;
-            // cout << negSum << endl;
+            posSum = max(posSum + num, num);
+            negSum = min(negSum + num, num);
 
             res = max(res, max(abs(negSum), abs(posSum)));
         }
