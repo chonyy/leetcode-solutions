@@ -6,7 +6,6 @@ public:
         int res = 0;
 
         for(int num : nums) {
-            // positive
             posSum = max(posSum + num, num);
             negSum = min(negSum + num, num);
 
