@@ -46,6 +46,7 @@ Yes, I still hate leetcode :(
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
 | [2551-apply-operations-to-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2551-apply-operations-to-an-array) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/chonyy/leetcode-solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2727-number-of-senior-citizens](https://github.com/chonyy/leetcode-solutions/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/chonyy/leetcode-solutions/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -151,6 +152,7 @@ Yes, I still hate leetcode :(
 | [2448-count-number-of-bad-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/chonyy/leetcode-solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/chonyy/leetcode-solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/chonyy/leetcode-solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Tree
@@ -243,6 +245,7 @@ Yes, I still hate leetcode :(
 | ------- |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2551-apply-operations-to-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2551-apply-operations-to-an-array) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/chonyy/leetcode-solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Binary Search
 |  |
 | ------- |
