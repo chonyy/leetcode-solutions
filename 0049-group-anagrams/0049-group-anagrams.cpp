@@ -1,32 +1,34 @@
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        unordered_map<string,vector<string>> m;
+        unordered_map<string, vector<string>> group;
 
-        for(auto& s : strs) {
-            m[sort(s)].push_back(s);
+        for (string& str : strs) {
+            group[sort(str)].push_back(str);
         }
 
         vector<vector<string>> res;
 
-        for(auto& entry : m) {
+        for (auto& entry : group) {
             res.push_back(entry.second);
         }
 
         return res;
     }
 
-    string sort(string& s) {
+    string sort(string& str) {
+        vector<int> count(26);
         string copy = "";
-
-        vector<int> count(26, 0);
-
-        for(char c : s) {
+        
+        for (char c : str) {
             count[c - 'a'] ++;
         }
 
-        for(int i = 0; i < 26; i ++) {
-            copy += string(count[i], 'a' + i);
+        for (int i = 0; i < 26; i ++) {
+            while(count[i]) {
+                copy += 'a' + i;
+                count[i] --;
+            }
         }
 
         return copy;
