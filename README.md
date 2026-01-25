@@ -95,6 +95,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/chonyy/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
@@ -259,6 +260,7 @@ Yes, I still hate leetcode :(
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/chonyy/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/chonyy/leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2551-apply-operations-to-an-array) |
