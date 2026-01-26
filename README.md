@@ -103,6 +103,7 @@ Yes, I still hate leetcode :(
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/chonyy/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/chonyy/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -160,6 +161,7 @@ Yes, I still hate leetcode :(
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0424-longest-repeating-character-replacement](https://github.com/chonyy/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -267,6 +269,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chonyy/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/chonyy/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/chonyy/leetcode-solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/chonyy/leetcode-solutions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3483-alternating-groups-ii) |
