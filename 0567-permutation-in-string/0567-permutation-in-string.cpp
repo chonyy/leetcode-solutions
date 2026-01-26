@@ -1,37 +1,34 @@
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
-        unordered_map<char, int> map1;
-        unordered_map<char, int> map2;
-        
         int n = s1.size();
-        int m = s2.size();
-        int i = 0, j = 0;
-        
-        while(i < n) {
-            map1[s1[i]] ++;
-            i ++;
+        unordered_map<char,int> count1;
+        unordered_map<char,int> count2;
+        int l = 0;
+        int r = 0;
+
+        for (char c : s1) {
+            count1[c] ++;
         }
-        
-        i = 0;
-        while(j < m) {
-            if(j - i + 1 > n) {
-                map2[s2[i]] --;
-                if(map2[s2[i]] == 0) {
-                    map2.erase(s2[i]);
+
+        while (r < s2.size()) {
+            count2[s2[r]] ++;
+
+            if (r - l + 1 == n) {
+                if(count1 == count2) {
+                    return true;
                 }
-                i ++;
-                continue;
+
+                count2[s2[l]] --;
+                if(count2[s2[l]] == 0) {
+                    count2.erase(s2[l]);
+                }
+                l ++;
             }
-            
-            map2[s2[j]] ++;
-            if(map1 == map2) {
-                return true;
-            }
-            j ++;
-            
+
+            r ++;
         }
-        
+
         return false;
     }
 };
