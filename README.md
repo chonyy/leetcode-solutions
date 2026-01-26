@@ -99,6 +99,7 @@ Yes, I still hate leetcode :(
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/chonyy/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/chonyy/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
@@ -151,6 +152,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/chonyy/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/chonyy/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
@@ -264,6 +266,7 @@ Yes, I still hate leetcode :(
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/chonyy/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/chonyy/leetcode-solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/chonyy/leetcode-solutions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3483-alternating-groups-ii) |
