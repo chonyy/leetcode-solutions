@@ -1,33 +1,33 @@
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
-        stack<long long> stk;
+        stack<int> nums;
 
-        for(string token : tokens) {
-            if(isdigit(token.back())) {
-                stk.push(stoi(token));
+        for (string& t : tokens) {
+            if (isdigit(t.back())) {
+                nums.push(stoi(t));
+                continue;
             }
-            else {
-                long long op2 = stk.top();
-                stk.pop();
-                long long op1 = stk.top();
-                stk.pop();
-                cout << op1 << " " << op2 << " " << token << endl;
-                if(token == "+") {
-                    stk.push(op1 + op2);
-                }
-                if(token == "-") {
-                    stk.push(op1 - op2);
-                }
-                if(token == "*") {
-                    stk.push(op1 * op2);
-                }
-                if(token == "/") {
-                    stk.push(op1 / op2);
-                }
+
+            int second = nums.top();
+            nums.pop();
+            int first = nums.top();
+            nums.pop();
+
+            if (t == "+") {
+                nums.push(first + second);
+            }
+            else if (t == "-") {
+                nums.push(first - second);
+            }
+            else if (t == "*") {
+                nums.push(first * second);
+            }
+            else if (t == "/") {
+                nums.push(first / second);
             }
         }
 
-        return stk.top();
+        return nums.top();
     }
 };
