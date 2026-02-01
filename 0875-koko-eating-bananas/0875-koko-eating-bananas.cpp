@@ -1,36 +1,43 @@
 class Solution {
 public:
-    bool eat(int speed, vector<int>& piles, int remain) {
-        
-        for(int pile : piles) {
-            double exactTime = (double)pile / speed;
-            int timesNeeded = ceil(exactTime);
-            remain -= timesNeeded;
-        }
-        
-        return remain >= 0;
-    }
-    
     int minEatingSpeed(vector<int>& piles, int h) {
-        int maxPile = 0;
-        for(int pile : piles) {
-            maxPile = max(maxPile, pile);
+        int maxB = 0;
+
+        for (int p : piles) {
+            maxB = max(maxB, p);
         }
-        
-        // Start the binary search
+
         int l = 1;
-        int r = maxPile+1;
-        
-        while(l < r) {
-            int mid = l + (r-l) / 2;
-            if(eat(mid, piles, h)) {
-                r = mid;
+        int r = maxB + 1;
+        int ans = INT_MAX;
+
+        while (l < r) {
+            int speed = l + (r - l) / 2;
+            int hours = getEatHours(piles, speed);
+            // cout << speed << " " << hours << endl;
+
+            if (hours <= h) {
+                ans = min(ans, speed);
+                r = speed;
             }
             else {
-                l = mid + 1;
+                l = speed + 1;
             }
         }
 
-        return l;
+        return ans;
+    }
+
+    int getEatHours(vector<int>& piles, int speed) {
+        int hours = 0;
+
+        for (int p : piles) {
+            hours += p / speed;
+            if (p % speed) {
+                hours ++;
+            }
+        }
+
+        return hours;
     }
 };
