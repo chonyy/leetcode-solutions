@@ -2,39 +2,40 @@ class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
         int n = heights.size();
-        vector<int> leftMost(n, -1);
-        vector<int> rightMost(n, n);
-
-        stack<int> stk;
-        for (int i = 0; i < n; i ++) {
-            int h = heights[i];
-            
-            while (!stk.empty() && h < heights[stk.top()]) {
-                rightMost[stk.top()] = i;
-                stk.pop();
-            }
-            stk.push(i);
-        }
-
-        stk = stack<int>();
-        for (int i = n-1; i >= 0; i --) {
-            int h = heights[i];
-            
-            while (!stk.empty() && h < heights[stk.top()]) {
-                leftMost[stk.top()] = i;
-                stk.pop();
-            }
-            stk.push(i);
-        }
-
+        stack<pair<int,int>> stk; // startIdx, height
         int res = 0;
 
         for (int i = 0; i < n; i ++) {
-            int width = rightMost[i] - leftMost[i] - 1;
-            int rec = heights[i] * width;
-            res = max(rec, res);
+            int h = heights[i];
+            int popCount = 0;
+            int start = i;
+            // pop all elemetns larger
+            // keep trace of pop count
+            while(!stk.empty() && stk.top().second > h) {
+                int startIdx = stk.top().first;
+                int prevHeight = stk.top().second;
+                int width = i - startIdx;
+                int rec = width * prevHeight;
+
+                res = max(res, rec);
+                start = startIdx;
+                stk.pop();
+            }
+
+            // use pop count of new startIdx
+            stk.push({start, h});
         }
 
+        while (!stk.empty()) {
+            int startIdx = stk.top().first;
+            int prevHeight = stk.top().second;
+            int width = n - startIdx;
+            int rec = width * prevHeight;
+
+            res = max(res, rec);
+            stk.pop();
+        }
+        
         return res;
     }
 };
