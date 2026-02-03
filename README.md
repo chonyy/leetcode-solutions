@@ -7,6 +7,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/chonyy/leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
+| [0141-linked-list-cycle](https://github.com/chonyy/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/chonyy/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/chonyy/leetcode-solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 ## Array
@@ -185,6 +186,7 @@ Yes, I still hate leetcode :(
 | [0076-minimum-window-substring](https://github.com/chonyy/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/chonyy/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
+| [0141-linked-list-cycle](https://github.com/chonyy/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0217-contains-duplicate](https://github.com/chonyy/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
@@ -314,6 +316,7 @@ Yes, I still hate leetcode :(
 | [0015-3sum](https://github.com/chonyy/leetcode-solutions/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/chonyy/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/chonyy/leetcode-solutions/tree/master/0125-valid-palindrome) |
+| [0141-linked-list-cycle](https://github.com/chonyy/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chonyy/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
