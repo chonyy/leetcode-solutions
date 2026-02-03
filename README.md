@@ -6,6 +6,7 @@ Yes, I still hate leetcode :(
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/chonyy/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/chonyy/leetcode-solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 ## Array
 |  |
@@ -89,6 +90,7 @@ Yes, I still hate leetcode :(
 ## Recursion
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/chonyy/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
