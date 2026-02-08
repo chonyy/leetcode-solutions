@@ -229,6 +229,7 @@ Yes, I still hate leetcode :(
 ## Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
@@ -246,6 +247,7 @@ Yes, I still hate leetcode :(
 ## Depth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
@@ -261,6 +263,7 @@ Yes, I still hate leetcode :(
 ## Binary Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
@@ -375,6 +378,7 @@ Yes, I still hate leetcode :(
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
