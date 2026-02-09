@@ -246,6 +246,7 @@ Yes, I still hate leetcode :(
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Depth-First Search
@@ -264,6 +265,7 @@ Yes, I still hate leetcode :(
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -286,6 +288,7 @@ Yes, I still hate leetcode :(
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Matrix
 |  |
@@ -395,6 +398,7 @@ Yes, I still hate leetcode :(
 | [0199-binary-tree-right-side-view](https://github.com/chonyy/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Strongly Connected Component
