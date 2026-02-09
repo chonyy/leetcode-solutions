@@ -11,20 +11,24 @@
  */
 class Solution {
 public:
-int good = 0;
-    int goodNodes(TreeNode* root) {
-        count(root, root->val);
-        return good;
+    int res = 0;
+
+    void findGood(TreeNode* root, int curMax) {
+        if (!root) {
+            return;
+        }
+
+        if (root->val >= curMax) {
+            res ++;
+        }
+
+        findGood(root->left, max(curMax, root->val));
+        findGood(root->right, max(curMax, root->val));
     }
 
-    void count(TreeNode* root, int curMax) {
-        if(!root)
-            return;
-
-        if(root->val >= curMax)
-            good ++;
-
-        count(root->left, max(curMax, root->val));
-        count(root->right, max(curMax, root->val));
+    int goodNodes(TreeNode* root) {
+        findGood(root, INT_MIN);
+        
+        return res;
     }
 };
