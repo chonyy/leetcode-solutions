@@ -11,36 +11,54 @@
  */
 class Solution {
 public:
+    unordered_map<int,int> inOrderValToIdx;
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        unordered_map<int,int> m;
+        int n = inorder.size();
 
-        for(int i = 0; i < inorder.size(); i ++) {
-            m[inorder[i]] = i;
+        for (int i = 0; i < n; i ++) {
+            inOrderValToIdx[inorder[i]] = i;
         }
 
         int idx = 0;
-
-        return build(idx, preorder, m, 0, inorder.size() - 1);
+        return build(idx, preorder, 0, n-1, inorder);
     }
 
-    TreeNode* build(int& idx, vector<int>& preorder, unordered_map<int,int>& m, int leftBound, int rightBound) {
-        if(idx >= preorder.size()) {
+    TreeNode* build(int& preIdx, vector<int>& preorder, int left, int right, vector<int>& inorder) {
+        // base cases
+        // cout << preIdx << " " << left << " " << right << endl;
+        if (preIdx >= preorder.size() || left >= preorder.size() || right < 0) {
+            return nullptr;
+        }
+        
+        if (left > right) {
             return nullptr;
         }
 
-        int val = preorder[idx];
-        int inIdx = m[val];
-
-        if(inIdx < leftBound || inIdx > rightBound) {
-            return nullptr;
-        }
-
+        // build node
+        // increment index
+        int val = preorder[preIdx];
         TreeNode* node = new TreeNode(val);
-        idx ++;
+        int inIdx = inOrderValToIdx[val];
+        preIdx ++;
 
-        node->left = build(idx, preorder, m, leftBound, inIdx - 1);
-        node->right = build(idx, preorder, m, inIdx + 1, rightBound);
+        // build left
+        node->left = build(preIdx, preorder, left, inIdx-1, inorder);
+
+        // build right
+        node->right = build(preIdx, preorder, inIdx+1, right, inorder);
 
         return node;
     }
 };
+
+// 3,9,20,15,7
+// x
+
+// preIdx:0
+
+// 9,3,15,20,7
+//   x
+
+// inIdx: 1
+
+
