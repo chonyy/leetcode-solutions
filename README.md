@@ -32,6 +32,7 @@ Yes, I still hate leetcode :(
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/chonyy/leetcode-solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/chonyy/leetcode-solutions/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/chonyy/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -143,6 +144,7 @@ Yes, I still hate leetcode :(
 | [0022-generate-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/chonyy/leetcode-solutions/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/chonyy/leetcode-solutions/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/chonyy/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -276,6 +278,7 @@ Yes, I still hate leetcode :(
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/chonyy/leetcode-solutions/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -327,6 +330,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/chonyy/leetcode-solutions/tree/master/0079-word-search) |
 | [0921-spiral-matrix-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -535,6 +539,7 @@ Yes, I still hate leetcode :(
 | [0040-combination-sum-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/chonyy/leetcode-solutions/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/chonyy/leetcode-solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/chonyy/leetcode-solutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/chonyy/leetcode-solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/chonyy/leetcode-solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
