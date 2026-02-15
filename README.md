@@ -51,6 +51,7 @@ Yes, I still hate leetcode :(
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0624-maximum-distance-in-arrays) |
+| [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/chonyy/leetcode-solutions/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/chonyy/leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/chonyy/leetcode-solutions/tree/master/0853-car-fleet) |
@@ -302,6 +303,7 @@ Yes, I still hate leetcode :(
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -343,6 +345,7 @@ Yes, I still hate leetcode :(
 | [0079-word-search](https://github.com/chonyy/leetcode-solutions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/chonyy/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0212-word-search-ii) |
+| [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0921-spiral-matrix-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -454,6 +457,7 @@ Yes, I still hate leetcode :(
 | [0200-number-of-islands](https://github.com/chonyy/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -570,6 +574,7 @@ Yes, I still hate leetcode :(
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/chonyy/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/chonyy/leetcode-solutions/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
 ## Monotonic Stack
 |  |
 | ------- |
