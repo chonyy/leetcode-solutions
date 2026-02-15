@@ -1,31 +1,27 @@
 class TrieNode {
     public:
         bool isWord;
-        unordered_map<char, TrieNode*> children; 
+        unordered_map<char, TrieNode*> children;
 };
 
 class Trie {
     public:
         TrieNode* root;
-        
+
         Trie() {
             root = new TrieNode();
-            root->isWord = false;
         }
-    
-        void addWord(string& s) {
-            TrieNode* cur = root;
-            
-            for(char c: s) {
-                // create node if not exist
-                if(cur->children.find(c) == cur->children.end()) {
-                    TrieNode* newNode = new TrieNode();
-                    cur->children[c] = newNode;
+        
+        void addWord(string& word) {
+            auto cur = root;
+
+            for (char c : word) {
+                if (!cur->children.contains(c)) {
+                    cur->children[c] = new TrieNode();
                 }
-                // move node
+
                 cur = cur->children[c];
             }
-            
             cur->isWord = true;
         }
 };
@@ -34,60 +30,75 @@ class Solution {
 public:
     int rows;
     int cols;
-    
-    void search(vector<vector<char>>& board, int row, int col, TrieNode* root, vector<string>& res, string& cur) {
-        // boundary check
-        if(row < 0 || row >= rows || col < 0 || col >= cols) {
-            return;
-        }
-        
-        char c = board[row][col];
-        TrieNode* child = root->children[c];
-        
-        // leave if no children
-        if(!child) {
-            return;
-        }
-        
-        cur = cur + c;
-        
-        // if is word
-        //      put in container
-        //      set isWord = false;
-        if(child->isWord) {
-            res.push_back(cur);
-            child->isWord = false;
-        }
-        
-        // backtracking
-        board[row][col] = '#';
-        search(board, row+1, col, child, res, cur);
-        search(board, row-1, col, child, res, cur);
-        search(board, row, col+1, child, res, cur);
-        search(board, row, col-1, child, res, cur);
-        board[row][col] = c;
-        
-        cur.pop_back();
-    }
-    
+    vector<pair<int,int>> dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+
     vector<string> findWords(vector<vector<char>>& board, vector<string>& words) {
-        vector<string> res;
         Trie trie = Trie();
-        
-        for(string& word : words) {
+
+        for (string& word : words) {
             trie.addWord(word);
         }
-        
+
+        unordered_set<string> res;
         rows = board.size();
         cols = board[0].size();
-        string cur = "";
-        
-        for(int i = 0; i < rows; i ++) {
-            for(int j = 0; j < cols; j ++) {
-                search(board, i, j, trie.root, res, cur);
+        string temp = "";
+
+        for (int i = 0; i < rows; i ++) {
+            for (int j = 0; j < cols; j ++) {
+                char c = board[i][j];
+                find(res, temp, board, i, j, trie.root);
             }
         }
-        
-        return res;
+
+        return vector<string>(res.begin(), res.end());
+    }
+
+    void find(unordered_set<string>& res,
+          string& temp,
+          vector<vector<char>>& board,
+          int r, int c,
+          TrieNode* node) {
+
+        // 1️⃣ boundary check
+        if (r < 0 || r >= rows || c < 0 || c >= cols)
+            return;
+
+        char ch = board[r][c];
+
+        // 2️⃣ visited check
+        if (ch == '#')
+            return;
+
+        // 3️⃣ trie check
+        if (!node->children.contains(ch))
+            return;
+
+        // move to child
+        node = node->children[ch];
+
+        // process
+        temp += ch;
+        board[r][c] = '#';
+
+        if (node->isWord) {
+            res.insert(temp);
+        }
+
+        for (auto& dir : dirs) {
+            find(res, temp, board, r + dir.first, c + dir.second, node);
+        }
+
+        temp.pop_back();
+        board[r][c] = ch;
     }
 };
+
+
+// o a
+// e t
+
+// * -> o -> a
+
+// 0, 0 
+// *
