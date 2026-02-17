@@ -25,10 +25,12 @@ public:
             }
         }
 
+        // No fresh, takes no time
         if (fresh == 0) {
             return 0;
         }
 
+        // Has fresh, but not rot, impossible
         if (q.empty()) {
             return -1;
         }
