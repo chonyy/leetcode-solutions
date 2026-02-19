@@ -1,49 +1,56 @@
 class Solution {
 public:
     int minCostConnectPoints(vector<vector<int>>& points) {
-        int n = points.size();
-        vector<vector<pair<int,int>>> dist(n);
         unordered_set<int> visited;
-        
-        for(int i = 0; i < n; i ++) {
-            for(int j = i+1; j < n; j ++) {
+        unordered_map<int, vector<pair<int,int>>> graph; // pointIdx => {dist, pointIdx}
+
+        int n = points.size();
+
+        for (int i = 0; i < n; i ++) {
+            for (int j = i + 1; j < n; j ++) {
                 auto& p1 = points[i];
                 auto& p2 = points[j];
-                int distance = abs(p1[0] - p2[0]) + abs(p1[1] - p2[1]);
-                
-                dist[i].push_back({distance, j});
-                dist[j].push_back({distance, i});
+
+                int dist = abs(p1[0] - p2[0]) + abs(p1[1] - p2[1]);
+                // cout << dist << endl;
+                graph[i].push_back({dist, j});
+                graph[j].push_back({dist, i});
             }
         }
-        
-        int res = 0;
+
+        int curCost = 0;
         priority_queue<pair<int,int>, vector<pair<int,int>>, greater<>> pq;
         pq.push({0, 0});
-        while(visited.size() < n) {
-            // get the shortest candidate
-            auto shortest = pq.top();
+
+        while (visited.size() != n) {
+            int point = pq.top().second;
+            int cost = pq.top().first;
             pq.pop();
-            // skip if visited
-            if(visited.find(shortest.second) != visited.end()) {
+
+            // cout << "point " << point << " cost " << cost << endl;
+
+            if (visited.contains(point)) {
                 continue;
             }
-            
-            // increment the cost
-            // put to visited
-            res += shortest.first;
-            visited.insert(shortest.second);
-            
-            // put all neighbors of the new node in 
-            auto& neighbors = dist[shortest.second];
-            // skip if visited
-            for(auto nei : neighbors) {
-                if(visited.find(nei.second) != visited.end()) {
+
+            // add cost
+            curCost += cost;
+            visited.insert(point);
+
+            // traverse neighbors
+            // skip visited
+            vector<pair<int,int>> neighbors = graph[point];
+            // cout << neighbors.size() << endl;
+
+            for (auto& nei : neighbors) {
+                if (visited.contains(nei.second)) {
                     continue;
                 }
+
                 pq.push(nei);
             }
-            
         }
-        return res;
+
+        return curCost;
     }
 };
