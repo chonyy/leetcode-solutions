@@ -1,19 +1,34 @@
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        vector<int> dist(n, INT_MAX);
-        dist[src] = 0;
-        
-        for(int i = 0; i <= k; i ++) {
-            vector<int> temp = dist;
-            for(auto& f : flights) {
-                if(dist[f[0]] != INT_MAX && dist[f[0]] + f[2] < temp[f[1]]) {
-                    temp[f[1]] = dist[f[0]] + f[2];
+        // bellman ford
+        // loop k+1 times, for each loop
+        // if not inf, check if src to dst can ahieve lower cose
+
+        vector<int> prices(n, INT_MAX);
+        prices[src] = 0;
+
+        for (int i = 0; i < k+1; i ++) {
+            vector<int> temp = prices;
+            for (auto& flight : flights) {
+                int cur = flight[0];
+                int next = flight[1];
+                int cost = flight[2];
+
+                // cout << "k " << i << endl;
+
+                if (prices[cur] == INT_MAX) {
+                    continue;
+                }
+
+                if (prices[cur] + cost < temp[next]) {
+                    // cout << next << " " << prices[cur] + cost << endl;
+                    temp[next] = prices[cur] + cost;
                 }
             }
-            swap(temp, dist);
+            swap(temp, prices);
         }
-        
-        return dist[dst] == INT_MAX ? -1 : dist[dst];
+
+        return prices[dst] == INT_MAX ? -1 : prices[dst];
     }
 };
