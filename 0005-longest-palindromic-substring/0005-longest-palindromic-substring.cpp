@@ -2,24 +2,40 @@ class Solution {
 public:
     string longestPalindrome(string s) {
         int n = s.size();
-        int maxLen = 0;
         int start = 0;
-        string res;
-        for(int i = 0; i < n; i ++) {
-            int curLen =  max(getPalindromeLen(s, i, i, n), getPalindromeLen(s, i, i+1, n));
-            if(curLen > maxLen) {
-                maxLen = curLen;
-                start = i - (curLen-1) / 2;
-            }
+        int maxLen = 0;
+
+        if (s.size() == 1) {
+            return s;
         }
+
+        for (int i = 1; i < n; i ++) {
+            tryExpand(s, i-1, i, start, maxLen);
+            tryExpand(s, i, i, start, maxLen);
+        }
+
         return s.substr(start, maxLen);
     }
 
-    int getPalindromeLen(string s, int start, int end, int n) {
-        while(start >= 0 && end < n && s[start] == s[end]) {
-            start --;
-            end ++;
+    void tryExpand(string& s, int l, int r, int& start, int& maxLen) {
+        while (l >= 0 && r < s.size()) {
+            if (s[l] != s[r]) {
+                break;
+            }
+
+            int len = r - l + 1;
+
+            if (len > maxLen) {
+                maxLen = len;
+                start = l;
+            }
+
+            l --;
+            r ++;
         }
-        return end - start - 1;
     }
 };
+
+// dp[0][0] = 1
+// dp[1][1] = 1
+
