@@ -5,11 +5,7 @@ public:
         int start = 0;
         int maxLen = 0;
 
-        if (s.size() == 1) {
-            return s;
-        }
-
-        for (int i = 1; i < n; i ++) {
+        for (int i = 0; i < n; i ++) {
             tryExpand(s, i-1, i, start, maxLen);
             tryExpand(s, i, i, start, maxLen);
         }
