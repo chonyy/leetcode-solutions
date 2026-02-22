@@ -52,6 +52,7 @@ Yes, I still hate leetcode :(
 | [0238-product-of-array-except-self](https://github.com/chonyy/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/chonyy/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/chonyy/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
+| [0322-coin-change](https://github.com/chonyy/leetcode-solutions/tree/master/0322-coin-change) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/chonyy/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
@@ -426,6 +427,7 @@ Yes, I still hate leetcode :(
 | [0198-house-robber](https://github.com/chonyy/leetcode-solutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
+| [0322-coin-change](https://github.com/chonyy/leetcode-solutions/tree/master/0322-coin-change) |
 | [0647-palindromic-substrings](https://github.com/chonyy/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0746-min-cost-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -510,6 +512,7 @@ Yes, I still hate leetcode :(
 | [0210-course-schedule-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0322-coin-change](https://github.com/chonyy/leetcode-solutions/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/chonyy/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0684-redundant-connection](https://github.com/chonyy/leetcode-solutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
