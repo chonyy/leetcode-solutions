@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // dp[i][j], string start from i to j is palindrome or not
+    // dp[i][j] == dp[i+1][j-1] && s[i] == s[j]
     int countSubstrings(string s) {
         int n = s.size();
         int res = 0;
