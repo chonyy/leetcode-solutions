@@ -7,16 +7,15 @@ public:
         dp[0] = true;
 
         for (int i = 1; i <= n; i ++) {
-            for (int j = 0; j < i; j ++) {
-                if (dp[j] == false) {
+            for (auto& word : dict) {
+                if (word.size() > i) {
                     continue;
                 }
 
-                int len = i - j;
-                string sub = s.substr(j, len);
-                if (dict.contains(sub)) {
-                    // cout << sub << endl;
-                    // cout << i << endl;
+                int len = word.size();
+                string sub = s.substr(i - len, len);
+
+                if (sub == word && dp[i - len]) {
                     dp[i] = true;
                     break;
                 }
