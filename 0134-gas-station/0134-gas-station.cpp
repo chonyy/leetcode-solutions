@@ -1,23 +1,42 @@
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+        if (sum(gas) < sum(cost)) {
+            return -1;
+        }
+
         int n = gas.size();
+        int total = 0;
+        int res = 0;
 
-        int start = n - 1;
-        int end = 0;
-        int sum = gas[start] - cost[start];
+        for (int i = 0; i < n; i ++) {
+            int diff = gas[i] - cost[i];
 
-        while(start > end) {
-            if(sum > 0) {
-                sum += gas[end] - cost[end];
-                end ++;
-            }
-            else {
-                start --;
-                sum += gas[start] - cost[start];
+            total += diff;
+            if (total < 0) {
+                res = i + 1;
+                total = 0;
+                continue;
             }
         }
 
-        return sum >= 0 ? start : -1;
+        return res;
+    }
+
+    int sum(vector<int>& arr) {
+        int sum = 0;
+
+        for (int num : arr) {
+            sum += num;
+        }
+
+        return sum;
     }
 };
+
+// brute force
+
+// pick each idx, try circulate
+
+// time: O(n^2)
+// space: O(1)
