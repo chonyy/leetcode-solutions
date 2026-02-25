@@ -138,6 +138,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/0002-add-two-numbers) |
+| [0010-regular-expression-matching](https://github.com/chonyy/leetcode-solutions/tree/master/0010-regular-expression-matching) |
 | [0021-merge-two-sorted-lists](https://github.com/chonyy/leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/chonyy/leetcode-solutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/chonyy/leetcode-solutions/tree/master/0143-reorder-list) |
@@ -166,6 +167,7 @@ Yes, I still hate leetcode :(
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chonyy/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/chonyy/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
+| [0010-regular-expression-matching](https://github.com/chonyy/leetcode-solutions/tree/master/0010-regular-expression-matching) |
 | [0020-valid-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
@@ -429,6 +431,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/chonyy/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
+| [0010-regular-expression-matching](https://github.com/chonyy/leetcode-solutions/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/chonyy/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0070-climbing-stairs) |
