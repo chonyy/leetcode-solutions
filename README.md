@@ -28,6 +28,7 @@ Yes, I still hate leetcode :(
 | [0039-combination-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/chonyy/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/chonyy/leetcode-solutions/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/chonyy/leetcode-solutions/tree/master/0051-n-queens) |
@@ -405,6 +406,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/chonyy/leetcode-solutions/tree/master/0011-container-with-most-water) |
+| [0045-jump-game-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/chonyy/leetcode-solutions/tree/master/0055-jump-game) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0624-maximum-distance-in-arrays) |
@@ -437,6 +439,7 @@ Yes, I still hate leetcode :(
 | [0010-regular-expression-matching](https://github.com/chonyy/leetcode-solutions/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/chonyy/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/chonyy/leetcode-solutions/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0070-climbing-stairs) |
