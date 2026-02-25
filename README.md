@@ -194,6 +194,7 @@ Yes, I still hate leetcode :(
 | [0647-palindromic-substrings](https://github.com/chonyy/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [0752-open-the-lock](https://github.com/chonyy/leetcode-solutions/tree/master/0752-open-the-lock) |
+| [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1170-shortest-common-supersequence](https://github.com/chonyy/leetcode-solutions/tree/master/1170-shortest-common-supersequence) |
@@ -276,6 +277,7 @@ Yes, I still hate leetcode :(
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [0752-open-the-lock](https://github.com/chonyy/leetcode-solutions/tree/master/0752-open-the-lock) |
+| [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
@@ -413,6 +415,7 @@ Yes, I still hate leetcode :(
 | [0134-gas-station](https://github.com/chonyy/leetcode-solutions/tree/master/0134-gas-station) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0624-maximum-distance-in-arrays) |
+| [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/chonyy/leetcode-solutions/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -504,6 +507,7 @@ Yes, I still hate leetcode :(
 | [0287-find-the-duplicate-number](https://github.com/chonyy/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/chonyy/leetcode-solutions/tree/master/0647-palindromic-substrings) |
+| [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/chonyy/leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2551-apply-operations-to-an-array) |
