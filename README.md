@@ -30,6 +30,7 @@ Yes, I still hate leetcode :(
 | [0042-trapping-rain-water](https://github.com/chonyy/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/chonyy/leetcode-solutions/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/chonyy/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/chonyy/leetcode-solutions/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0053-maximum-subarray) |
@@ -128,6 +129,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/chonyy/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chonyy/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
@@ -396,6 +398,7 @@ Yes, I still hate leetcode :(
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/chonyy/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/chonyy/leetcode-solutions/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/chonyy/leetcode-solutions/tree/master/0130-surrounded-regions) |
