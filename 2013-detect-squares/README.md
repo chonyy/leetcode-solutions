@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/detect-squares/">2013. Detect Squares</a></h2><h3>Medium</h3><hr><div><p>You are given a stream of points on the X-Y plane. Design an algorithm that:</p>
+<h2><a href="https://leetcode.com/problems/detect-squares">2139. Detect Squares</a></h2><h3>Medium</h3><hr><p>You are given a stream of points on the X-Y plane. Design an algorithm that:</p>
 
 <ul>
 	<li><strong>Adds</strong> new points from the stream into a data structure. <strong>Duplicate</strong> points are allowed and should be treated as different points.</li>
@@ -16,10 +16,11 @@
 </ul>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/09/01/image.png" style="width: 869px; height: 504px;">
-<pre><strong>Input</strong>
-["DetectSquares", "add", "add", "add", "count", "count", "add", "count"]
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/09/01/image.png" style="width: 869px; height: 504px;" />
+<pre>
+<strong>Input</strong>
+[&quot;DetectSquares&quot;, &quot;add&quot;, &quot;add&quot;, &quot;add&quot;, &quot;count&quot;, &quot;count&quot;, &quot;add&quot;, &quot;count&quot;]
 [[], [[3, 10]], [[11, 2]], [[3, 2]], [[11, 10]], [[14, 8]], [[11, 2]], [[11, 10]]]
 <strong>Output</strong>
 [null, null, null, null, 1, 0, null, 2]
@@ -46,4 +47,3 @@ detectSquares.count([11, 10]); // return 2. You can choose:
 	<li><code>0 &lt;= x, y &lt;= 1000</code></li>
 	<li>At most <code>3000</code> calls <strong>in total</strong> will be made to <code>add</code> and <code>count</code>.</li>
 </ul>
-</div>
