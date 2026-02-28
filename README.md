@@ -106,6 +106,7 @@ Yes, I still hate leetcode :(
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/chonyy/leetcode-solutions/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/chonyy/leetcode-solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2107-find-unique-binary-string](https://github.com/chonyy/leetcode-solutions/tree/master/2107-find-unique-binary-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -296,6 +297,7 @@ Yes, I still hate leetcode :(
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/chonyy/leetcode-solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
 | [2107-find-unique-binary-string](https://github.com/chonyy/leetcode-solutions/tree/master/2107-find-unique-binary-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/chonyy/leetcode-solutions/tree/master/2434-design-a-number-container-system) |
@@ -549,6 +551,7 @@ Yes, I still hate leetcode :(
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/chonyy/leetcode-solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/2448-count-number-of-bad-pairs) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -597,6 +600,7 @@ Yes, I still hate leetcode :(
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
+| [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
 | [2434-design-a-number-container-system](https://github.com/chonyy/leetcode-solutions/tree/master/2434-design-a-number-container-system) |
 ## Binary Search Tree
 |  |
@@ -633,6 +637,7 @@ Yes, I still hate leetcode :(
 | [0703-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
+| [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
 ## Bit Manipulation
 |  |
 | ------- |
