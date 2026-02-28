@@ -131,6 +131,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/0002-add-two-numbers) |
+| [0007-reverse-integer](https://github.com/chonyy/leetcode-solutions/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/chonyy/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/chonyy/leetcode-solutions/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0070-climbing-stairs) |
