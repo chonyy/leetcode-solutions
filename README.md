@@ -59,6 +59,7 @@ Yes, I still hate leetcode :(
 | [0217-contains-duplicate](https://github.com/chonyy/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/chonyy/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/chonyy/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+| [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/chonyy/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/chonyy/leetcode-solutions/tree/master/0312-burst-balloons) |
@@ -135,6 +136,7 @@ Yes, I still hate leetcode :(
 | [0070-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chonyy/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
+| [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
@@ -247,6 +249,7 @@ Yes, I still hate leetcode :(
 | [0215-kth-largest-element-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/chonyy/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/chonyy/leetcode-solutions/tree/master/0435-non-overlapping-intervals) |
@@ -280,6 +283,7 @@ Yes, I still hate leetcode :(
 | [0217-contains-duplicate](https://github.com/chonyy/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
+| [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/chonyy/leetcode-solutions/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/chonyy/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -537,6 +541,7 @@ Yes, I still hate leetcode :(
 | [0074-search-a-2d-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chonyy/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
+| [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/chonyy/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/chonyy/leetcode-solutions/tree/master/0704-binary-search) |
@@ -645,6 +650,7 @@ Yes, I still hate leetcode :(
 | [0078-subsets](https://github.com/chonyy/leetcode-solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0190-reverse-bits](https://github.com/chonyy/leetcode-solutions/tree/master/0190-reverse-bits) |
+| [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/chonyy/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/chonyy/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0476-number-complement](https://github.com/chonyy/leetcode-solutions/tree/master/0476-number-complement) |
