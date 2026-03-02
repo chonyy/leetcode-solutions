@@ -39,6 +39,7 @@ Yes, I still hate leetcode :(
 | [0055-jump-game](https://github.com/chonyy/leetcode-solutions/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/chonyy/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/chonyy/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/chonyy/leetcode-solutions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/chonyy/leetcode-solutions/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/chonyy/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
@@ -255,6 +256,7 @@ Yes, I still hate leetcode :(
 | ------- |
 | [0015-3sum](https://github.com/chonyy/leetcode-solutions/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
+| [0075-sort-colors](https://github.com/chonyy/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/chonyy/leetcode-solutions/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/chonyy/leetcode-solutions/tree/master/0217-contains-duplicate) |
@@ -534,6 +536,7 @@ Yes, I still hate leetcode :(
 | [0011-container-with-most-water](https://github.com/chonyy/leetcode-solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/chonyy/leetcode-solutions/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/chonyy/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0075-sort-colors](https://github.com/chonyy/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/chonyy/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/chonyy/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/chonyy/leetcode-solutions/tree/master/0143-reorder-list) |
