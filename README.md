@@ -94,6 +94,7 @@ Yes, I still hate leetcode :(
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0853-car-fleet](https://github.com/chonyy/leetcode-solutions/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/chonyy/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
+| [0881-boats-to-save-people](https://github.com/chonyy/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0912-sort-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0921-spiral-matrix-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
@@ -279,6 +280,7 @@ Yes, I still hate leetcode :(
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [0853-car-fleet](https://github.com/chonyy/leetcode-solutions/tree/master/0853-car-fleet) |
+| [0881-boats-to-save-people](https://github.com/chonyy/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [0912-sort-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1333-sort-the-jumbled-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1333-sort-the-jumbled-numbers) |
@@ -464,6 +466,7 @@ Yes, I still hate leetcode :(
 | [0624-maximum-distance-in-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0624-maximum-distance-in-arrays) |
 | [0678-valid-parenthesis-string](https://github.com/chonyy/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
+| [0881-boats-to-save-people](https://github.com/chonyy/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/chonyy/leetcode-solutions/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -564,6 +567,7 @@ Yes, I still hate leetcode :(
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/chonyy/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
+| [0881-boats-to-save-people](https://github.com/chonyy/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/chonyy/leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2551-apply-operations-to-an-array) |
