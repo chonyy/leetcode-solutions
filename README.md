@@ -211,6 +211,7 @@ Yes, I still hate leetcode :(
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
+| [0344-reverse-string](https://github.com/chonyy/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/chonyy/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
@@ -551,6 +552,7 @@ Yes, I still hate leetcode :(
 | [0143-reorder-list](https://github.com/chonyy/leetcode-solutions/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chonyy/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/chonyy/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
+| [0344-reverse-string](https://github.com/chonyy/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/chonyy/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
