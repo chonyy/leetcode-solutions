@@ -1,28 +1,48 @@
 class Solution {
 public:
     string simplifyPath(string path) {
-        stringstream ss(path);
-        string temp;
-        vector<string> dirs;
-        string res = "";
-        
-        while(getline(ss, temp, '/')) {
-            if(temp == ".")
-                continue;
-            if(temp == "..") {
-                if(dirs.size() > 0)
-                    dirs.pop_back();
-                continue;
+        int idx = 0;
+        vector<string> stk;
+
+        while (idx < path.size()) {
+            while (idx < path.size() && path[idx] == '/') {
+                // cout << "skip " << path[idx] << endl;
+                idx ++;
             }
-            if(temp.size() == 0)
+
+            if (idx == path.size()) {
+                break;
+            }
+
+            int start = idx;
+            int len = 0;
+            while (idx < path.size() && path[idx] != '/') {
+                // cout << "take " << path[idx] << endl;
+                len ++;
+                idx ++;
+            }
+
+            string temp = path.substr(start, len);
+            // cout << temp << endl;
+
+            if (temp == "..") {
+                if (!stk.empty()) {
+                    stk.pop_back();
+                }
+            } else if (temp == ".") {
                 continue;
-            dirs.push_back(temp);
+            } else {
+                stk.push_back(temp);
+            }
         }
-        
-        for(string& dir : dirs) {
-            res += "/" + dir;
+
+        string res;
+
+        for (int i = 0; i < stk.size(); i ++) {
+            res += "/";
+            res += stk[i];
         }
-        
-        return res.size() > 0 ? res : "/";
+
+        return res.size() == 0 ? "/" : res;
     }
 };
