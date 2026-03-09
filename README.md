@@ -85,6 +85,7 @@ Yes, I still hate leetcode :(
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0624-maximum-distance-in-arrays) |
 | [0658-find-k-closest-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
+| [0682-baseball-game](https://github.com/chonyy/leetcode-solutions/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/chonyy/leetcode-solutions/tree/master/0704-binary-search) |
 | [0705-design-hashset](https://github.com/chonyy/leetcode-solutions/tree/master/0705-design-hashset) |
@@ -185,6 +186,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
+| [0682-baseball-game](https://github.com/chonyy/leetcode-solutions/tree/master/0682-baseball-game) |
 | [0921-spiral-matrix-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
 | [1803-average-waiting-time](https://github.com/chonyy/leetcode-solutions/tree/master/1803-average-waiting-time) |
 | [1929-concatenation-of-array](https://github.com/chonyy/leetcode-solutions/tree/master/1929-concatenation-of-array) |
@@ -252,6 +254,7 @@ Yes, I still hate leetcode :(
 | [0150-evaluate-reverse-polish-notation](https://github.com/chonyy/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/chonyy/leetcode-solutions/tree/master/0155-min-stack) |
 | [0678-valid-parenthesis-string](https://github.com/chonyy/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
+| [0682-baseball-game](https://github.com/chonyy/leetcode-solutions/tree/master/0682-baseball-game) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [0739-daily-temperatures](https://github.com/chonyy/leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
