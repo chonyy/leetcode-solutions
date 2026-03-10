@@ -177,6 +177,7 @@ Yes, I still hate leetcode :(
 | [0050-powx-n](https://github.com/chonyy/leetcode-solutions/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/chonyy/leetcode-solutions/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/chonyy/leetcode-solutions/tree/master/0206-reverse-linked-list) |
+| [0394-decode-string](https://github.com/chonyy/leetcode-solutions/tree/master/0394-decode-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
@@ -224,6 +225,7 @@ Yes, I still hate leetcode :(
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0344-reverse-string](https://github.com/chonyy/leetcode-solutions/tree/master/0344-reverse-string) |
+| [0394-decode-string](https://github.com/chonyy/leetcode-solutions/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/chonyy/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
@@ -261,6 +263,7 @@ Yes, I still hate leetcode :(
 | [0155-min-stack](https://github.com/chonyy/leetcode-solutions/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/chonyy/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/chonyy/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
+| [0394-decode-string](https://github.com/chonyy/leetcode-solutions/tree/master/0394-decode-string) |
 | [0678-valid-parenthesis-string](https://github.com/chonyy/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0682-baseball-game](https://github.com/chonyy/leetcode-solutions/tree/master/0682-baseball-game) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
