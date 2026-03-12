@@ -16,6 +16,7 @@ Yes, I still hate leetcode :(
 | [0146-lru-cache](https://github.com/chonyy/leetcode-solutions/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/chonyy/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/chonyy/leetcode-solutions/tree/master/0355-design-twitter) |
+| [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
 | [0705-design-hashset](https://github.com/chonyy/leetcode-solutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/chonyy/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/chonyy/leetcode-solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
@@ -85,6 +86,7 @@ Yes, I still hate leetcode :(
 | [0518-coin-change-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/chonyy/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
+| [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
 | [0624-maximum-distance-in-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0624-maximum-distance-in-arrays) |
 | [0658-find-k-closest-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0682-baseball-game](https://github.com/chonyy/leetcode-solutions/tree/master/0682-baseball-game) |
@@ -189,6 +191,7 @@ Yes, I still hate leetcode :(
 | [0225-implement-stack-using-queues](https://github.com/chonyy/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/chonyy/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/chonyy/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+| [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Simulation
 |  |
@@ -674,6 +677,7 @@ Yes, I still hate leetcode :(
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0304-range-sum-query-2d-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0355-design-twitter](https://github.com/chonyy/leetcode-solutions/tree/master/0355-design-twitter) |
+| [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0705-design-hashset](https://github.com/chonyy/leetcode-solutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/chonyy/leetcode-solutions/tree/master/0706-design-hashmap) |
