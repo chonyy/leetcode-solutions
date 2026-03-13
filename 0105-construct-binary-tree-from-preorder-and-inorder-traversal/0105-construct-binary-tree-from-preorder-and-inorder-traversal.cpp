@@ -11,54 +11,37 @@
  */
 class Solution {
 public:
-    unordered_map<int,int> inOrderValToIdx;
-    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        int n = inorder.size();
+    unordered_map<int,int> inorderValToIdx;
 
-        for (int i = 0; i < n; i ++) {
-            inOrderValToIdx[inorder[i]] = i;
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+        int preIdx = 0;
+
+        for (int i = 0; i < inorder.size(); i ++) {
+            inorderValToIdx[inorder[i]] = i;
         }
 
-        int idx = 0;
-        return build(idx, preorder, 0, n-1, inorder);
+        return build(preorder, preIdx, inorder, 0, preorder.size() - 1);
     }
 
-    TreeNode* build(int& preIdx, vector<int>& preorder, int left, int right, vector<int>& inorder) {
-        // base cases
-        // cout << preIdx << " " << left << " " << right << endl;
-        if (preIdx >= preorder.size() || left >= preorder.size() || right < 0) {
-            return nullptr;
-        }
-        
-        if (left > right) {
+    TreeNode* build(vector<int>& preorder, int& preIdx, vector<int>& inorder, int inStart, int inEnd) {
+        if (preIdx >= preorder.size()) {
             return nullptr;
         }
 
-        // build node
-        // increment index
+        if (inStart > inEnd) {
+            return nullptr;
+        }
+
         int val = preorder[preIdx];
-        TreeNode* node = new TreeNode(val);
-        int inIdx = inOrderValToIdx[val];
         preIdx ++;
 
-        // build left
-        node->left = build(preIdx, preorder, left, inIdx-1, inorder);
+        int inIdx = inorderValToIdx[val];
 
-        // build right
-        node->right = build(preIdx, preorder, inIdx+1, right, inorder);
+        TreeNode* node = new TreeNode(val);
+        
+        node->left = build(preorder, preIdx, inorder, inStart, inIdx - 1);
+        node->right = build(preorder, preIdx, inorder, inIdx + 1, inEnd);
 
         return node;
     }
 };
-
-// 3,9,20,15,7
-// x
-
-// preIdx:0
-
-// 9,3,15,20,7
-//   x
-
-// inIdx: 1
-
-
