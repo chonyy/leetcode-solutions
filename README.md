@@ -81,6 +81,7 @@ Yes, I still hate leetcode :(
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/chonyy/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
+| [0427-construct-quad-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0427-construct-quad-tree) |
 | [0435-non-overlapping-intervals](https://github.com/chonyy/leetcode-solutions/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0518-coin-change-ii) |
@@ -386,6 +387,7 @@ Yes, I still hate leetcode :(
 | [0230-kth-smallest-element-in-a-bst](https://github.com/chonyy/leetcode-solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0427-construct-quad-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0427-construct-quad-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/chonyy/leetcode-solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
@@ -478,6 +480,7 @@ Yes, I still hate leetcode :(
 | [0212-word-search-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0212-word-search-ii) |
 | [0304-range-sum-query-2d-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0417-pacific-atlantic-water-flow](https://github.com/chonyy/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
+| [0427-construct-quad-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0427-construct-quad-tree) |
 | [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0921-spiral-matrix-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
@@ -764,6 +767,7 @@ Yes, I still hate leetcode :(
 | [0190-reverse-bits](https://github.com/chonyy/leetcode-solutions/tree/master/0190-reverse-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0427-construct-quad-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0427-construct-quad-tree) |
 | [0912-sort-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
