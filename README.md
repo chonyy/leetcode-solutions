@@ -398,6 +398,7 @@ Yes, I still hate leetcode :(
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1325-delete-leaves-with-a-given-value](https://github.com/chonyy/leetcode-solutions/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -435,6 +436,7 @@ Yes, I still hate leetcode :(
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1325-delete-leaves-with-a-given-value](https://github.com/chonyy/leetcode-solutions/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -466,6 +468,7 @@ Yes, I still hate leetcode :(
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1325-delete-leaves-with-a-given-value](https://github.com/chonyy/leetcode-solutions/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
