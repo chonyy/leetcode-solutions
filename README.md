@@ -110,6 +110,7 @@ Yes, I still hate leetcode :(
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/chonyy/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/chonyy/leetcode-solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1027-longest-arithmetic-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1027-longest-arithmetic-subsequence) |
 | [1095-find-in-mountain-array](https://github.com/chonyy/leetcode-solutions/tree/master/1095-find-in-mountain-array) |
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1196-filling-bookcase-shelves](https://github.com/chonyy/leetcode-solutions/tree/master/1196-filling-bookcase-shelves) |
@@ -353,6 +354,7 @@ Yes, I still hate leetcode :(
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
+| [1027-longest-arithmetic-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1027-longest-arithmetic-subsequence) |
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
@@ -563,6 +565,7 @@ Yes, I still hate leetcode :(
 | [0746-min-cost-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1027-longest-arithmetic-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1027-longest-arithmetic-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/chonyy/leetcode-solutions/tree/master/1170-shortest-common-supersequence) |
 | [1196-filling-bookcase-shelves](https://github.com/chonyy/leetcode-solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1511-count-number-of-teams](https://github.com/chonyy/leetcode-solutions/tree/master/1511-count-number-of-teams) |
@@ -633,6 +636,7 @@ Yes, I still hate leetcode :(
 | [0875-koko-eating-bananas](https://github.com/chonyy/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/chonyy/leetcode-solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1027-longest-arithmetic-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1027-longest-arithmetic-subsequence) |
 | [1095-find-in-mountain-array](https://github.com/chonyy/leetcode-solutions/tree/master/1095-find-in-mountain-array) |
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
