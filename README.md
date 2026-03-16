@@ -84,6 +84,7 @@ Yes, I still hate leetcode :(
 | [0427-construct-quad-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0427-construct-quad-tree) |
 | [0435-non-overlapping-intervals](https://github.com/chonyy/leetcode-solutions/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0494-target-sum) |
+| [0498-diagonal-traverse](https://github.com/chonyy/leetcode-solutions/tree/master/0498-diagonal-traverse) |
 | [0518-coin-change-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/chonyy/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
@@ -198,6 +199,7 @@ Yes, I still hate leetcode :(
 ## Simulation
 |  |
 | ------- |
+| [0498-diagonal-traverse](https://github.com/chonyy/leetcode-solutions/tree/master/0498-diagonal-traverse) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0682-baseball-game](https://github.com/chonyy/leetcode-solutions/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/chonyy/leetcode-solutions/tree/master/0735-asteroid-collision) |
@@ -486,6 +488,7 @@ Yes, I still hate leetcode :(
 | [0304-range-sum-query-2d-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0417-pacific-atlantic-water-flow](https://github.com/chonyy/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0427-construct-quad-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0427-construct-quad-tree) |
+| [0498-diagonal-traverse](https://github.com/chonyy/leetcode-solutions/tree/master/0498-diagonal-traverse) |
 | [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0921-spiral-matrix-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
