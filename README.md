@@ -114,6 +114,7 @@ Yes, I still hate leetcode :(
 | [0912-sort-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0921-spiral-matrix-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0953-verifying-an-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0953-verifying-an-alien-dictionary) |
 | [0954-array-of-doubled-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0992-subarrays-with-k-different-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
@@ -263,6 +264,7 @@ Yes, I still hate leetcode :(
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [0752-open-the-lock](https://github.com/chonyy/leetcode-solutions/tree/master/0752-open-the-lock) |
 | [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
+| [0953-verifying-an-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0953-verifying-an-alien-dictionary) |
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1170-shortest-common-supersequence](https://github.com/chonyy/leetcode-solutions/tree/master/1170-shortest-common-supersequence) |
@@ -380,6 +382,7 @@ Yes, I still hate leetcode :(
 | [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0953-verifying-an-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0953-verifying-an-alien-dictionary) |
 | [0954-array-of-doubled-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [0992-subarrays-with-k-different-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
