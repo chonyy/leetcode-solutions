@@ -1,45 +1,43 @@
 class Solution {
+    // Map each course to its prerequisites
+    unordered_map<int, vector<int>> preMap;
+    // Store all courses along the current DFS path
+    unordered_set<int> visiting;
+
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        // create adjacency graphs
-        unordered_map<int, vector<int>> graph;
-        unordered_map<int, int> inDegree;
-
-        for (auto& pre : prerequisites) {
-            graph[pre[1]].push_back(pre[0]);
-            inDegree[pre[0]] ++;
+        for (int i = 0; i < numCourses; i++) {
+            preMap[i] = {};
+        }
+        for (const auto& prereq : prerequisites) {
+            preMap[prereq[0]].push_back(prereq[1]);
         }
 
-        // get starting points with inDegree = 0
-        int courses = 0;
-        queue<int> q;
-        for (int i = 0; i < numCourses; i ++) {
-            if (inDegree[i] == 0) {
-                q.push(i);
-                courses ++;
+        for (int c = 0; c < numCourses; c++) {
+            if (!dfs(c)) {
+                return false;
             }
         }
+        return true;
+    }
 
-        // if no inDegree 0, return false
-        if (q.empty()) {
+    bool dfs(int crs) {
+        if (visiting.count(crs)) {
+            // Cycle detected
             return false;
         }
-
-        // bfs with queue
-        while(!q.empty()) {
-            int node = q.front();
-            q.pop();
-            
-            for (int nei : graph[node]) {
-                inDegree[nei] --;
-
-                if (inDegree[nei] == 0) {
-                    q.push(nei);
-                    courses ++;
-                }
-            }
+        if (!preMap.contains(crs)) {
+            return true;
         }
 
-        return courses == numCourses;
+        visiting.insert(crs);
+        for (int pre : preMap[crs]) {
+            if (!dfs(pre)) {
+                return false;
+            }
+        }
+        visiting.erase(crs);
+        preMap.erase(crs);
+        return true;
     }
 };
