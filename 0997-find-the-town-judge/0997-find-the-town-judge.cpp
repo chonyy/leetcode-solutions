@@ -1,22 +1,24 @@
 class Solution {
 public:
     int findJudge(int n, vector<vector<int>>& trust) {
-        unordered_map<int, int> s;
-        
-        if(n == 1)
+        if (n == 1) {
             return 1;
-        
-        for(auto t : trust) {
-            s[t[0]] --;
-            s[t[1]] ++;
         }
-        
-        for(auto entry : s) {
-            if(entry.second == n-1) {
-                return entry.first;
+
+        vector<int> trustt(n+1, 0);
+        vector<int> trusted(n+1, 0);
+
+        for (auto& t : trust) {
+            trustt[t[0]] ++;
+            trusted[t[1]] ++;
+        }
+
+        for (int i = 1; i <= n; i ++) {
+            if (trustt[i] == 0 && trusted[i] == n-1) {
+                return i;
             }
         }
-        
+
         return -1;
     }
 };
