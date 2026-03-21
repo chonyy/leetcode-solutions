@@ -1,40 +1,43 @@
 class Solution {
 public:
+    unordered_map<int, vector<string>> cache;
+
     vector<string> wordBreak(string s, vector<string>& wordDict) {
         unordered_set<string> words(wordDict.begin(), wordDict.end());
-        vector<string> res;
-        vector<string> temp;
-
-        solve(s, 0, temp, words, res);
-
-        return res;
+        return solve(s, 0, words);
     }
 
-    void solve(string& s, int idx, vector<string>& temp, unordered_set<string>& words, vector<string>& res) {
+    vector<string> solve(string& s, int idx, unordered_set<string>& words) {
         if (idx == s.size()) {
-            string sentence = "";
-            for (int i = 0; i < temp.size(); i ++) {
-                if (i != 0) {
-                    sentence += " ";
-                }
-                sentence += temp[i];
-            }
-            res.push_back(sentence);
-            return;
+            return {""};
         }
 
+        if (cache.contains(idx)) {
+            return cache[idx];
+        }
+
+        vector<string> res;
         for (int i = idx; i < s.size(); i ++) {
             int len = i - idx + 1;
-            string sub = s.substr(idx, len);
+            string left = s.substr(idx, len);
 
-            if (!words.contains(sub)) {
+            if (!words.contains(left)) {
                 continue;
             }
 
-            // cout << "sub " << sub << endl;
-            temp.push_back(sub);
-            solve(s, i+1, temp, words, res);
-            temp.pop_back();
+            vector<string> right = solve(s, i+1, words);
+            
+            for (string& r : right) {
+                string sentence = left;
+                if (r.size() > 0) {
+                    sentence += " ";
+                    sentence += r;
+                }
+                res.push_back(sentence);
+            }
         }
+
+        cache[idx] = res;
+        return res;
     }
 };
