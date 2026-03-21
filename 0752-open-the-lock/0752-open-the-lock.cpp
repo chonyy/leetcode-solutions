@@ -22,10 +22,10 @@ public:
 
         while(!begin.empty() && !end.empty()) {
             step ++;
-            cout << step << endl;
+            // cout << step << endl;
 
             if (begin.size() > end.size()) {
-                cout << "swap" << endl;
+                // cout << "swap" << endl;
                 swap(begin, end);
             }
 
@@ -43,7 +43,7 @@ public:
                         continue;
                     }
 
-                    cout << nei << endl;
+                    // cout << nei << endl;
                     visited.insert(nei);
                     temp.insert(nei);
                 }
