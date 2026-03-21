@@ -1,38 +1,40 @@
 class Solution {
 public:
-    unordered_map<string, vector<string>> mem;
-    
-    vector<string> backtrack(string s, unordered_set<string>& dict) {
-        if(mem.find(s) != mem.end()) {
-            return mem[s];
+    vector<string> wordBreak(string s, vector<string>& wordDict) {
+        unordered_set<string> words(wordDict.begin(), wordDict.end());
+        vector<string> res;
+        vector<string> temp;
+
+        solve(s, 0, temp, words, res);
+
+        return res;
+    }
+
+    void solve(string& s, int idx, vector<string>& temp, unordered_set<string>& words, vector<string>& res) {
+        if (idx == s.size()) {
+            string sentence = "";
+            for (int i = 0; i < temp.size(); i ++) {
+                if (i != 0) {
+                    sentence += " ";
+                }
+                sentence += temp[i];
+            }
+            res.push_back(sentence);
+            return;
         }
-        
-        vector<string> ans;
-        
-        if(dict.count(s)) {
-            ans.push_back(s);
-        }
-        
-        for(int i = 0; i < s.size(); i ++) {
-            string left = s.substr(0, i);
-            string right = s.substr(i);
-            
-            if(dict.count(right) == 0) {
+
+        for (int i = idx; i < s.size(); i ++) {
+            int len = i - idx + 1;
+            string sub = s.substr(idx, len);
+
+            if (!words.contains(sub)) {
                 continue;
             }
-            
-            auto leftAns = backtrack(left, dict);
-            
-            for(auto& l : leftAns) {
-                ans.push_back(l + " " + right);
-            }
+
+            // cout << "sub " << sub << endl;
+            temp.push_back(sub);
+            solve(s, i+1, temp, words, res);
+            temp.pop_back();
         }
-        
-        return mem[s] = ans;
-    }
-    
-    vector<string> wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string> dict(wordDict.begin(), wordDict.end());
-        return backtrack(s, dict);
     }
 };
