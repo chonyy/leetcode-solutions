@@ -1,51 +1,56 @@
 class Solution {
 public:
     bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
-        unordered_map<int,int> inDegrees;
-        
-        for(int i = 0; i < n; i ++) {
-            if(leftChild[i] != -1) {
-                inDegrees[leftChild[i]] ++;
-            }
-            if(rightChild[i] != -1) {
-                inDegrees[rightChild[i]] ++;
-            }
+        unordered_map<int,int> inDegree;
+
+        for (int i = 0; i < n; i ++) {
+            inDegree[leftChild[i]] ++;
+            inDegree[rightChild[i]] ++;
         }
+
         
         int root = -1;
-        for(int i = 0; i< n; i ++) {
-            if(inDegrees[i] == 0) {
-                if(root != -1)
+        
+        for (int i = 0; i < n; i ++) {
+            if (inDegree[i] == 0) {
+                if (root != -1) { // more than one root
                     return false;
+                }
+
                 root = i;
             }
         }
-        
-        // no root
-        if(root == -1)
+
+        if (root == -1) { // no root
             return false;
-        
+        }
+
         queue<int> q;
-        unordered_set<int> visited;
         q.push(root);
-        
-        while(!q.empty()) {
-            auto cur = q.front();
+        unordered_set<int> visited;
+
+        while (!q.empty()) {
+            int node = q.front();
+            // cout << node << endl;
             q.pop();
-            
-            if(visited.find(cur) != visited.end()) {
+
+            if (visited.contains(node)) {
                 return false;
             }
-            visited.insert(cur);
-            
-            if(leftChild[cur] != -1) {
-                q.push(leftChild[cur]);
+
+            visited.insert(node);
+
+            int left = leftChild[node];
+            if (left != -1) {
+                q.push(left);
             }
-            if(rightChild[cur] != -1) {
-                q.push(rightChild[cur]);
+
+            int right = rightChild[node];
+            if (right != -1) {
+                q.push(right);
             }
         }
-        
+
         return visited.size() == n;
     }
 };
