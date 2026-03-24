@@ -81,6 +81,7 @@ Yes, I still hate leetcode :(
 | [0322-coin-change](https://github.com/chonyy/leetcode-solutions/tree/master/0322-coin-change) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/chonyy/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0427-construct-quad-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0427-construct-quad-tree) |
@@ -259,6 +260,7 @@ Yes, I still hate leetcode :(
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0344-reverse-string](https://github.com/chonyy/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0394-decode-string](https://github.com/chonyy/leetcode-solutions/tree/master/0394-decode-string) |
+| [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
 | [0424-longest-repeating-character-replacement](https://github.com/chonyy/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
@@ -475,6 +477,7 @@ Yes, I still hate leetcode :(
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/chonyy/leetcode-solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
+| [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/chonyy/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/chonyy/leetcode-solutions/tree/master/0463-island-perimeter) |
 | [0543-diameter-of-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
@@ -589,6 +592,7 @@ Yes, I still hate leetcode :(
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
 | [0743-network-delay-time](https://github.com/chonyy/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/chonyy/leetcode-solutions/tree/master/1325-path-with-maximum-probability) |
@@ -739,6 +743,7 @@ Yes, I still hate leetcode :(
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/chonyy/leetcode-solutions/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/chonyy/leetcode-solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/chonyy/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/chonyy/leetcode-solutions/tree/master/0463-island-perimeter) |
 | [0684-redundant-connection](https://github.com/chonyy/leetcode-solutions/tree/master/0684-redundant-connection) |
@@ -905,6 +910,7 @@ Yes, I still hate leetcode :(
 | [0130-surrounded-regions](https://github.com/chonyy/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/chonyy/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/chonyy/leetcode-solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/chonyy/leetcode-solutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/chonyy/leetcode-solutions/tree/master/0721-accounts-merge) |
@@ -970,6 +976,7 @@ Yes, I still hate leetcode :(
 | [0210-course-schedule-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/chonyy/leetcode-solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
+| [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/chonyy/leetcode-solutions/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/chonyy/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
