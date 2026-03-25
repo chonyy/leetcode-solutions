@@ -1,35 +1,48 @@
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
-        vector<int> nodeTime(n+1, INT_MAX);
-        nodeTime[k] = 0;
+        unordered_map<int, vector<pair<int,int>>> graph;
 
-        for (int i = 0; i < n; i ++) {
-            vector<int> temp = nodeTime;
-            for (auto& t : times) {
-                int cur = t[0];
-                int next = t[1];
-                int cost = t[2];
-                
-                if (nodeTime[cur] == INT_MAX) {
+        for (auto& t : times) {
+            graph[t[0]].push_back({t[1], t[2]});
+        }
+
+        vector<bool> inQueue(n+1, false);
+        vector<int> dist(n+1, INT_MAX);
+
+        queue<int> q;
+        q.push({k});
+        dist[k] = 0;
+        inQueue[k] = true;
+
+        while (!q.empty()) {
+            int cur = q.front();
+            q.pop();
+
+            inQueue[cur] = false;
+
+            for (auto& nei : graph[cur]) {
+                int next = nei.first;
+                int time = nei.second;
+
+                if (dist[next] <= dist[cur] + time) {
+                    continue;
+                }
+                dist[next] = dist[cur] + time;
+
+                if (inQueue[next]) {
                     continue;
                 }
 
-                if (nodeTime[cur] + cost < temp[next]) {
-                    // cout << next << " " << nodeTime[cur] + cost << endl;
-                    temp[next] = nodeTime[cur] + cost;
-                }
+                inQueue[next] = true;
+                q.push(next);
             }
-
-            swap(temp, nodeTime);
         }
 
         int res = 0;
+
         for (int i = 1; i <= n; i ++) {
-            if (i == k) {
-                continue;
-            }
-            res = max(res, nodeTime[i]);
+            res = max(res, dist[i]);
         }
 
         return res == INT_MAX ? -1 : res;
