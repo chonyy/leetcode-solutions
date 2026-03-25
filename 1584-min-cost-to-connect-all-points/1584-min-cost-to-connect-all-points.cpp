@@ -27,15 +27,13 @@ public:
             int cost = pq.top().first;
             pq.pop();
 
-            // cout << "point " << point << " cost " << cost << endl;
-
             if (visited.contains(point)) {
                 continue;
             }
+            visited.insert(point);
 
             // add cost
             curCost += cost;
-            visited.insert(point);
 
             // traverse neighbors
             // skip visited
@@ -43,10 +41,6 @@ public:
             // cout << neighbors.size() << endl;
 
             for (auto& nei : neighbors) {
-                if (visited.contains(nei.second)) {
-                    continue;
-                }
-
                 pq.push(nei);
             }
         }
