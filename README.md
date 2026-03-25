@@ -140,6 +140,7 @@ Yes, I still hate leetcode :(
 | [1584-min-cost-to-connect-all-points](https://github.com/chonyy/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/chonyy/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1803-average-waiting-time](https://github.com/chonyy/leetcode-solutions/tree/master/1803-average-waiting-time) |
@@ -497,6 +498,7 @@ Yes, I still hate leetcode :(
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1462-course-schedule-iv](https://github.com/chonyy/leetcode-solutions/tree/master/1462-course-schedule-iv) |
+| [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -553,6 +555,7 @@ Yes, I still hate leetcode :(
 | [0994-rotting-oranges](https://github.com/chonyy/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/chonyy/leetcode-solutions/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2373-largest-local-values-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/2373-largest-local-values-in-a-matrix) |
@@ -713,6 +716,7 @@ Yes, I still hate leetcode :(
 | [1095-find-in-mountain-array](https://github.com/chonyy/leetcode-solutions/tree/master/1095-find-in-mountain-array) |
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
 ## Counting
 |  |
@@ -761,6 +765,7 @@ Yes, I still hate leetcode :(
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1462-course-schedule-iv](https://github.com/chonyy/leetcode-solutions/tree/master/1462-course-schedule-iv) |
+| [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Strongly Connected Component
@@ -820,6 +825,7 @@ Yes, I still hate leetcode :(
 | [0912-sort-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1325-path-with-maximum-probability](https://github.com/chonyy/leetcode-solutions/tree/master/1325-path-with-maximum-probability) |
+| [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/chonyy/leetcode-solutions/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2434-design-a-number-container-system](https://github.com/chonyy/leetcode-solutions/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/chonyy/leetcode-solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -920,6 +926,7 @@ Yes, I still hate leetcode :(
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [1361-validate-binary-tree-nodes](https://github.com/chonyy/leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1584-min-cost-to-connect-all-points](https://github.com/chonyy/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
+| [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 ## Monotonic Stack
 |  |
 | ------- |
