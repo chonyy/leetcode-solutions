@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
         unordered_map<int,int> inDegree;
-        unordered_map<int, unordered_set<int>> graph;
+        unordered_map<int, vector<int>> graph;
 
         if (edges.size() == 0) {
             return {0};
@@ -11,8 +11,8 @@ public:
         for (auto& e : edges) {
             inDegree[e[0]] ++;
             inDegree[e[1]] ++;
-            graph[e[0]].insert(e[1]);
-            graph[e[1]].insert(e[0]);
+            graph[e[0]].push_back(e[1]);
+            graph[e[1]].push_back(e[0]);
         }
 
         queue<int> q;
