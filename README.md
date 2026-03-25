@@ -475,6 +475,7 @@ Yes, I still hate leetcode :(
 | [0230-kth-smallest-element-in-a-bst](https://github.com/chonyy/leetcode-solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/chonyy/leetcode-solutions/tree/master/0310-minimum-height-trees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/chonyy/leetcode-solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
@@ -587,6 +588,7 @@ Yes, I still hate leetcode :(
 | ------- |
 | [0207-course-schedule](https://github.com/chonyy/leetcode-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/chonyy/leetcode-solutions/tree/master/0310-minimum-height-trees) |
 | [1462-course-schedule-iv](https://github.com/chonyy/leetcode-solutions/tree/master/1462-course-schedule-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Shortest Path
@@ -741,6 +743,7 @@ Yes, I still hate leetcode :(
 | [0210-course-schedule-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/chonyy/leetcode-solutions/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/chonyy/leetcode-solutions/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/chonyy/leetcode-solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
@@ -974,6 +977,7 @@ Yes, I still hate leetcode :(
 | [0133-clone-graph](https://github.com/chonyy/leetcode-solutions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/chonyy/leetcode-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/chonyy/leetcode-solutions/tree/master/0310-minimum-height-trees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/chonyy/leetcode-solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
