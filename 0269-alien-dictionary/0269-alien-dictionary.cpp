@@ -3,55 +3,50 @@ public:
     string alienOrder(vector<string>& words) {
         unordered_map<char, vector<char>> graph;
         unordered_map<char, int> inDegree;
-        unordered_set<char> visiting;
-        unordered_set<char> visited;
+        int visited = 0;
 
         // build graph
         // keep track of inDegree
         if (!buildGraph(graph, inDegree, words))
             return "";
 
+        cout << inDegree.size() << endl;
+
+        // return empty if no inDegree == 0
+        queue<char> q;
         string res = "";
-
         for (auto& entry : inDegree) {
-            char cur = entry.first;
-            // cout << "loop " << cur << endl;
-
-            if (hasCycle(graph, visiting, visited, res, cur)) {
-                return "";
+            if (entry.second == 0) {
+                q.push(entry.first);
+                res.push_back(entry.first);
+                visited ++;
             }
         }
 
-        reverse(res.begin(), res.end());
-        return res;
-    }
-
-    bool hasCycle(unordered_map<char, vector<char>>& graph, unordered_set<char>& visiting, unordered_set<char>& visited, string& res, char cur) {
-        // skip if already visiting -> cycle
-        // cout << cur << endl;
-        if (visiting.contains(cur)) {
-            // cout << "cycle" << endl;
-            return true;
+        if (q.empty()) {
+            return "";
         }
 
-        if (visited.contains(cur)) {
-                return false;
-            }
+        // Start with nodes with 0 inDegree
+        // topological sort
+        // add to res string when inDegree == 0
+        while (!q.empty()) {
+            char cur = q.front();
+            q.pop();
 
-        visiting.insert(cur);
-        vector<char> neighbors = graph[cur];
-        for (char nei : neighbors) {
-            if (hasCycle(graph, visiting, visited, res, nei)) {
-                return true;
+            vector<char>& neighbors = graph[cur];
+            for (char nei : neighbors) {
+                inDegree[nei] --;
+
+                if (inDegree[nei] == 0) {
+                    res.push_back(nei);
+                    q.push(nei);
+                    visited ++;
+                }
             }
         }
 
-        // cout << "finish " << cur << endl;
-        res.push_back(cur);
-        visited.insert(cur);
-        visiting.erase(cur);
-
-        return false;
+        return visited == inDegree.size() ? res : "";
     }
 
     bool buildGraph(unordered_map<char, vector<char>>& graph, unordered_map<char, int>& inDegree, vector<string>& words) {
