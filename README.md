@@ -64,6 +64,7 @@ Yes, I still hate leetcode :(
 | [0152-maximum-product-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chonyy/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/chonyy/leetcode-solutions/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/chonyy/leetcode-solutions/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/chonyy/leetcode-solutions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/chonyy/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
@@ -187,6 +188,7 @@ Yes, I still hate leetcode :(
 | [0050-powx-n](https://github.com/chonyy/leetcode-solutions/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chonyy/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/chonyy/leetcode-solutions/tree/master/0189-rotate-array) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
@@ -690,6 +692,7 @@ Yes, I still hate leetcode :(
 | [0141-linked-list-cycle](https://github.com/chonyy/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/chonyy/leetcode-solutions/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chonyy/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/chonyy/leetcode-solutions/tree/master/0189-rotate-array) |
 | [0287-find-the-duplicate-number](https://github.com/chonyy/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/chonyy/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
