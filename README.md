@@ -149,6 +149,7 @@ Yes, I still hate leetcode :(
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/chonyy/leetcode-solutions/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [1929-concatenation-of-array](https://github.com/chonyy/leetcode-solutions/tree/master/1929-concatenation-of-array) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/chonyy/leetcode-solutions/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/chonyy/leetcode-solutions/tree/master/2067-maximum-number-of-points-with-cost) |
@@ -317,6 +318,7 @@ Yes, I still hate leetcode :(
 | [0901-online-stock-span](https://github.com/chonyy/leetcode-solutions/tree/master/0901-online-stock-span) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/chonyy/leetcode-solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/chonyy/leetcode-solutions/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/chonyy/leetcode-solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2846-robot-collisions](https://github.com/chonyy/leetcode-solutions/tree/master/2846-robot-collisions) |
 | [3447-clear-digits](https://github.com/chonyy/leetcode-solutions/tree/master/3447-clear-digits) |
@@ -943,6 +945,7 @@ Yes, I still hate leetcode :(
 | [0739-daily-temperatures](https://github.com/chonyy/leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/chonyy/leetcode-solutions/tree/master/0853-car-fleet) |
 | [0901-online-stock-span](https://github.com/chonyy/leetcode-solutions/tree/master/0901-online-stock-span) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/chonyy/leetcode-solutions/tree/master/1944-number-of-visible-people-in-a-queue) |
 ## Monotonic Queue
 |  |
 | ------- |
