@@ -348,6 +348,7 @@ Yes, I still hate leetcode :(
 | [0954-array-of-doubled-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1333-sort-the-jumbled-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1333-sort-the-jumbled-numbers) |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
@@ -776,6 +777,7 @@ Yes, I still hate leetcode :(
 ## Strongly Connected Component
 |  |
 | ------- |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 ## Design
 |  |
@@ -930,6 +932,7 @@ Yes, I still hate leetcode :(
 | [0721-accounts-merge](https://github.com/chonyy/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [1361-validate-binary-tree-nodes](https://github.com/chonyy/leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/chonyy/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 ## Monotonic Stack
@@ -1000,6 +1003,7 @@ Yes, I still hate leetcode :(
 | [0997-find-the-town-judge](https://github.com/chonyy/leetcode-solutions/tree/master/0997-find-the-town-judge) |
 | [1361-validate-binary-tree-nodes](https://github.com/chonyy/leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1462-course-schedule-iv](https://github.com/chonyy/leetcode-solutions/tree/master/1462-course-schedule-iv) |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/chonyy/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 ## Eulerian Circuit
 |  |
@@ -1008,6 +1012,7 @@ Yes, I still hate leetcode :(
 ## Minimum Spanning Tree
 |  |
 | ------- |
+| [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/chonyy/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 ## Memoization
 |  |
