@@ -86,6 +86,7 @@ Yes, I still hate leetcode :(
 | [0322-coin-change](https://github.com/chonyy/leetcode-solutions/tree/master/0322-coin-change) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/chonyy/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
@@ -194,6 +195,7 @@ Yes, I still hate leetcode :(
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
+| [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
@@ -390,6 +392,7 @@ Yes, I still hate leetcode :(
 | [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/chonyy/leetcode-solutions/tree/master/0355-design-twitter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/chonyy/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0454-4sum-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0454-4sum-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/chonyy/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -802,6 +805,7 @@ Yes, I still hate leetcode :(
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0304-range-sum-query-2d-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0355-design-twitter](https://github.com/chonyy/leetcode-solutions/tree/master/0355-design-twitter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0705-design-hashset](https://github.com/chonyy/leetcode-solutions/tree/master/0705-design-hashset) |
@@ -1039,4 +1043,8 @@ Yes, I still hate leetcode :(
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/chonyy/leetcode-solutions/tree/master/0374-guess-number-higher-or-lower) |
 | [1095-find-in-mountain-array](https://github.com/chonyy/leetcode-solutions/tree/master/1095-find-in-mountain-array) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
