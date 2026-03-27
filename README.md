@@ -255,6 +255,7 @@ Yes, I still hate leetcode :(
 | [0020-valid-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
+| [0058-length-of-last-word](https://github.com/chonyy/leetcode-solutions/tree/master/0058-length-of-last-word) |
 | [0071-simplify-path](https://github.com/chonyy/leetcode-solutions/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/chonyy/leetcode-solutions/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/chonyy/leetcode-solutions/tree/master/0076-minimum-window-substring) |
