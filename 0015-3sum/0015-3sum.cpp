@@ -1,45 +1,41 @@
 class Solution {
 public:
-    void twoSum(int i, vector<int>& nums, vector<vector<int>>& res) {
-        int l = i + 1;
-        int r = nums.size() - 1;
-        int target = -nums[i];
-
-        while (l < r) {
-            int curSum = nums[l] + nums[r];
-            
-            if (curSum == target) {
-                res.push_back({nums[i] , nums[l], nums[r]});
-                l ++;
-                r --;
-
-                while(nums[l] == nums[l-1] && l < r) {
-                l ++;
-                }
-                while(nums[r] == nums[r+1] && l < r) {
-                    r --;
-                }
-            }
-            else if (curSum < target) {
-                l ++;
-            }
-            else {
-                r --;
-            }
-        }
-    }
-
     vector<vector<int>> threeSum(vector<int>& nums) {
         sort(nums.begin(), nums.end());
         int n = nums.size();
         vector<vector<int>> res;
 
         for (int i = 0; i < n - 2; i ++) {
+            int l = i + 1;
+            int r = n - 1;
+            int target = -nums[i];
+
             if (i > 0 && nums[i] == nums[i-1]) {
                 continue;
             }
 
-            twoSum(i, nums, res);
+            while (l < r) {
+                int cur = nums[l]+ nums[r];
+
+                if (cur == target) {
+                    res.push_back({nums[i], nums[l], nums[r]});
+
+                    while (l < n -1 && nums[l] == nums[l+1]) {
+                        l ++;
+                    }
+
+                    while (r > 0 && nums[r] == nums[r-1]) {
+                        r --;
+                    }
+                }
+
+                if (cur < target) {
+                    l ++;
+                }
+                else {
+                    r --;
+                }
+            }
         }
 
         return res;
