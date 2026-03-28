@@ -1,51 +1,57 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        if (t.size() > s.size()) {
-            return "";
-        }
-
         unordered_map<char,int> count;
 
         for (char c : t) {
             count[c] ++;
         }
 
-        int l = 0;
         int r = 0;
-        int minLen = INT_MAX;
-        int ansStart = 0;
-        int counter = t.size();
-        string res;
+        int l = 0;
+        int n = s.size();
+        int remain = t.size();
+        int resStart = -1;
+        int resLen = INT_MAX;
 
-        while (r < s.size()) {
-            // add new
+        while (r < n) {
             if (count[s[r]] > 0) {
-                counter --;
+                remain --;
             }
             count[s[r]] --;
 
-            while (counter == 0) {
-                int len = r - l + 1;
-
-                // get answer
-                if (len < minLen) {
-                    minLen = len;
-                    ansStart = l;
+            while (remain == 0) {
+                if (count[s[l]] >= 0) {
+                    remain ++;
                 }
-
-                // previously added
-                if (count[s[l]] == 0) {
-                    counter ++;
-                }
-
                 count[s[l]] ++;
+
+                int len = r - l + 1;
+                if (len < resLen) {
+                    resLen = len;
+                    resStart = l;
+                }
+
                 l ++;
             }
 
             r ++;
         }
 
-        return minLen == INT_MAX ? "" : s.substr(ansStart, minLen);
+        return resStart == -1 ? "" : s.substr(resStart, resLen);
     }
 };
+
+// ADOBECODEBANC
+//             r
+//          l 
+
+// A: 0
+// B: 1
+// C: 0
+// D: 0
+// O: 0
+// E: 0
+// N: -1
+
+// remain = 1
