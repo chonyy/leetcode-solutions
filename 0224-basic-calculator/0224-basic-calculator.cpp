@@ -9,7 +9,7 @@ public:
         for(int i = 0; i < n; i ++) {
             char c = s[i];
             if(isdigit(c)) {
-                int num = c - '0';
+                long long num = c - '0';
                 while(isdigit(s[i+1])) {
                     num = num * 10 + (s[i+1] - '0');
                     i ++;
