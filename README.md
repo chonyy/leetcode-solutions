@@ -198,6 +198,7 @@ Yes, I still hate leetcode :(
 | [0070-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chonyy/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/chonyy/leetcode-solutions/tree/master/0189-rotate-array) |
+| [0224-basic-calculator](https://github.com/chonyy/leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
@@ -223,6 +224,7 @@ Yes, I still hate leetcode :(
 | [0050-powx-n](https://github.com/chonyy/leetcode-solutions/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/chonyy/leetcode-solutions/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/chonyy/leetcode-solutions/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/chonyy/leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0394-decode-string](https://github.com/chonyy/leetcode-solutions/tree/master/0394-decode-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
@@ -277,6 +279,7 @@ Yes, I still hate leetcode :(
 | [0140-word-break-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0212-word-search-ii) |
+| [0224-basic-calculator](https://github.com/chonyy/leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0269-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -325,6 +328,7 @@ Yes, I still hate leetcode :(
 | [0145-binary-tree-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chonyy/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/chonyy/leetcode-solutions/tree/master/0155-min-stack) |
+| [0224-basic-calculator](https://github.com/chonyy/leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0225-implement-stack-using-queues](https://github.com/chonyy/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/chonyy/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/chonyy/leetcode-solutions/tree/master/0394-decode-string) |
