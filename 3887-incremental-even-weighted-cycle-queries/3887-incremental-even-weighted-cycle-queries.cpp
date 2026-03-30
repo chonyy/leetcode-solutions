@@ -1,3 +1,24 @@
+// Component A:        Component B:
+//     p1 (root)           p2 (root)
+//     |  dist[n1]         |  dist[n2]
+//     n1                  n2
+
+// We know: n1 --w-- n2 (the new edge)
+
+
+// We want to attach p2 under p1. We need dist[p2] = distance from p2 to p1.
+
+// The path from p2 to p1 goes: p2 → n2 → n1 → p1
+
+// p2 →(dist[n2])→ n2 →(w)→ n1 →(dist[n1])→ p1
+
+// dist[p2] = dist[n2] + w + dist[n1]
+
+
+// That's it! We DO know the distance — it's dist[n1] + dist[n2] + w.
+
+// The key: set dist[p2], not dist[n2]. n2 already has its dist set correctly (relative to its old root p2). We're only moving p2 — it's the one getting a new parent.
+
 class Solution {
 public:
     unordered_map<int,int> parent;
