@@ -209,6 +209,7 @@ Yes, I still hate leetcode :(
 | [0224-basic-calculator](https://github.com/chonyy/leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
+| [0279-perfect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0371-sum-of-two-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
@@ -688,6 +689,7 @@ Yes, I still hate leetcode :(
 | [0198-house-robber](https://github.com/chonyy/leetcode-solutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
+| [0279-perfect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/chonyy/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/chonyy/leetcode-solutions/tree/master/0322-coin-change) |
@@ -822,6 +824,7 @@ Yes, I still hate leetcode :(
 | [0210-course-schedule-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0269-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0269-alien-dictionary) |
+| [0279-perfect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/chonyy/leetcode-solutions/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/chonyy/leetcode-solutions/tree/master/0322-coin-change) |
