@@ -15,20 +15,20 @@ public:
         vector<bool> dp(target+1, false);
         dp[0] = true;
 
-        for (int num : nums) {
-            for (int i = target; i >= 1; i --) {
-                if (num > i) {
+        for (int num : nums) { // ensure num is only use once, needs to be on outer loop
+            for (int i = target; i >= 1; i --) { // need to be in reverse to reuse previous round
+                int need = i - num;
+
+                if (need < 0) {
                     continue;
                 }
 
-                int need = i - num;
                 if (dp[need]) {
-                    // cout << i << " using " << num << endl;
                     dp[i] = true;
                 }
             }
         }
-
+       
         return dp[target];
     }
 };
