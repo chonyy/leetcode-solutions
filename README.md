@@ -129,6 +129,7 @@ Yes, I still hate leetcode :(
 | [0835-image-overlap](https://github.com/chonyy/leetcode-solutions/tree/master/0835-image-overlap) |
 | [0853-car-fleet](https://github.com/chonyy/leetcode-solutions/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/chonyy/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
+| [0877-stone-game](https://github.com/chonyy/leetcode-solutions/tree/master/0877-stone-game) |
 | [0881-boats-to-save-people](https://github.com/chonyy/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0912-sort-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0912-sort-an-array) |
@@ -214,6 +215,7 @@ Yes, I still hate leetcode :(
 | [0371-sum-of-two-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
+| [0877-stone-game](https://github.com/chonyy/leetcode-solutions/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
@@ -707,6 +709,7 @@ Yes, I still hate leetcode :(
 | [0746-min-cost-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [0773-sliding-puzzle](https://github.com/chonyy/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0877-stone-game](https://github.com/chonyy/leetcode-solutions/tree/master/0877-stone-game) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1027-longest-arithmetic-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1027-longest-arithmetic-subsequence) |
 | [1143-longest-common-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
@@ -1126,4 +1129,8 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [2709-greatest-common-divisor-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/2709-greatest-common-divisor-traversal) |
+## Game Theory
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/chonyy/leetcode-solutions/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
