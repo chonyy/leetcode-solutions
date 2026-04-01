@@ -186,6 +186,7 @@ Yes, I still hate leetcode :(
 | [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/chonyy/leetcode-solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
+| [2709-greatest-common-divisor-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/2709-greatest-common-divisor-traversal) |
 | [2727-number-of-senior-citizens](https://github.com/chonyy/leetcode-solutions/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/chonyy/leetcode-solutions/tree/master/2846-robot-collisions) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
@@ -218,6 +219,7 @@ Yes, I still hate leetcode :(
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2448-count-number-of-bad-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/2448-count-number-of-bad-pairs) |
 | [2649-count-total-number-of-colored-cells](https://github.com/chonyy/leetcode-solutions/tree/master/2649-count-total-number-of-colored-cells) |
+| [2709-greatest-common-divisor-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/2709-greatest-common-divisor-traversal) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/chonyy/leetcode-solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3227-find-missing-and-repeated-values](https://github.com/chonyy/leetcode-solutions/tree/master/3227-find-missing-and-repeated-values) |
 ## Recursion
@@ -1006,6 +1008,7 @@ Yes, I still hate leetcode :(
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/chonyy/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [2709-greatest-common-divisor-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/2709-greatest-common-divisor-traversal) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -1107,4 +1110,8 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
+## Number Theory
+|  |
+| ------- |
+| [2709-greatest-common-divisor-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/2709-greatest-common-divisor-traversal) |
 <!---LeetCode Topics End-->
