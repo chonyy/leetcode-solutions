@@ -16,7 +16,8 @@ public:
         dp[0] = true;
 
         for (int num : nums) { // ensure num is only use once, needs to be on outer loop
-            for (int i = target; i >= 1; i --) { // need to be in reverse to reuse previous round
+            vector<bool> temp = dp;
+            for (int i = 1; i <= target; i ++) { // need to be in reverse to reuse previous round
                 int need = i - num;
 
                 if (need < 0) {
@@ -24,9 +25,10 @@ public:
                 }
 
                 if (dp[need]) {
-                    dp[i] = true;
+                    temp[i] = true;
                 }
             }
+            swap(temp, dp);
         }
        
         return dp[target];
