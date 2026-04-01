@@ -1,15 +1,24 @@
 class Solution {
 public:
-    unordered_map<int, int> m;
+
     int tribonacci(int n) {
         if(n < 2)
             return n;
         if(n == 2)
             return 1;
-        if(m[n])
-            return m[n];
         
-        int ans = tribonacci(n-1) + tribonacci(n-2) + tribonacci(n-3);
-        return m[n] = ans;
+        int prevOne = 1;
+        int prevTwo = 1;
+        int prevThree = 0;
+
+        for (int i = 3; i <= n; i ++) {
+            int temp = prevThree + prevTwo + prevOne;
+
+            prevThree = prevTwo;
+            prevTwo = prevOne;
+            prevOne = temp;
+        }
+
+        return prevOne;
     }
 };
