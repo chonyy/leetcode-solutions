@@ -1,37 +1,31 @@
 class Solution {
 public:
-    vector<vector<int>> dp;
     int numDistinct(string s, string t) {
         int m = s.size();
         int n = t.size();
 
-        dp = vector<vector<int>>(m, vector<int>(n, -1));
+        vector<vector<unsigned long long>> dp(m+1, vector<unsigned long long>(n+1));
 
-        return solve(s, 0, t, 0);
-    }
-
-    int solve(string& s, int i, string& t, int j) {
-        if (j == t.size()) {
-            return 1;
-        }
-        if (i == s.size()) {
-            return 0;
+        for (int i = 0; i <= m; i ++) {
+            dp[i][n] = 1;
         }
 
-        if (dp[i][j] != -1) {
-            return dp[i][j];
+        for (int i = m-1; i >= 0; i --) {
+            for (int j = n-1; j >= 0; j --) {
+                dp[i][j] += dp[i+1][j];
+                if (s[i] == t[j]) {
+                    dp[i][j] += dp[i+1][j+1];
+                }
+            }
         }
 
-        int res = 0;
-        if (s[i] == t[j]) {
-            res += solve(s, i+1, t, j);
-            res += solve(s, i+1, t, j+1);
-        }
-        else {
-            res += solve(s, i+1, t, j);
-        }
-    
-        dp[i][j] = res;
-        return res;
+        return dp[0][0];
     }
 };
+
+      
+//     b a b g b a g
+//   0 0 0 0 0 0 0 0   
+// b 0 1 1 2 2 3 3 3
+// a 0 0 2 
+// g 0
