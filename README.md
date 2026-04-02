@@ -192,6 +192,7 @@ Yes, I still hate leetcode :(
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 | [2709-greatest-common-divisor-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/2709-greatest-common-divisor-traversal) |
 | [2727-number-of-senior-citizens](https://github.com/chonyy/leetcode-solutions/tree/master/2727-number-of-senior-citizens) |
+| [2826-sorting-three-groups](https://github.com/chonyy/leetcode-solutions/tree/master/2826-sorting-three-groups) |
 | [2846-robot-collisions](https://github.com/chonyy/leetcode-solutions/tree/master/2846-robot-collisions) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/chonyy/leetcode-solutions/tree/master/3227-find-missing-and-repeated-values) |
@@ -728,6 +729,7 @@ Yes, I still hate leetcode :(
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/chonyy/leetcode-solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
+| [2826-sorting-three-groups](https://github.com/chonyy/leetcode-solutions/tree/master/2826-sorting-three-groups) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -806,6 +808,7 @@ Yes, I still hate leetcode :(
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
+| [2826-sorting-three-groups](https://github.com/chonyy/leetcode-solutions/tree/master/2826-sorting-three-groups) |
 ## Counting
 |  |
 | ------- |
