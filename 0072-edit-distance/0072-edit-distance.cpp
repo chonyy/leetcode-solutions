@@ -7,21 +7,21 @@ public:
         vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
 
         for (int i = 0; i <= n; i ++) {
-            dp[i][0] = i;
-        }
+            for (int j = 0; j <= m; j ++) {
+                if (i == 0) {
+                    dp[i][j] = j;
+                    continue;
+                }
+                if (j == 0) {
+                    dp[i][j] = i;
+                    continue;
+                }
 
-        for (int j = 0; j <= m; j ++) {
-            dp[0][j] = j;
-        }
-
-        for (int i = 1; i <= n; i ++) {
-            for (int j = 1; j <= m; j ++) {
                 if (word1[i-1] == word2[j-1]) {
                     dp[i][j] = dp[i-1][j-1];
                 }
                 else {
-                    dp[i][j] = min(dp[i][j-1], dp[i-1][j]);
-                    dp[i][j] = min(dp[i][j], dp[i-1][j-1]);
+                    dp[i][j] = min({dp[i][j-1], dp[i-1][j], dp[i-1][j-1]});
                     dp[i][j] ++;
                 }
             }
@@ -32,16 +32,27 @@ public:
 };
 
 
-//    "" a b d
-// "" 0  1 2 3
-// a  1  
-// c  2
-// d  3
+//     r o s
+//   0 1 2 3
+// h 1 1 2 3
+// o 2 2 1 2
+// r 3 2 2 2
+// s 4 3 3 2
+// e 5 4 4 3
 
 
-// if same char
-// dp[i][j] = dp[i-1][j-1]
+// horse
+// ros
 
-// if not
+// hors
+// ros
 
-// dp[i][j] min(insert, delete, replace) + 1;
+// hor
+// ro
+
+// ho
+// ro
+
+// h
+// r
+
