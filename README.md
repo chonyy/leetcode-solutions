@@ -147,6 +147,7 @@ Yes, I still hate leetcode :(
 | [0997-find-the-town-judge](https://github.com/chonyy/leetcode-solutions/tree/master/0997-find-the-town-judge) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/chonyy/leetcode-solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1027-longest-arithmetic-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1027-longest-arithmetic-subsequence) |
+| [1049-last-stone-weight-ii](https://github.com/chonyy/leetcode-solutions/tree/master/1049-last-stone-weight-ii) |
 | [1095-find-in-mountain-array](https://github.com/chonyy/leetcode-solutions/tree/master/1095-find-in-mountain-array) |
 | [1140-stone-game-ii](https://github.com/chonyy/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
@@ -732,6 +733,7 @@ Yes, I still hate leetcode :(
 | [0877-stone-game](https://github.com/chonyy/leetcode-solutions/tree/master/0877-stone-game) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1027-longest-arithmetic-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1027-longest-arithmetic-subsequence) |
+| [1049-last-stone-weight-ii](https://github.com/chonyy/leetcode-solutions/tree/master/1049-last-stone-weight-ii) |
 | [1140-stone-game-ii](https://github.com/chonyy/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1143-longest-common-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/chonyy/leetcode-solutions/tree/master/1170-shortest-common-supersequence) |
