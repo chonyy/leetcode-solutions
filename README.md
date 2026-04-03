@@ -335,6 +335,7 @@ Yes, I still hate leetcode :(
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/chonyy/leetcode-solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/chonyy/leetcode-solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1871-jump-game-vii](https://github.com/chonyy/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/chonyy/leetcode-solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/chonyy/leetcode-solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2107-find-unique-binary-string](https://github.com/chonyy/leetcode-solutions/tree/master/2107-find-unique-binary-string) |
@@ -755,6 +756,7 @@ Yes, I still hate leetcode :(
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/chonyy/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/chonyy/leetcode-solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1871-jump-game-vii](https://github.com/chonyy/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/chonyy/leetcode-solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 | [2826-sorting-three-groups](https://github.com/chonyy/leetcode-solutions/tree/master/2826-sorting-three-groups) |
@@ -776,6 +778,7 @@ Yes, I still hate leetcode :(
 | [0978-longest-turbulent-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0978-longest-turbulent-subarray) |
 | [0992-subarrays-with-k-different-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
+| [1871-jump-game-vii](https://github.com/chonyy/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/chonyy/leetcode-solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/chonyy/leetcode-solutions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3483-alternating-groups-ii) |
@@ -1024,6 +1027,7 @@ Yes, I still hate leetcode :(
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/chonyy/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1871-jump-game-vii](https://github.com/chonyy/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
 ## Backtracking
 |  |
