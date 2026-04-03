@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/maximum-sum-circular-subarray/">918. Maximum Sum Circular Subarray</a></h2><h3>Medium</h3><hr><div><p>Given a <strong>circular integer array</strong> <code>nums</code> of length <code>n</code>, return <em>the maximum possible sum of a non-empty <strong>subarray</strong> of </em><code>nums</code>.</p>
+<h2><a href="https://leetcode.com/problems/maximum-sum-circular-subarray">954. Maximum Sum Circular Subarray</a></h2><h3>Medium</h3><hr><p>Given a <strong>circular integer array</strong> <code>nums</code> of length <code>n</code>, return <em>the maximum possible sum of a non-empty <strong>subarray</strong> of </em><code>nums</code>.</p>
 
 <p>A <strong>circular array</strong> means the end of the array connects to the beginning of the array. Formally, the next element of <code>nums[i]</code> is <code>nums[(i + 1) % n]</code> and the previous element of <code>nums[i]</code> is <code>nums[(i - 1 + n) % n]</code>.</p>
 
@@ -7,21 +7,24 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,-2,3,-2]
+<pre>
+<strong>Input:</strong> nums = [1,-2,3,-2]
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> Subarray [3] has maximum sum 3.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [5,-3,5]
+<pre>
+<strong>Input:</strong> nums = [5,-3,5]
 <strong>Output:</strong> 10
 <strong>Explanation:</strong> Subarray [5,5] has maximum sum 5 + 5 = 10.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> nums = [-3,-2,-3]
+<pre>
+<strong>Input:</strong> nums = [-3,-2,-3]
 <strong>Output:</strong> -2
 <strong>Explanation:</strong> Subarray [-2] has maximum sum -2.
 </pre>
@@ -34,4 +37,3 @@
 	<li><code>1 &lt;= n &lt;= 3 * 10<sup>4</sup></code></li>
 	<li><code>-3 * 10<sup>4</sup> &lt;= nums[i] &lt;= 3 * 10<sup>4</sup></code></li>
 </ul>
-</div>
