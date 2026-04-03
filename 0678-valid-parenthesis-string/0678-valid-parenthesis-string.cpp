@@ -1,51 +1,36 @@
 class Solution {
 public:
     bool checkValidString(string s) {
-        // if meet )
-        //     try consume (
-        //     if not, try consume *
+        int leftMin = 0;
+        int leftMax = 0;
 
-        // for remaining (, try consume all * after it
-
-        stack<int> stk, star; // store index
-        int n = s.size();
-
-        for (int i = 0; i < n; i ++) {
-            char c = s[i];
-
-            if (c == ')') {
-                if (!stk.empty() && s[stk.top()] == '(') {
-                    stk.pop();
-                    continue;
-                }
-                else if (!star.empty()) {
-                    star.pop();
-                    continue;
-                }
-                else {
-                    return false;
-                }
-            }
-
+        for (char c : s) {
             if (c == '*') {
-                star.push(i);
+                leftMax ++;
+                if (leftMin > 0) {
+                    leftMin --;
+                }
             }
 
             if (c == '(') {
-                stk.push(i);
+                leftMax ++;
+                leftMin ++;
+            }
+
+            if (c == ')') {
+                leftMax --;
+
+                if (leftMin > 0) {
+                    leftMin --;
+                }
+
+                if (leftMax < 0) {
+                    return false;
+                }
             }
         }
 
-        while (!stk.empty() && !star.empty()) {
-            if (star.top() < stk.top()) {
-                return false;
-            }
-
-            stk.pop();
-            star.pop();
-        }
-
-        return stk.empty();
+        return leftMin == 0;
     }
 };
 
@@ -70,5 +55,3 @@ public:
 
 // leftMax = 2
 // leftMin = 0
-
-// ( ( * ) 
