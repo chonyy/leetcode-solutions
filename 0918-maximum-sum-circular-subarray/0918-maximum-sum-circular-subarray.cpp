@@ -1,24 +1,27 @@
-
 class Solution {
 public:
     int maxSubarraySumCircular(vector<int>& nums) {
-        int curMax = 0;
-        int globalMax = nums[0];
-        int curMin = 0;
-        int globalMin = nums[0];
-        
-        int total = 0;
-        
-        for(int num : nums) {
-            curMax = max(num, curMax + num);
+        int curMax = nums[0];
+        int globalMax = curMax;
+        int curMin = nums[0];
+        int globalMin = curMin;
+
+        int n = nums.size();
+        int total = curMax;
+
+        for (int i = 1; i < n; i ++) {
+            int num = nums[i];
+            curMax = max(curMax + num, num);
             globalMax = max(globalMax, curMax);
-            curMin = min(num, curMin + num);
-            globalMin = min(curMin, globalMin);            
-            
+            curMin = min(curMin + num, num);
+            globalMin = min(globalMin, curMin);
             total += num;
         }
-        cout << globalMax << endl;
-        cout << globalMin << endl;
-        return globalMax > 0 ? max(globalMax, total - globalMin) : globalMax;
+
+        // total - globalMin: in the middle of ciruclar
+        // globalMax: normal array
+        // edge case: all negative
+
+        return globalMax < 0 ? globalMax : max(globalMax, total - globalMin);
     }
 };
