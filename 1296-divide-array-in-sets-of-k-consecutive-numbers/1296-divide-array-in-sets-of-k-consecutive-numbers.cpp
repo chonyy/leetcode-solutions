@@ -1,17 +1,38 @@
 class Solution {
 public:
     bool isPossibleDivide(vector<int>& nums, int k) {
-        if (nums.size() % k != 0) return false;
+        if (nums.size() % k != 0) {
+            return false;
+        }
 
-        map<int, int> count;
-        for (int num : nums) count[num]++;
+        unordered_map<int,int> count;
+        for (int num : nums) {
+            count[num] ++;
+        }
 
-        for (auto& [num, _] : count) {
-            int freq = count[num];  // copy, not reference
-            if (freq == 0) continue;
-            for (int i = 0; i < k; i++) {
-                if (count[num + i] < freq) return false;
-                count[num + i] -= freq;
+        for (int num : nums) {
+            if (count[num] == 0) {
+                continue;
+            }
+
+            while (count[num]) {
+                int smallest = num;
+                while (count[smallest-1]) {
+                    smallest --;
+                }
+
+                // cout << "small " << smallest << endl;
+                // try to get k consecutive and update count
+                for (int i = 0; i < k; i ++) {
+                    int target = smallest + i;
+
+                    // cout << "target " << target << endl;
+                    // cout << count[target] << endl;
+                    if (count[target] == 0) {
+                        return false;
+                    }
+                    count[target] --;
+                }
             }
         }
 
