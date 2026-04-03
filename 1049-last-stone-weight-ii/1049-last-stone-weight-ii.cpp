@@ -35,6 +35,7 @@ public:
             }
         }
 
+        // res is the diff between two groups
         return (sum - closest) - closest;
     }
 };
