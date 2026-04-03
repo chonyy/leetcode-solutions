@@ -155,6 +155,7 @@ Yes, I still hate leetcode :(
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/chonyy/leetcode-solutions/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1325-path-with-maximum-probability](https://github.com/chonyy/leetcode-solutions/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
@@ -402,6 +403,7 @@ Yes, I still hate leetcode :(
 | [0912-sort-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0954-array-of-doubled-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1333-sort-the-jumbled-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -461,6 +463,7 @@ Yes, I still hate leetcode :(
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -653,6 +656,7 @@ Yes, I still hate leetcode :(
 | [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
 | [0881-boats-to-save-people](https://github.com/chonyy/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [0954-array-of-doubled-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/chonyy/leetcode-solutions/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/chonyy/leetcode-solutions/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
