@@ -1,19 +1,26 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
+        int n = s.size();
         int l = 0;
-        int r = s.size() - 1;
+        int r = n-1;
 
         while (l < r) {
-            while (!isalnum(s[l]) && l < r) {
+            // pre filter
+            // skip non alpha
+            while (l < r && !isalnum(s[l])) {
                 l ++;
+                // cout << l << " " << r << endl;
             }
-
-            while (!isalnum(s[r]) && l < r) {
+            while (l < r && !isalnum(s[r])) {
                 r --;
+                // cout << l << " " << r << endl;
             }
 
+            // transform upper to lower
             if (tolower(s[l]) != tolower(s[r])) {
+                // cout << l << " " << r << endl;
+                // cout << s[l] << " " << s[r] << endl;
                 return false;
             }
 
