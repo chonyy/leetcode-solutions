@@ -176,6 +176,7 @@ Yes, I still hate leetcode :(
 | [1803-average-waiting-time](https://github.com/chonyy/leetcode-solutions/tree/master/1803-average-waiting-time) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/chonyy/leetcode-solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1885-count-pairs-in-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/1885-count-pairs-in-two-arrays) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/chonyy/leetcode-solutions/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [1929-concatenation-of-array](https://github.com/chonyy/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/chonyy/leetcode-solutions/tree/master/1944-number-of-visible-people-in-a-queue) |
@@ -415,6 +416,7 @@ Yes, I still hate leetcode :(
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1885-count-pairs-in-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/1885-count-pairs-in-two-arrays) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/chonyy/leetcode-solutions/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/chonyy/leetcode-solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -814,6 +816,7 @@ Yes, I still hate leetcode :(
 | [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
 | [0881-boats-to-save-people](https://github.com/chonyy/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1885-count-pairs-in-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/1885-count-pairs-in-two-arrays) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/chonyy/leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/chonyy/leetcode-solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -842,6 +845,7 @@ Yes, I still hate leetcode :(
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1885-count-pairs-in-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/1885-count-pairs-in-two-arrays) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2826-sorting-three-groups](https://github.com/chonyy/leetcode-solutions/tree/master/2826-sorting-three-groups) |
 ## Counting
