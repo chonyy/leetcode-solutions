@@ -1,72 +1,118 @@
-class LRUCache {
+class DoublyNode {
 public:
-    // doubly linked list
-    // hashmap from key to iterator for fast access
-    int capacity;
-    list<pair<int,int>> recent;
-    unordered_map<int, list<pair<int,int>> ::iterator> cache;
+    int key;
+    int val;
+    DoublyNode* prev;
+    DoublyNode* next;
 
-    LRUCache(int capacity) {
-        this->capacity = capacity;    
+    DoublyNode(int key, int value) {
+        this->key = key;
+        val = value;
+    }
+};
+
+class LinkedList {
+public:
+    // left: new, right: old
+    DoublyNode* left;
+    DoublyNode* right;
+    int cap;
+    int size;
+
+    LinkedList(int cap) {
+        this->cap = cap;
+        size = 0;
+        left = new DoublyNode(0, 0);
+        right = new DoublyNode(0, 0);
+        left->next = right;
+        right->prev = left;
+    }
+
+    DoublyNode* getRight() {
+        return right->prev;
+    }
+
+    void remove(DoublyNode* node) {
+        DoublyNode* prev = node->prev;
+        DoublyNode* next = node->next;
+
+        prev->next = next;
+        next->prev = prev;
+
+        size --;
+    }
+
+    void addToLeft(DoublyNode* node) {
+        DoublyNode* next = left->next;
+
+        left->next = node;
+        node->prev = left;
+
+        node->next = next;
+        next->prev = node;
+
+        size ++;
+    }
+
+    bool isFull() {
+        return size == cap;
+    }
+};
+
+class LRUCache {
+    // map: key -> DoublyNode
+    // doublyLinkedList: ll
+private:
+    unordered_map<int, DoublyNode*> map;
+    LinkedList ll;
+public:
+    LRUCache(int capacity) : ll(capacity) {
     }
     
     int get(int key) {
-        // printList();
-        // get from hashmap 
-        // if no contain, return -1
-        if (!cache.contains(key)) {
+        // check if contain in map
+        // return -1 if not
+        if (!map.contains(key)){
             return -1;
         }
 
-        // if yes
-        // move iterator to the front
-        // update map with new iterator
-        refresh(key);
-        return cache[key]->second;
+        // get DoublyNode from map
+        // remove from ll
+        // push to front
+        DoublyNode* node = map[key];
+        ll.remove(node);
+        ll.addToLeft(node);
+
+        return node->val;
     }
     
     void put(int key, int value) {
-        // printList();
-        // check contains in map
-        // if yes, move iterator to front
-        // update map with new iterator
-        if (cache.contains(key)) {
-            refresh(key);
-            recent.begin()->second = value;
+        // check if contain in map
+        // if yes, remove form ll and push to front
+        if (map.contains(key)) {
+            DoublyNode* node = map[key];
+            node->val = value;
+            ll.remove(node);
+            ll.addToLeft(node);
             return;
         }
 
-        // if no
-
         // if full
-        // get back iterator
-        // pop back
-        // remove from cache
-        // cout << "size " << recent.size() << " " << capacity << endl;
-        if (recent.size() == capacity) {
-            auto toDelete = recent.back();
-            recent.pop_back();
-            cache.erase(toDelete.first);
+        // get toDelete node from back
+        // remove toDelete from ll
+        // remove toDelete from map
+        if (ll.isFull()) {
+            DoublyNode* toDelete = ll.getRight();
+            ll.remove(toDelete);
+            map.erase(toDelete->key);
         }
 
-        // push to list front
-        // add to hashmap
-        recent.push_front({key, value});
-        cache[key] = recent.begin();
-    }
 
-    void refresh(int key) {
-        auto it = cache[key];
-        recent.splice(recent.begin(), recent, it);
-        cache[key] = recent.begin();
-    }
-
-    void printList() {
-        for (auto it = recent.begin(); it != recent.end(); it ++) {
-            cout << it->first << " ";
-        }
-
-        cout << endl;
+        // create new DoublyNode and push to front
+        // add entry in map
+        DoublyNode* newNode = new DoublyNode(key, value);
+        ll.addToLeft(newNode);
+        map[key] = newNode;
     }
 };
 
