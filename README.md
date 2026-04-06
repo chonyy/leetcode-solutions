@@ -349,6 +349,7 @@ Yes, I still hate leetcode :(
 | [2107-find-unique-binary-string](https://github.com/chonyy/leetcode-solutions/tree/master/2107-find-unique-binary-string) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/chonyy/leetcode-solutions/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2264-largest-3-same-digit-number-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/2264-largest-3-same-digit-number-in-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/chonyy/leetcode-solutions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
