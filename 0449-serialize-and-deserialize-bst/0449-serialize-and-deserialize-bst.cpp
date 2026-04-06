@@ -12,13 +12,20 @@ public:
 
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
+        string data = "";
+        ser(data, root);
+        return data;
+    }
+
+    void ser(string& data, TreeNode* root) {
         if (!root) {
-            return "#,";
+            data += "#,";
+            return;
         }
 
-        string str = to_string(root->val) + ",";
-        str += serialize(root->left) + serialize(root->right);
-        return str;
+        data += to_string(root->val) + ",";
+        ser(data, root->left);
+        ser(data, root->right);
     }
 
     // Decodes your encoded data to tree.
