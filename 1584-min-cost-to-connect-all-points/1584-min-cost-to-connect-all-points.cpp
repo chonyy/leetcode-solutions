@@ -1,70 +1,46 @@
-class UnionFind {
-private:
-    unordered_map<int,int> parent;
-    unordered_map<int,int> rank;
-public:
-    UnionFind(int n) {
-        for (int i = 0; i < n; i ++) {
-            parent[i] = i;
-            rank[i] = 1;
-        }
-    }
-
-    int find(int node) {
-        if (parent[node] == node) {
-            return node;
-        }
-
-        return parent[node] = find(parent[node]);
-    }
-
-    bool unionNode(int n1, int n2) {
-        int p1 = find(n1);
-        int p2 = find(n2);
-
-        if (p1 == p2) {
-            return false;
-        }
-
-        if (rank[p1] >= rank[p2]) {
-            parent[p2] = p1;
-            rank[p1] ++;
-        }
-        else {
-            parent[p1] = p2;
-            rank[p2] ++;
-        }
-
-        return true;
-    }
-};
-
 class Solution {
 public:
     int minCostConnectPoints(vector<vector<int>>& points) {
         int n = points.size();
-        UnionFind uf = UnionFind(n);
-
-        vector<vector<int>> edges;
-
-        for (int i = 0; i < n; i ++) {
-            for (int j = i + 1; j < n; j ++) {
-                auto& p1 = points[i];
-                auto& p2 = points[j];
-                int cost = abs(p1[0] - p2[0]) + abs(p1[1] - p2[1]);
-
-                edges.push_back({cost, i, j});
-            }
-        }
-
-        sort(edges.begin(), edges.end());
-        
+        int nodes = 1;
+        int cur = 0;
         int res = 0;
 
-        for (auto& e : edges) {
-            if (uf.unionNode(e[1], e[2])) {
-                res += e[0];
+        unordered_set<int> visited;
+        vector<int> dist(n, INT_MAX);
+        dist[0] = 0;
+
+        while (nodes < n) {
+            // cout << cur << endl;
+            // add to visited
+            visited.insert(cur);
+
+            // loop through all nodes
+            // skip cur
+            // skip visited
+            // track minDist and nextNode
+            int curMin = INT_MAX;
+            int next = -1;
+            for (int i = 0; i < n; i ++) {
+                if (visited.contains(i)) {
+                    continue;
+                }
+
+                int cost = abs(points[cur][0] - points[i][0]) + abs(points[cur][1] - points[i][1]);
+                dist[i] = min(dist[i], cost);
+
+                if (dist[i] < curMin) {
+                    curMin = dist[i];
+                    next = i;
+                }
             }
+
+            // after loop
+            // res += minDist
+            // cur = nextNode
+            res += curMin;
+            cur = next;
+            nodes ++;
         }
 
         return res;
