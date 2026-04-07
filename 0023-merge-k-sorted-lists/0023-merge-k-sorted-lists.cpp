@@ -11,31 +11,54 @@
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        auto cmp = [](ListNode* n1, ListNode* n2) {
-            return n1->val > n2->val;
-        };
-        priority_queue<ListNode*, vector<ListNode*>, decltype(cmp)> pq(cmp);
+        int n = lists.size();
+        int increase = 1;
 
-        for (ListNode* node : lists) {
-            if (node) {
-                pq.push(node);
+        if (n == 0) return nullptr;
+
+        while (increase < n) {
+            for (int i = 0; i < n; i += 2 * increase) {
+                if (i + increase >= n) {
+                    continue;
+                }
+
+                ListNode* first = lists[i];
+                ListNode* second = lists[i + increase];
+
+                ListNode* merged = merge(first, second);
+
+                lists[i] = merged;
             }
+
+            increase = increase * 2;
         }
 
+        return lists[0];
+    }
+
+    ListNode* merge(ListNode* n1, ListNode* n2) {
         ListNode* sent = new ListNode();
         ListNode* cur = sent;
 
-        while (!pq.empty()) {
-            ListNode* small = pq.top();
-            pq.pop();
-            
-            cur->next = small;
-
-            if (small->next) {
-                pq.push(small->next);
+        while (n1 && n2) {
+            if (n1->val <= n2->val) {
+                cur->next = n1;
+                n1 = n1->next;
+            }
+            else {
+                cur->next = n2;
+                n2 = n2->next;
             }
 
             cur = cur->next;
+        }
+
+        // append remain tail
+        if (n1) {
+            cur->next = n1;
+        }
+        if (n2) {
+            cur->next = n2;
         }
 
         return sent->next;
