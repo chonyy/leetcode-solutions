@@ -11,52 +11,33 @@
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        if (lists.size() == 0) {
-            return nullptr;
-        }
+        auto cmp = [](ListNode* n1, ListNode* n2) {
+            return n1->val > n2->val;
+        };
+        priority_queue<ListNode*, vector<ListNode*>, decltype(cmp)> pq(cmp);
 
-        deque<ListNode*> dq;
-        for(auto list : lists) {
-            dq.push_back(list);
-        }
-
-        while (dq.size() > 1) {
-            ListNode* first = dq.front();
-            dq.pop_front();
-            ListNode* second = dq.front();
-            dq.pop_front();
-
-            dq.push_back(merge(first, second));
-        }
-
-        return dq.front();
-    }
-
-    ListNode* merge(ListNode* first, ListNode* second) {
-        ListNode* sentinel = new ListNode(0);
-        ListNode* cur = sentinel;
-
-        while (first && second) {
-            if (first->val < second->val) {
-                cur->next = first;
-                first = first->next;
+        for (ListNode* node : lists) {
+            if (node) {
+                pq.push(node);
             }
-            else {
-                cur->next= second;
-                second = second->next;
+        }
+
+        ListNode* sent = new ListNode();
+        ListNode* cur = sent;
+
+        while (!pq.empty()) {
+            ListNode* small = pq.top();
+            pq.pop();
+            
+            cur->next = small;
+
+            if (small->next) {
+                pq.push(small->next);
             }
 
             cur = cur->next;
         }
 
-        if (first) {
-            cur->next = first;
-        }
-
-        if (second) {
-            cur->next = second;
-        }
-
-        return sentinel->next;
+        return sent->next;
     }
 };
