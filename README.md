@@ -232,6 +232,7 @@ Yes, I still hate leetcode :(
 | [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0528-random-pick-with-weight](https://github.com/chonyy/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
+| [0772-basic-calculator-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0772-basic-calculator-iii) |
 | [0877-stone-game](https://github.com/chonyy/leetcode-solutions/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1140-stone-game-ii](https://github.com/chonyy/leetcode-solutions/tree/master/1140-stone-game-ii) |
@@ -258,6 +259,7 @@ Yes, I still hate leetcode :(
 | [0206-reverse-linked-list](https://github.com/chonyy/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/chonyy/leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0394-decode-string](https://github.com/chonyy/leetcode-solutions/tree/master/0394-decode-string) |
+| [0772-basic-calculator-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0772-basic-calculator-iii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
@@ -337,6 +339,7 @@ Yes, I still hate leetcode :(
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [0752-open-the-lock](https://github.com/chonyy/leetcode-solutions/tree/master/0752-open-the-lock) |
 | [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
+| [0772-basic-calculator-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0772-basic-calculator-iii) |
 | [0953-verifying-an-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0953-verifying-an-alien-dictionary) |
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -380,6 +383,7 @@ Yes, I still hate leetcode :(
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [0735-asteroid-collision](https://github.com/chonyy/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/chonyy/leetcode-solutions/tree/master/0739-daily-temperatures) |
+| [0772-basic-calculator-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0772-basic-calculator-iii) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0853-car-fleet](https://github.com/chonyy/leetcode-solutions/tree/master/0853-car-fleet) |
 | [0901-online-stock-span](https://github.com/chonyy/leetcode-solutions/tree/master/0901-online-stock-span) |
