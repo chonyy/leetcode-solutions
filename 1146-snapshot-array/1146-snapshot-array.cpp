@@ -1,12 +1,14 @@
 class SnapshotArray {
-    unordered_map<int, map<int, int>> m;
-    int snaps = 0;
 public:
+    vector<map<int,int>> log;
+    int snaps = 0;
+
     SnapshotArray(int length) {
+        log = vector<map<int,int>>(length);
     }
     
     void set(int index, int val) {
-        m[index][snaps] = val;
+        log[index][snaps] = val;
     }
     
     int snap() {
@@ -14,8 +16,14 @@ public:
     }
     
     int get(int index, int snap_id) {
-        auto it = m[index].upper_bound(snap_id);
-        return it == m[index].begin() ? 0 : prev(it)->second;
+        auto nextLarge = log[index].upper_bound(snap_id);
+
+        if (nextLarge == log[index].begin()) {
+            return 0;
+        }
+
+        nextLarge --;
+        return nextLarge->second;
     }
 };
 
