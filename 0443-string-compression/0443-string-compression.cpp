@@ -14,10 +14,6 @@ public:
                 j ++;
             }
 
-            if (j == n && chars[j] == chars[j-1]) {
-                j ++;
-            }
-
             int len = j - i + 1;
             if (len > 1) {
                 // append from i + 1
