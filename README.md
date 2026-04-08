@@ -591,6 +591,7 @@ Yes, I still hate leetcode :(
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1242-web-crawler-multithreaded](https://github.com/chonyy/leetcode-solutions/tree/master/1242-web-crawler-multithreaded) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/chonyy/leetcode-solutions/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1361-validate-binary-tree-nodes](https://github.com/chonyy/leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -924,6 +925,7 @@ Yes, I still hate leetcode :(
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/chonyy/leetcode-solutions/tree/master/0994-rotting-oranges) |
+| [1242-web-crawler-multithreaded](https://github.com/chonyy/leetcode-solutions/tree/master/1242-web-crawler-multithreaded) |
 | [1361-validate-binary-tree-nodes](https://github.com/chonyy/leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -1222,4 +1224,8 @@ Yes, I still hate leetcode :(
 | [0877-stone-game](https://github.com/chonyy/leetcode-solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/chonyy/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/chonyy/leetcode-solutions/tree/master/1406-stone-game-iii) |
+## Concurrency
+|  |
+| ------- |
+| [1242-web-crawler-multithreaded](https://github.com/chonyy/leetcode-solutions/tree/master/1242-web-crawler-multithreaded) |
 <!---LeetCode Topics End-->
