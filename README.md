@@ -233,6 +233,7 @@ Yes, I still hate leetcode :(
 | [0343-integer-break](https://github.com/chonyy/leetcode-solutions/tree/master/0343-integer-break) |
 | [0371-sum-of-two-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0415-add-strings](https://github.com/chonyy/leetcode-solutions/tree/master/0415-add-strings) |
 | [0528-random-pick-with-weight](https://github.com/chonyy/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0772-basic-calculator-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0772-basic-calculator-iii) |
@@ -278,6 +279,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0289-game-of-life](https://github.com/chonyy/leetcode-solutions/tree/master/0289-game-of-life) |
+| [0415-add-strings](https://github.com/chonyy/leetcode-solutions/tree/master/0415-add-strings) |
 | [0495-teemo-attacking](https://github.com/chonyy/leetcode-solutions/tree/master/0495-teemo-attacking) |
 | [0498-diagonal-traverse](https://github.com/chonyy/leetcode-solutions/tree/master/0498-diagonal-traverse) |
 | [0566-reshape-the-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0566-reshape-the-matrix) |
@@ -332,6 +334,7 @@ Yes, I still hate leetcode :(
 | [0392-is-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/chonyy/leetcode-solutions/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
+| [0415-add-strings](https://github.com/chonyy/leetcode-solutions/tree/master/0415-add-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/chonyy/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0443-string-compression](https://github.com/chonyy/leetcode-solutions/tree/master/0443-string-compression) |
 | [0449-serialize-and-deserialize-bst](https://github.com/chonyy/leetcode-solutions/tree/master/0449-serialize-and-deserialize-bst) |
