@@ -1,41 +1,33 @@
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        // create adjacency graphs
         unordered_map<int, vector<int>> graph;
         unordered_map<int, int> inDegree;
-        vector<int> res;
 
-        for (auto& pre : prerequisites) {
-            graph[pre[1]].push_back(pre[0]);
-            inDegree[pre[0]] ++;
+        for (auto& p : prerequisites) {
+            graph[p[1]].push_back(p[0]);
+            inDegree[p[0]] ++;
         }
 
-        // get starting points with inDegree = 0
+        vector<int> res;
         queue<int> q;
         for (int i = 0; i < numCourses; i ++) {
             if (inDegree[i] == 0) {
                 q.push(i);
-                res.push_back(i);
             }
         }
 
-        // if no inDegree 0, return false
-        if (q.empty()) {
-            return {};
-        }
-
-        // bfs with queue
-        while(!q.empty()) {
-            int node = q.front();
+        
+        while (!q.empty()) {
+            int cur = q.front();
             q.pop();
-            
-            for (int nei : graph[node]) {
-                inDegree[nei] --;
+            res.push_back(cur);
 
+            auto& neighbors = graph[cur];
+            for (int nei : neighbors) {
+                inDegree[nei] --;
                 if (inDegree[nei] == 0) {
                     q.push(nei);
-                    res.push_back(nei);
                 }
             }
         }
