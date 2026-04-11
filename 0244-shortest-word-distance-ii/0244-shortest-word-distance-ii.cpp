@@ -13,17 +13,16 @@ public:
     int shortest(string word1, string word2) {
         vector<int>& pos1 = pos[word1];
         vector<int>& pos2 = pos[word2];
+        int i = 0, j = 0, res = INT_MAX;
 
-        int res = INT_MAX;
-
-        for (int i : pos1) {
-            for (int j : pos2) {
-                res = min(res, abs(i - j));
-            }
+        while (i < pos1.size() && j < pos2.size()) {
+            res = min(res, abs(pos1[i] - pos2[j]));
+            if (pos1[i] < pos2[j]) i++;
+            else j++;
         }
 
         return res;
-    }
+}
 };
 
 /**
