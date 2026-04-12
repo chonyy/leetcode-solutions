@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minCost(int n, vector<vector<int>>& edges) {
-        unordered_map<int,vector<pair<int,int>>> graph;
+        vector<vector<pair<int,int>>> graph(n);
 
         for (auto& e : edges) {
             graph[e[0]].push_back({e[1], e[2]});
@@ -10,30 +10,24 @@ public:
 
         priority_queue<pair<int,int>, vector<pair<int,int>>, greater<>> pq;
         pq.push({0, 0});
-        unordered_set<int> visited;
+        vector<bool> visited(n, false);
 
         while (!pq.empty()) {
-            int cost = pq.top().first;
-            int node = pq.top().second;
+            auto [cost, node] = pq.top();
             pq.pop();
 
-            if (visited.contains(node)) {
-                continue;
-            }
-            visited.insert(node);
+            if (visited[node]) continue;
+            visited[node] = true;
 
-            if (node == n -1) {
-                return cost;
-            }
+            if (node == n - 1) return cost;
 
             for (auto [next, weight] : graph[node]) {
-                pq.push({cost + weight, next});
+                if (!visited[next]) {
+                    pq.push({cost + weight, next});
+                }
             }
         }
 
         return -1;
     }
 };
-
-
-// <cost, node, prev, usedSwitch>
