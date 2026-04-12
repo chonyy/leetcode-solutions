@@ -1,14 +1,18 @@
 class UnionFind {
 public:
-    unordered_map<int,int> parent;
-    unordered_map<int,int> rank;
+    vector<int> parent;
+    vector<int> rank;
+
+    UnionFind(int n) {
+        parent.resize(n);
+        rank.resize(n);
+        for (int i = 0; i < n; i ++) {
+            parent[i] = i;
+            rank[i] = 1;
+        }
+    }
 
     int find(int node) {
-        if (!parent.contains(node)) {
-            parent[node] = node;
-            rank[node] = 1;
-        }
-
         if (parent[node] == node) {
             return node;
         }
@@ -43,7 +47,8 @@ public:
 class Solution {
 public:
     string smallestStringWithSwaps(string s, vector<vector<int>>& pairs) {
-        UnionFind uf = UnionFind();
+        int n = s.size();
+        UnionFind uf = UnionFind(n);
 
         for (auto& p : pairs) {
             uf.unionNode(p[0], p[1]);
