@@ -760,6 +760,7 @@ Yes, I still hate leetcode :(
 | [0882-reachable-nodes-in-subdivided-graph](https://github.com/chonyy/leetcode-solutions/tree/master/0882-reachable-nodes-in-subdivided-graph) |
 | [1325-path-with-maximum-probability](https://github.com/chonyy/leetcode-solutions/tree/master/1325-path-with-maximum-probability) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/chonyy/leetcode-solutions/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -1058,6 +1059,7 @@ Yes, I still hate leetcode :(
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/chonyy/leetcode-solutions/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2434-design-a-number-container-system](https://github.com/chonyy/leetcode-solutions/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/chonyy/leetcode-solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/chonyy/leetcode-solutions/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Data Stream
 |  |
 | ------- |
@@ -1253,6 +1255,7 @@ Yes, I still hate leetcode :(
 | [1584-min-cost-to-connect-all-points](https://github.com/chonyy/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [2392-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2392-build-a-matrix-with-conditions) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/chonyy/leetcode-solutions/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/chonyy/leetcode-solutions/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Eulerian Circuit
 |  |
 | ------- |
