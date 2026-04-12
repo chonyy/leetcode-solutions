@@ -378,6 +378,7 @@ Yes, I still hate leetcode :(
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 | [2727-number-of-senior-citizens](https://github.com/chonyy/leetcode-solutions/tree/master/2727-number-of-senior-citizens) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3447-clear-digits](https://github.com/chonyy/leetcode-solutions/tree/master/3447-clear-digits) |
@@ -879,6 +880,7 @@ Yes, I still hate leetcode :(
 | [2551-apply-operations-to-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/chonyy/leetcode-solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -912,6 +914,7 @@ Yes, I still hate leetcode :(
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/chonyy/leetcode-solutions/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2826-sorting-three-groups](https://github.com/chonyy/leetcode-solutions/tree/master/2826-sorting-three-groups) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 ## Counting
 |  |
 | ------- |
@@ -1183,6 +1186,7 @@ Yes, I still hate leetcode :(
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0572-subtree-of-another-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 ## Hash Function
 |  |
 | ------- |
@@ -1190,6 +1194,7 @@ Yes, I still hate leetcode :(
 | [0705-design-hashset](https://github.com/chonyy/leetcode-solutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/chonyy/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 ## Geometry
 |  |
 | ------- |
@@ -1280,4 +1285,5 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 <!---LeetCode Topics End-->
