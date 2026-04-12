@@ -161,6 +161,7 @@ Yes, I still hate leetcode :(
 | [1140-stone-game-ii](https://github.com/chonyy/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1196-filling-bookcase-shelves](https://github.com/chonyy/leetcode-solutions/tree/master/1196-filling-bookcase-shelves) |
+| [1202-smallest-string-with-swaps](https://github.com/chonyy/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/chonyy/leetcode-solutions/tree/master/1277-count-square-submatrices-with-all-ones) |
@@ -360,6 +361,7 @@ Yes, I still hate leetcode :(
 | [1143-longest-common-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1156-swap-for-longest-repeated-character-substring](https://github.com/chonyy/leetcode-solutions/tree/master/1156-swap-for-longest-repeated-character-substring) |
 | [1170-shortest-common-supersequence](https://github.com/chonyy/leetcode-solutions/tree/master/1170-shortest-common-supersequence) |
+| [1202-smallest-string-with-swaps](https://github.com/chonyy/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/chonyy/leetcode-solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/chonyy/leetcode-solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -441,6 +443,7 @@ Yes, I still hate leetcode :(
 | [0912-sort-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0954-array-of-doubled-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [1202-smallest-string-with-swaps](https://github.com/chonyy/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1333-sort-the-jumbled-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
@@ -508,6 +511,7 @@ Yes, I still hate leetcode :(
 | [1027-longest-arithmetic-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1027-longest-arithmetic-subsequence) |
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1156-swap-for-longest-repeated-character-substring](https://github.com/chonyy/leetcode-solutions/tree/master/1156-swap-for-longest-repeated-character-substring) |
+| [1202-smallest-string-with-swaps](https://github.com/chonyy/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
@@ -614,6 +618,7 @@ Yes, I still hate leetcode :(
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1202-smallest-string-with-swaps](https://github.com/chonyy/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1242-web-crawler-multithreaded](https://github.com/chonyy/leetcode-solutions/tree/master/1242-web-crawler-multithreaded) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/chonyy/leetcode-solutions/tree/master/1325-delete-leaves-with-a-given-value) |
@@ -959,6 +964,7 @@ Yes, I still hate leetcode :(
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/chonyy/leetcode-solutions/tree/master/0994-rotting-oranges) |
+| [1202-smallest-string-with-swaps](https://github.com/chonyy/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1242-web-crawler-multithreaded](https://github.com/chonyy/leetcode-solutions/tree/master/1242-web-crawler-multithreaded) |
 | [1361-validate-binary-tree-nodes](https://github.com/chonyy/leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -1142,6 +1148,7 @@ Yes, I still hate leetcode :(
 | [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/chonyy/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
+| [1202-smallest-string-with-swaps](https://github.com/chonyy/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1361-validate-binary-tree-nodes](https://github.com/chonyy/leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/chonyy/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
