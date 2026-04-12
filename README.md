@@ -358,6 +358,7 @@ Yes, I still hate leetcode :(
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1143-longest-common-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
+| [1156-swap-for-longest-repeated-character-substring](https://github.com/chonyy/leetcode-solutions/tree/master/1156-swap-for-longest-repeated-character-substring) |
 | [1170-shortest-common-supersequence](https://github.com/chonyy/leetcode-solutions/tree/master/1170-shortest-common-supersequence) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/chonyy/leetcode-solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -506,6 +507,7 @@ Yes, I still hate leetcode :(
 | [0997-find-the-town-judge](https://github.com/chonyy/leetcode-solutions/tree/master/0997-find-the-town-judge) |
 | [1027-longest-arithmetic-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1027-longest-arithmetic-subsequence) |
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
+| [1156-swap-for-longest-repeated-character-substring](https://github.com/chonyy/leetcode-solutions/tree/master/1156-swap-for-longest-repeated-character-substring) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
@@ -827,6 +829,7 @@ Yes, I still hate leetcode :(
 | [0658-find-k-closest-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0978-longest-turbulent-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0978-longest-turbulent-subarray) |
 | [0992-subarrays-with-k-different-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
+| [1156-swap-for-longest-repeated-character-substring](https://github.com/chonyy/leetcode-solutions/tree/master/1156-swap-for-longest-repeated-character-substring) |
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1871-jump-game-vii](https://github.com/chonyy/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/chonyy/leetcode-solutions/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
