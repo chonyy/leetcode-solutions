@@ -7,7 +7,7 @@ public:
     }
 
     int solve(int l, int r, unordered_map<int,unordered_map<int, int>>& cache, vector<int>& cuts) {
-        if (l == r) {
+        if (r - l <= 1) {
             return 0;
         }
 
