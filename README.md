@@ -204,6 +204,7 @@ Yes, I still hate leetcode :(
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/chonyy/leetcode-solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/chonyy/leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/chonyy/leetcode-solutions/tree/master/2300-successful-pairs-of-spells-and-potions) |
+| [2312-selling-pieces-of-wood](https://github.com/chonyy/leetcode-solutions/tree/master/2312-selling-pieces-of-wood) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/chonyy/leetcode-solutions/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2373-largest-local-values-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/2373-largest-local-values-in-a-matrix) |
 | [2392-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2392-build-a-matrix-with-conditions) |
@@ -830,6 +831,7 @@ Yes, I still hate leetcode :(
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1871-jump-game-vii](https://github.com/chonyy/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/chonyy/leetcode-solutions/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2312-selling-pieces-of-wood](https://github.com/chonyy/leetcode-solutions/tree/master/2312-selling-pieces-of-wood) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 | [2826-sorting-three-groups](https://github.com/chonyy/leetcode-solutions/tree/master/2826-sorting-three-groups) |
 ## Binary Indexed Tree
@@ -1278,6 +1280,7 @@ Yes, I still hate leetcode :(
 | [0140-word-break-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0140-word-break-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0773-sliding-puzzle](https://github.com/chonyy/leetcode-solutions/tree/master/0773-sliding-puzzle) |
+| [2312-selling-pieces-of-wood](https://github.com/chonyy/leetcode-solutions/tree/master/2312-selling-pieces-of-wood) |
 ## Interactive
 |  |
 | ------- |
