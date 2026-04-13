@@ -218,6 +218,7 @@ Yes, I still hate leetcode :(
 | [2727-number-of-senior-citizens](https://github.com/chonyy/leetcode-solutions/tree/master/2727-number-of-senior-citizens) |
 | [2826-sorting-three-groups](https://github.com/chonyy/leetcode-solutions/tree/master/2826-sorting-three-groups) |
 | [2846-robot-collisions](https://github.com/chonyy/leetcode-solutions/tree/master/2846-robot-collisions) |
+| [2964-number-of-divisible-triplet-sums](https://github.com/chonyy/leetcode-solutions/tree/master/2964-number-of-divisible-triplet-sums) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/chonyy/leetcode-solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -542,6 +543,7 @@ Yes, I still hate leetcode :(
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/chonyy/leetcode-solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
+| [2964-number-of-divisible-triplet-sums](https://github.com/chonyy/leetcode-solutions/tree/master/2964-number-of-divisible-triplet-sums) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/chonyy/leetcode-solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
