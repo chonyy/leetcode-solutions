@@ -1,76 +1,67 @@
 class Solution {
 public:
-    int shortest;
-    vector<vector<int>> dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
-    int rows, cols;
-    
-    int bfs(vector<vector<int>>& grid, queue<pair<pair<int,int>, int>>& q, vector<vector<int>>& visited) {
-        int steps = 1;
-        
-        while(!q.empty()) {
+    vector<vector<int>> dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+
+    int shortestPath(vector<vector<int>>& grid, int k) {
+        int rows = grid.size();
+        int cols = grid[0].size();
+
+        if (rows == 1 && cols == 1) {
+            return 0;
+        }
+
+        vector<vector<int>> obstacles(rows, vector<int>(cols, -1));
+        queue<vector<int>> q;
+        q.push({0, 0, k});
+
+        int path = 1;
+
+        while (!q.empty()) {
             int size = q.size();
-            for(int i = 0; i < size; i ++) {
-                auto cur = q.front(); 
+
+            for (int i = 0; i < size; i ++) {
+                auto& cur = q.front();
+                int r = cur[0];
+                int c = cur[1];
+                int obs = cur[2];
                 q.pop();
-                int row = cur.first.first;
-                int col = cur.first.second;
-                int curStep = cur.second;
-                
-                // cout << row << " " << col << endl;
 
-                for(auto& dir : dirs) {
-                    int newRow = row + dir[0];
-                    int newCol = col + dir[1];
-                    
-                    // cout << newRow << " " << newCol << endl;
+                for (auto& dir : dirs) {
+                    int newR = r + dir[0];
+                    int newC = c + dir[1];
 
-                    // find destination
-                    if(newRow == rows -1 && newCol == cols-1)
-                        return steps;
-
-                    // invalid walk
-                    if(newRow < 0 || newRow >= rows || newCol < 0 || newCol >= cols)
-                        continue;
-                    if(visited[newRow][newCol] != -1 && visited[newRow][newCol] >= curStep) {
+                    // check for invalid
+                    if (newR < 0 || newR >= rows || newC < 0 || newC >= cols) {
                         continue;
                     }
-                    
-                    // need update
-                    // eliminate obstacle
-                    if(grid[newRow][newCol] == 1) {
-                        if(curStep > 0) {
-                            q.push({{newRow, newCol}, curStep-1});
-                            visited[newRow][newCol] = curStep - 1;
-                        }
-                        else {
-                            continue;
+
+                    // check for visited with more ops
+                    if (obstacles[newR][newC] >= obs) {
+                        continue;
+                    }
+
+                    // check for result
+                    if (newR == rows - 1 && newC == cols - 1) {
+                        return path;
+                    }
+
+                    // obstacles or not, visit
+                    if (grid[newR][newC] == 1) {
+                        if (obs > 0) {
+                            q.push({newR, newC, obs - 1});
+                            obstacles[newR][newC] = obs - 1;
                         }
                     }
                     else {
-                        q.push({{newRow, newCol}, curStep});
-                        visited[newRow][newCol] = curStep;
+                        q.push({newR, newC, obs});
+                        obstacles[newR][newC] = obs;
                     }
                 }
             }
-            steps ++;
+
+            path ++;
         }
-        
+
         return -1;
-    }
-    
-    int shortestPath(vector<vector<int>>& grid, int k) {
-        queue<pair<pair<int,int>, int>> q;
-        q.push({{0, 0}, k});
-        
-        rows = grid.size();
-        cols = grid[0].size();
-        vector<vector<int>> visited(rows, vector<int>(cols, -1));
-        
-        if(rows == 1 && cols == 1)
-            return 0;
-        
-        visited[0][0] = k;
-        
-        return bfs(grid, q, visited);
     }
 };
