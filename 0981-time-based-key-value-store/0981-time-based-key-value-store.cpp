@@ -26,10 +26,6 @@ public:
             int time = values[mid].first;
             string val = values[mid].second;
 
-            if (time == timestamp) {
-                return val;
-            }
-
             if (time > timestamp) {
                 r = mid;
             }
