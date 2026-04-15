@@ -364,6 +364,7 @@ Yes, I still hate leetcode :(
 | [0678-valid-parenthesis-string](https://github.com/chonyy/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/chonyy/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
+| [0751-ip-to-cidr](https://github.com/chonyy/leetcode-solutions/tree/master/0751-ip-to-cidr) |
 | [0752-open-the-lock](https://github.com/chonyy/leetcode-solutions/tree/master/0752-open-the-lock) |
 | [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
 | [0772-basic-calculator-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0772-basic-calculator-iii) |
@@ -1092,6 +1093,7 @@ Yes, I still hate leetcode :(
 | [0338-counting-bits](https://github.com/chonyy/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0476-number-complement](https://github.com/chonyy/leetcode-solutions/tree/master/0476-number-complement) |
+| [0751-ip-to-cidr](https://github.com/chonyy/leetcode-solutions/tree/master/0751-ip-to-cidr) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 ## Ordered Set
 |  |
