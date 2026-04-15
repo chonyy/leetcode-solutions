@@ -104,6 +104,7 @@ Yes, I still hate leetcode :(
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0362-design-hit-counter](https://github.com/chonyy/leetcode-solutions/tree/master/0362-design-hit-counter) |
 | [0377-combination-sum-iv](https://github.com/chonyy/leetcode-solutions/tree/master/0377-combination-sum-iv) |
 | [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
@@ -284,6 +285,7 @@ Yes, I still hate leetcode :(
 | [0225-implement-stack-using-queues](https://github.com/chonyy/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/chonyy/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/chonyy/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+| [0362-design-hit-counter](https://github.com/chonyy/leetcode-solutions/tree/master/0362-design-hit-counter) |
 | [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
 | [0649-dota2-senate](https://github.com/chonyy/leetcode-solutions/tree/master/0649-dota2-senate) |
 | [0918-maximum-sum-circular-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
@@ -912,6 +914,7 @@ Yes, I still hate leetcode :(
 | [0287-find-the-duplicate-number](https://github.com/chonyy/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0362-design-hit-counter](https://github.com/chonyy/leetcode-solutions/tree/master/0362-design-hit-counter) |
 | [0374-guess-number-higher-or-lower](https://github.com/chonyy/leetcode-solutions/tree/master/0374-guess-number-higher-or-lower) |
 | [0528-random-pick-with-weight](https://github.com/chonyy/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0658-find-k-closest-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
@@ -1013,6 +1016,7 @@ Yes, I still hate leetcode :(
 | [0304-range-sum-query-2d-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0355-design-twitter](https://github.com/chonyy/leetcode-solutions/tree/master/0355-design-twitter) |
 | [0359-logger-rate-limiter](https://github.com/chonyy/leetcode-solutions/tree/master/0359-logger-rate-limiter) |
+| [0362-design-hit-counter](https://github.com/chonyy/leetcode-solutions/tree/master/0362-design-hit-counter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0449-serialize-and-deserialize-bst](https://github.com/chonyy/leetcode-solutions/tree/master/0449-serialize-and-deserialize-bst) |
 | [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
@@ -1071,6 +1075,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0359-logger-rate-limiter](https://github.com/chonyy/leetcode-solutions/tree/master/0359-logger-rate-limiter) |
+| [0362-design-hit-counter](https://github.com/chonyy/leetcode-solutions/tree/master/0362-design-hit-counter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/chonyy/leetcode-solutions/tree/master/0901-online-stock-span) |
