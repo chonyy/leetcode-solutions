@@ -38,8 +38,6 @@ public:
             }
         }
 
-        // cout << l << endl;
-
         return l == 0 ? "" : values[l - 1].second;
     }
 };
