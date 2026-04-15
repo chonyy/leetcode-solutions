@@ -103,6 +103,7 @@ Yes, I still hate leetcode :(
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0348-design-tic-tac-toe](https://github.com/chonyy/leetcode-solutions/tree/master/0348-design-tic-tac-toe) |
 | [0349-intersection-of-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0362-design-hit-counter](https://github.com/chonyy/leetcode-solutions/tree/master/0362-design-hit-counter) |
 | [0377-combination-sum-iv](https://github.com/chonyy/leetcode-solutions/tree/master/0377-combination-sum-iv) |
@@ -294,6 +295,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0289-game-of-life](https://github.com/chonyy/leetcode-solutions/tree/master/0289-game-of-life) |
+| [0348-design-tic-tac-toe](https://github.com/chonyy/leetcode-solutions/tree/master/0348-design-tic-tac-toe) |
 | [0415-add-strings](https://github.com/chonyy/leetcode-solutions/tree/master/0415-add-strings) |
 | [0495-teemo-attacking](https://github.com/chonyy/leetcode-solutions/tree/master/0495-teemo-attacking) |
 | [0498-diagonal-traverse](https://github.com/chonyy/leetcode-solutions/tree/master/0498-diagonal-traverse) |
@@ -500,6 +502,7 @@ Yes, I still hate leetcode :(
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0348-design-tic-tac-toe](https://github.com/chonyy/leetcode-solutions/tree/master/0348-design-tic-tac-toe) |
 | [0349-intersection-of-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0355-design-twitter](https://github.com/chonyy/leetcode-solutions/tree/master/0355-design-twitter) |
 | [0359-logger-rate-limiter](https://github.com/chonyy/leetcode-solutions/tree/master/0359-logger-rate-limiter) |
@@ -697,6 +700,7 @@ Yes, I still hate leetcode :(
 | [0289-game-of-life](https://github.com/chonyy/leetcode-solutions/tree/master/0289-game-of-life) |
 | [0304-range-sum-query-2d-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0348-design-tic-tac-toe](https://github.com/chonyy/leetcode-solutions/tree/master/0348-design-tic-tac-toe) |
 | [0417-pacific-atlantic-water-flow](https://github.com/chonyy/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0427-construct-quad-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0427-construct-quad-tree) |
 | [0463-island-perimeter](https://github.com/chonyy/leetcode-solutions/tree/master/0463-island-perimeter) |
@@ -1015,6 +1019,7 @@ Yes, I still hate leetcode :(
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
+| [0348-design-tic-tac-toe](https://github.com/chonyy/leetcode-solutions/tree/master/0348-design-tic-tac-toe) |
 | [0355-design-twitter](https://github.com/chonyy/leetcode-solutions/tree/master/0355-design-twitter) |
 | [0359-logger-rate-limiter](https://github.com/chonyy/leetcode-solutions/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/chonyy/leetcode-solutions/tree/master/0362-design-hit-counter) |
