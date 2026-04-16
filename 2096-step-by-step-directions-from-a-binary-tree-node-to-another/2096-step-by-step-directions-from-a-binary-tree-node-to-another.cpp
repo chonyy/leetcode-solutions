@@ -11,45 +11,56 @@
  */
 class Solution {
 public:
-    bool getPath(TreeNode* root, int val, string& path) {
-        if(!root)
+    string getDirections(TreeNode* root, int startValue, int destValue) {
+        string startPath = "";
+        find(root, startValue, startPath);
+        string destPath = "";
+        find(root, destValue, destPath);
+
+        int prefixLen = 0;
+        while (!startPath.empty() && !destPath.empty()) {
+            if (startPath.back() == destPath.back()) {
+                startPath.pop_back();
+                destPath.pop_back();
+            }
+            else {
+                break;
+            }
+        }
+
+        int remainStartLen = startPath.size();
+        string startUpward = "";
+        for (int i = 0; i < remainStartLen; i ++) {
+            startUpward += "U";
+        }
+
+        reverse(destPath.begin(), destPath.end());
+        return startUpward + destPath;
+    }
+
+    bool find(TreeNode* root, int val, string& path) {
+        if (!root) {
             return false;
-        if(root->val == val)
+        }
+
+        if (root->val == val) {
             return true;
-        
-        bool left = getPath(root->left, val, path);
-        bool right = getPath(root->right, val, path);
-        
-        if(left) {
+        }
+
+        bool left = find(root->left, val, path);
+        bool right = find(root->right, val, path);
+
+        if (left) {
+            // cout << "find left" << endl;
             path += 'L';
             return true;
         }
-        else if(right) {
+        else if (right) {
+            // cout << "find right" << endl;
             path += 'R';
             return true;
         }
-        
+
         return false;
-    }
-    
-    string getDirections(TreeNode* root, int startValue, int destValue) {
-        string startPath = "";
-        string destPath = "";
-        
-        getPath(root, startValue, startPath);
-        getPath(root, destValue, destPath);
-        
-        while(!startPath.empty() && !destPath.empty()) {
-            if(startPath.back() != destPath.back())
-                break;
-            startPath.pop_back();
-            destPath.pop_back();
-        }
-        
-        string newStart = "";
-        newStart.append(startPath.size(), 'U');
-        reverse(destPath.begin(), destPath.end());
-        
-        return newStart + destPath;
     }
 };
