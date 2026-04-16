@@ -147,6 +147,7 @@ Yes, I still hate leetcode :(
 | [0875-koko-eating-bananas](https://github.com/chonyy/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/chonyy/leetcode-solutions/tree/master/0877-stone-game) |
 | [0881-boats-to-save-people](https://github.com/chonyy/leetcode-solutions/tree/master/0881-boats-to-save-people) |
+| [0900-rle-iterator](https://github.com/chonyy/leetcode-solutions/tree/master/0900-rle-iterator) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0912-sort-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0918-maximum-sum-circular-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
@@ -952,6 +953,7 @@ Yes, I still hate leetcode :(
 | [0229-majority-element-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
+| [0900-rle-iterator](https://github.com/chonyy/leetcode-solutions/tree/master/0900-rle-iterator) |
 | [0992-subarrays-with-k-different-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
 | [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/chonyy/leetcode-solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -1036,6 +1038,7 @@ Yes, I still hate leetcode :(
 | [0705-design-hashset](https://github.com/chonyy/leetcode-solutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/chonyy/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0900-rle-iterator](https://github.com/chonyy/leetcode-solutions/tree/master/0900-rle-iterator) |
 | [0901-online-stock-span](https://github.com/chonyy/leetcode-solutions/tree/master/0901-online-stock-span) |
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
@@ -1328,4 +1331,8 @@ Yes, I still hate leetcode :(
 | ------- |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
+## Iterator
+|  |
+| ------- |
+| [0900-rle-iterator](https://github.com/chonyy/leetcode-solutions/tree/master/0900-rle-iterator) |
 <!---LeetCode Topics End-->
