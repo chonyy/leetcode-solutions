@@ -1064,6 +1064,7 @@ Yes, I still hate leetcode :(
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
+| [2276-count-integers-in-intervals](https://github.com/chonyy/leetcode-solutions/tree/master/2276-count-integers-in-intervals) |
 | [2434-design-a-number-container-system](https://github.com/chonyy/leetcode-solutions/tree/master/2434-design-a-number-container-system) |
 ## Binary Search Tree
 |  |
@@ -1135,6 +1136,7 @@ Yes, I still hate leetcode :(
 | ------- |
 | [0220-contains-duplicate-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0220-contains-duplicate-iii) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
+| [2276-count-integers-in-intervals](https://github.com/chonyy/leetcode-solutions/tree/master/2276-count-integers-in-intervals) |
 | [2434-design-a-number-container-system](https://github.com/chonyy/leetcode-solutions/tree/master/2434-design-a-number-container-system) |
 ## Divide and Conquer
 |  |
@@ -1363,4 +1365,8 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [2468-split-message-based-on-limit](https://github.com/chonyy/leetcode-solutions/tree/master/2468-split-message-based-on-limit) |
+## Segment Tree
+|  |
+| ------- |
+| [2276-count-integers-in-intervals](https://github.com/chonyy/leetcode-solutions/tree/master/2276-count-integers-in-intervals) |
 <!---LeetCode Topics End-->
