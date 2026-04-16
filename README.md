@@ -225,6 +225,7 @@ Yes, I still hate leetcode :(
 | [2826-sorting-three-groups](https://github.com/chonyy/leetcode-solutions/tree/master/2826-sorting-three-groups) |
 | [2846-robot-collisions](https://github.com/chonyy/leetcode-solutions/tree/master/2846-robot-collisions) |
 | [2964-number-of-divisible-triplet-sums](https://github.com/chonyy/leetcode-solutions/tree/master/2964-number-of-divisible-triplet-sums) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/chonyy/leetcode-solutions/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/chonyy/leetcode-solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -400,6 +401,7 @@ Yes, I still hate leetcode :(
 | [2727-number-of-senior-citizens](https://github.com/chonyy/leetcode-solutions/tree/master/2727-number-of-senior-citizens) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/chonyy/leetcode-solutions/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3447-clear-digits](https://github.com/chonyy/leetcode-solutions/tree/master/3447-clear-digits) |
@@ -560,6 +562,7 @@ Yes, I still hate leetcode :(
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/chonyy/leetcode-solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 | [2964-number-of-divisible-triplet-sums](https://github.com/chonyy/leetcode-solutions/tree/master/2964-number-of-divisible-triplet-sums) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/chonyy/leetcode-solutions/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/chonyy/leetcode-solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -1272,6 +1275,7 @@ Yes, I still hate leetcode :(
 | [0208-implement-trie-prefix-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0212-word-search-ii) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/chonyy/leetcode-solutions/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 ## Graph Theory
 |  |
 | ------- |
