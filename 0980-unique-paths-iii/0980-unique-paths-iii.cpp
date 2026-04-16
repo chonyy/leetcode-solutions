@@ -37,7 +37,7 @@ public:
         }
 
         if (grid[r][c] == 2) {
-            cout << steps << endl;
+            // cout << steps << endl;
             if (steps == total + 1) {
                 res ++;
             }
