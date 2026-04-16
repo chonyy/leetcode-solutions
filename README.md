@@ -292,6 +292,7 @@ Yes, I still hate leetcode :(
 | [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
 | [0649-dota2-senate](https://github.com/chonyy/leetcode-solutions/tree/master/0649-dota2-senate) |
 | [0918-maximum-sum-circular-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
+| [0933-number-of-recent-calls](https://github.com/chonyy/leetcode-solutions/tree/master/0933-number-of-recent-calls) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Simulation
 |  |
@@ -1044,6 +1045,7 @@ Yes, I still hate leetcode :(
 | [0789-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0900-rle-iterator](https://github.com/chonyy/leetcode-solutions/tree/master/0900-rle-iterator) |
 | [0901-online-stock-span](https://github.com/chonyy/leetcode-solutions/tree/master/0901-online-stock-span) |
+| [0933-number-of-recent-calls](https://github.com/chonyy/leetcode-solutions/tree/master/0933-number-of-recent-calls) |
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -1098,6 +1100,7 @@ Yes, I still hate leetcode :(
 | [0703-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/chonyy/leetcode-solutions/tree/master/0901-online-stock-span) |
+| [0933-number-of-recent-calls](https://github.com/chonyy/leetcode-solutions/tree/master/0933-number-of-recent-calls) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
 ## Bit Manipulation
