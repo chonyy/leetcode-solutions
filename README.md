@@ -195,6 +195,7 @@ Yes, I still hate leetcode :(
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1885-count-pairs-in-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/1885-count-pairs-in-two-arrays) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/chonyy/leetcode-solutions/tree/master/1899-merge-triplets-to-form-target-triplet) |
+| [1928-minimum-cost-to-reach-destination-in-time](https://github.com/chonyy/leetcode-solutions/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 | [1929-concatenation-of-array](https://github.com/chonyy/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/chonyy/leetcode-solutions/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -857,6 +858,7 @@ Yes, I still hate leetcode :(
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/chonyy/leetcode-solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1871-jump-game-vii](https://github.com/chonyy/leetcode-solutions/tree/master/1871-jump-game-vii) |
+| [1928-minimum-cost-to-reach-destination-in-time](https://github.com/chonyy/leetcode-solutions/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/chonyy/leetcode-solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2312-selling-pieces-of-wood](https://github.com/chonyy/leetcode-solutions/tree/master/2312-selling-pieces-of-wood) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
@@ -1302,6 +1304,7 @@ Yes, I still hate leetcode :(
 | [1462-course-schedule-iv](https://github.com/chonyy/leetcode-solutions/tree/master/1462-course-schedule-iv) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/chonyy/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
+| [1928-minimum-cost-to-reach-destination-in-time](https://github.com/chonyy/leetcode-solutions/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 | [2392-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2392-build-a-matrix-with-conditions) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/chonyy/leetcode-solutions/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/chonyy/leetcode-solutions/tree/master/3650-minimum-cost-path-with-edge-reversals) |
