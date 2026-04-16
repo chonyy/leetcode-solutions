@@ -396,6 +396,7 @@ Yes, I still hate leetcode :(
 | [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2264-largest-3-same-digit-number-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/2264-largest-3-same-digit-number-in-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/chonyy/leetcode-solutions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2468-split-message-based-on-limit](https://github.com/chonyy/leetcode-solutions/tree/master/2468-split-message-based-on-limit) |
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 | [2727-number-of-senior-citizens](https://github.com/chonyy/leetcode-solutions/tree/master/2727-number-of-senior-citizens) |
@@ -1351,4 +1352,8 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0900-rle-iterator](https://github.com/chonyy/leetcode-solutions/tree/master/0900-rle-iterator) |
+## Enumeration
+|  |
+| ------- |
+| [2468-split-message-based-on-limit](https://github.com/chonyy/leetcode-solutions/tree/master/2468-split-message-based-on-limit) |
 <!---LeetCode Topics End-->
