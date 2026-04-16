@@ -157,6 +157,7 @@ Yes, I still hate leetcode :(
 | [0954-array-of-doubled-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0978-longest-turbulent-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0978-longest-turbulent-subarray) |
+| [0980-unique-paths-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0980-unique-paths-iii) |
 | [0992-subarrays-with-k-different-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
 | [0994-rotting-oranges](https://github.com/chonyy/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [0997-find-the-town-judge](https://github.com/chonyy/leetcode-solutions/tree/master/0997-find-the-town-judge) |
@@ -728,6 +729,7 @@ Yes, I still hate leetcode :(
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0835-image-overlap](https://github.com/chonyy/leetcode-solutions/tree/master/0835-image-overlap) |
 | [0921-spiral-matrix-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
+| [0980-unique-paths-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0980-unique-paths-iii) |
 | [0994-rotting-oranges](https://github.com/chonyy/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/chonyy/leetcode-solutions/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/chonyy/leetcode-solutions/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -1124,6 +1126,7 @@ Yes, I still hate leetcode :(
 | [0371-sum-of-two-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0476-number-complement](https://github.com/chonyy/leetcode-solutions/tree/master/0476-number-complement) |
 | [0751-ip-to-cidr](https://github.com/chonyy/leetcode-solutions/tree/master/0751-ip-to-cidr) |
+| [0980-unique-paths-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0980-unique-paths-iii) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 ## Ordered Set
 |  |
@@ -1194,6 +1197,7 @@ Yes, I still hate leetcode :(
 | [0212-word-search-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0494-target-sum) |
 | [0773-sliding-puzzle](https://github.com/chonyy/leetcode-solutions/tree/master/0773-sliding-puzzle) |
+| [0980-unique-paths-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0980-unique-paths-iii) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/chonyy/leetcode-solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/chonyy/leetcode-solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2107-find-unique-binary-string](https://github.com/chonyy/leetcode-solutions/tree/master/2107-find-unique-binary-string) |
