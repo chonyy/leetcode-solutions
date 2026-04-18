@@ -90,6 +90,7 @@ Yes, I still hate leetcode :(
 | [0239-sliding-window-maximum](https://github.com/chonyy/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
 | [0244-shortest-word-distance-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0244-shortest-word-distance-ii) |
 | [0245-shortest-word-distance-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0245-shortest-word-distance-iii) |
+| [0253-meeting-rooms-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0269-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0269-alien-dictionary) |
 | [0274-h-index](https://github.com/chonyy/leetcode-solutions/tree/master/0274-h-index) |
@@ -457,6 +458,7 @@ Yes, I still hate leetcode :(
 | [0220-contains-duplicate-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0220-contains-duplicate-iii) |
 | [0229-majority-element-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0253-meeting-rooms-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/chonyy/leetcode-solutions/tree/master/0274-h-index) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
@@ -754,6 +756,7 @@ Yes, I still hate leetcode :(
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/chonyy/leetcode-solutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/chonyy/leetcode-solutions/tree/master/0135-candy) |
+| [0253-meeting-rooms-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0435-non-overlapping-intervals](https://github.com/chonyy/leetcode-solutions/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/chonyy/leetcode-solutions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
@@ -913,6 +916,7 @@ Yes, I still hate leetcode :(
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chonyy/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/chonyy/leetcode-solutions/tree/master/0189-rotate-array) |
 | [0244-shortest-word-distance-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0244-shortest-word-distance-ii) |
+| [0253-meeting-rooms-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/chonyy/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/chonyy/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
@@ -1088,6 +1092,7 @@ Yes, I still hate leetcode :(
 | [0023-merge-k-sorted-lists](https://github.com/chonyy/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/chonyy/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
@@ -1175,6 +1180,7 @@ Yes, I still hate leetcode :(
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/chonyy/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0525-contiguous-array](https://github.com/chonyy/leetcode-solutions/tree/master/0525-contiguous-array) |
