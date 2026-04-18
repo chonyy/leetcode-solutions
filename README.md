@@ -70,6 +70,7 @@ Yes, I still hate leetcode :(
 | [0135-candy](https://github.com/chonyy/leetcode-solutions/tree/master/0135-candy) |
 | [0139-word-break](https://github.com/chonyy/leetcode-solutions/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0140-word-break-ii) |
+| [0149-max-points-on-a-line](https://github.com/chonyy/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chonyy/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chonyy/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -242,6 +243,7 @@ Yes, I still hate leetcode :(
 | [0048-rotate-image](https://github.com/chonyy/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/chonyy/leetcode-solutions/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0070-climbing-stairs) |
+| [0149-max-points-on-a-line](https://github.com/chonyy/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chonyy/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/chonyy/leetcode-solutions/tree/master/0189-rotate-array) |
 | [0224-basic-calculator](https://github.com/chonyy/leetcode-solutions/tree/master/0224-basic-calculator) |
@@ -504,6 +506,7 @@ Yes, I still hate leetcode :(
 | [0140-word-break-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/chonyy/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/chonyy/leetcode-solutions/tree/master/0146-lru-cache) |
+| [0149-max-points-on-a-line](https://github.com/chonyy/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
 | [0169-majority-element](https://github.com/chonyy/leetcode-solutions/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/chonyy/leetcode-solutions/tree/master/0217-contains-duplicate) |
@@ -1265,6 +1268,7 @@ Yes, I still hate leetcode :(
 ## Geometry
 |  |
 | ------- |
+| [0149-max-points-on-a-line](https://github.com/chonyy/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 ## Radix Sort
 |  |
