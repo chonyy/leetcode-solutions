@@ -3,57 +3,42 @@ public:
     string alienOrder(vector<string>& words) {
         unordered_map<char, vector<char>> graph;
         unordered_map<char, int> inDegree;
-        int visited = 0;
 
-        // build graph
-        // keep track of inDegree
-        if (!buildGraph(graph, inDegree, words))
+        if (buildGraph(graph, inDegree, words) == false) {
             return "";
+        }
 
-        cout << inDegree.size() << endl;
-
-        // return empty if no inDegree == 0
         queue<char> q;
-        string res = "";
         for (auto& entry : inDegree) {
             if (entry.second == 0) {
                 q.push(entry.first);
-                res.push_back(entry.first);
-                visited ++;
             }
         }
 
-        if (q.empty()) {
-            return "";
-        }
+        string res = "";
 
-        // Start with nodes with 0 inDegree
-        // topological sort
-        // add to res string when inDegree == 0
         while (!q.empty()) {
             char cur = q.front();
             q.pop();
+            res += cur;
 
-            vector<char>& neighbors = graph[cur];
-            for (char nei : neighbors) {
+            auto& neighbors = graph[cur];
+            for (auto nei : neighbors) {
                 inDegree[nei] --;
-
                 if (inDegree[nei] == 0) {
-                    res.push_back(nei);
                     q.push(nei);
-                    visited ++;
                 }
             }
         }
 
-        return visited == inDegree.size() ? res : "";
+        return res.size() == inDegree.size() ? res : "";
     }
 
     bool buildGraph(unordered_map<char, vector<char>>& graph, unordered_map<char, int>& inDegree, vector<string>& words) {
         int n = words.size();
 
-        for (string& word : words) {
-            for (char c : word) {
+        for (string& w : words) {
+            for (char c : w) {
                 inDegree[c] = 0;
             }
         }
@@ -62,17 +47,16 @@ public:
             string& w1 = words[i-1];
             string& w2 = words[i];
 
-            // find the first different
             int len = min(w1.size(), w2.size());
 
-            for (int j = 0; j < len; j ++) {
-                if (w1[j] != w2[j]) {
-                    graph[w1[j]].push_back(w2[j]);
-                    inDegree[w2[j]] ++;
+            for (int i = 0; i < len; i ++) {
+                if (w1[i] != w2[i]) {
+                    graph[w1[i]].push_back(w2[i]);
+                    inDegree[w2[i]] ++;
                     break;
                 }
 
-                if (j == len-1 && w1.size() > w2.size()) {
+                if (i == len - 1 && w1.size() > w2.size()) {
                     return false;
                 }
             }
@@ -81,10 +65,3 @@ public:
         return true;
     }
 };
-
-
-// "hrn",
-// "hrf", // r -> f
-// "er",  // h -> e
-// "enn", // r -> n
-// "rfnn" // e -> r
