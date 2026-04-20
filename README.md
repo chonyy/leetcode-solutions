@@ -51,6 +51,7 @@ Yes, I still hate leetcode :(
 | [0057-insert-interval](https://github.com/chonyy/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0064-minimum-path-sum) |
+| [0068-text-justification](https://github.com/chonyy/leetcode-solutions/tree/master/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/chonyy/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/chonyy/leetcode-solutions/tree/master/0078-subsets) |
@@ -309,6 +310,7 @@ Yes, I still hate leetcode :(
 ## Simulation
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/chonyy/leetcode-solutions/tree/master/0068-text-justification) |
 | [0289-game-of-life](https://github.com/chonyy/leetcode-solutions/tree/master/0289-game-of-life) |
 | [0348-design-tic-tac-toe](https://github.com/chonyy/leetcode-solutions/tree/master/0348-design-tic-tac-toe) |
 | [0415-add-strings](https://github.com/chonyy/leetcode-solutions/tree/master/0415-add-strings) |
@@ -345,6 +347,7 @@ Yes, I still hate leetcode :(
 | [0030-substring-with-concatenation-of-all-words](https://github.com/chonyy/leetcode-solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0049-group-anagrams](https://github.com/chonyy/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/chonyy/leetcode-solutions/tree/master/0058-length-of-last-word) |
+| [0068-text-justification](https://github.com/chonyy/leetcode-solutions/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/chonyy/leetcode-solutions/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/chonyy/leetcode-solutions/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/chonyy/leetcode-solutions/tree/master/0076-minimum-window-substring) |
