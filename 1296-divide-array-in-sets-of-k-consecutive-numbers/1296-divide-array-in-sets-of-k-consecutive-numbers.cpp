@@ -1,11 +1,8 @@
 class Solution {
 public:
     bool isPossibleDivide(vector<int>& nums, int k) {
-        if (nums.size() % k != 0) {
-            return false;
-        }
-
         unordered_map<int,int> count;
+
         for (int num : nums) {
             count[num] ++;
         }
@@ -15,27 +12,37 @@ public:
                 continue;
             }
 
+            // while still have num
+            // - find smallest
+            // - try consume k from smallest
+
             while (count[num]) {
                 int smallest = num;
-                while (count[smallest-1]) {
+                // cout << "small " << smallest << endl;
+                while (count[smallest - 1]) {
                     smallest --;
                 }
 
-                // cout << "small " << smallest << endl;
-                // try to get k consecutive and update count
-                for (int i = 0; i < k; i ++) {
-                    int target = smallest + i;
-
-                    // cout << "target " << target << endl;
-                    // cout << count[target] << endl;
-                    if (count[target] == 0) {
-                        return false;
-                    }
-                    count[target] --;
+                if (consume(count, smallest, k) == false) {
+                    return false;
                 }
             }
         }
 
         return true;
     }
+
+    bool consume(unordered_map<int,int>& count, int smallest, int k) {
+        for (int i = 0; i < k; i ++) {
+            if (count[smallest + i] == 0) {
+                // cout << "fail " << smallest + i << endl;
+                return false;
+            }
+            count[smallest + i] --;
+        }
+
+        return true;
+    }
 };
+
+// 4 3 2 1 2 3 1 2 3
