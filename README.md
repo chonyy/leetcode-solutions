@@ -131,6 +131,7 @@ Yes, I still hate leetcode :(
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
 | [0624-maximum-distance-in-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0624-maximum-distance-in-arrays) |
+| [0631-design-excel-sum-formula](https://github.com/chonyy/leetcode-solutions/tree/master/0631-design-excel-sum-formula) |
 | [0658-find-k-closest-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0682-baseball-game](https://github.com/chonyy/leetcode-solutions/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
@@ -377,6 +378,7 @@ Yes, I still hate leetcode :(
 | [0449-serialize-and-deserialize-bst](https://github.com/chonyy/leetcode-solutions/tree/master/0449-serialize-and-deserialize-bst) |
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
+| [0631-design-excel-sum-formula](https://github.com/chonyy/leetcode-solutions/tree/master/0631-design-excel-sum-formula) |
 | [0647-palindromic-substrings](https://github.com/chonyy/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0649-dota2-senate](https://github.com/chonyy/leetcode-solutions/tree/master/0649-dota2-senate) |
 | [0678-valid-parenthesis-string](https://github.com/chonyy/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
@@ -536,6 +538,7 @@ Yes, I still hate leetcode :(
 | [0560-subarray-sum-equals-k](https://github.com/chonyy/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
+| [0631-design-excel-sum-formula](https://github.com/chonyy/leetcode-solutions/tree/master/0631-design-excel-sum-formula) |
 | [0705-design-hashset](https://github.com/chonyy/leetcode-solutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/chonyy/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/chonyy/leetcode-solutions/tree/master/0721-accounts-merge) |
@@ -738,6 +741,7 @@ Yes, I still hate leetcode :(
 | [0463-island-perimeter](https://github.com/chonyy/leetcode-solutions/tree/master/0463-island-perimeter) |
 | [0498-diagonal-traverse](https://github.com/chonyy/leetcode-solutions/tree/master/0498-diagonal-traverse) |
 | [0566-reshape-the-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0566-reshape-the-matrix) |
+| [0631-design-excel-sum-formula](https://github.com/chonyy/leetcode-solutions/tree/master/0631-design-excel-sum-formula) |
 | [0695-max-area-of-island](https://github.com/chonyy/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0773-sliding-puzzle](https://github.com/chonyy/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
@@ -796,6 +800,7 @@ Yes, I still hate leetcode :(
 | [0269-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/chonyy/leetcode-solutions/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0631-design-excel-sum-formula](https://github.com/chonyy/leetcode-solutions/tree/master/0631-design-excel-sum-formula) |
 | [1462-course-schedule-iv](https://github.com/chonyy/leetcode-solutions/tree/master/1462-course-schedule-iv) |
 | [2392-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2392-build-a-matrix-with-conditions) |
 | [2472-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2472-build-a-matrix-with-conditions) |
@@ -1072,6 +1077,7 @@ Yes, I still hate leetcode :(
 | [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0449-serialize-and-deserialize-bst](https://github.com/chonyy/leetcode-solutions/tree/master/0449-serialize-and-deserialize-bst) |
 | [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
+| [0631-design-excel-sum-formula](https://github.com/chonyy/leetcode-solutions/tree/master/0631-design-excel-sum-formula) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0705-design-hashset](https://github.com/chonyy/leetcode-solutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/chonyy/leetcode-solutions/tree/master/0706-design-hashmap) |
@@ -1322,6 +1328,7 @@ Yes, I still hate leetcode :(
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
+| [0631-design-excel-sum-formula](https://github.com/chonyy/leetcode-solutions/tree/master/0631-design-excel-sum-formula) |
 | [0684-redundant-connection](https://github.com/chonyy/leetcode-solutions/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/chonyy/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
