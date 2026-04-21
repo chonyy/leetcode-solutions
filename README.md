@@ -244,6 +244,7 @@ Yes, I still hate leetcode :(
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/chonyy/leetcode-solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3483-alternating-groups-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3483-alternating-groups-ii) |
+| [3637-trionic-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3637-trionic-array-i) |
 ## Math
 |  |
 | ------- |
