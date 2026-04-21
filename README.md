@@ -186,6 +186,7 @@ Yes, I still hate leetcode :(
 | [1333-sort-the-jumbled-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
 | [1406-stone-game-iii](https://github.com/chonyy/leetcode-solutions/tree/master/1406-stone-game-iii) |
+| [1470-shuffle-the-array](https://github.com/chonyy/leetcode-solutions/tree/master/1470-shuffle-the-array) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/chonyy/leetcode-solutions/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
