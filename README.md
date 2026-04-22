@@ -426,6 +426,7 @@ Yes, I still hate leetcode :(
 | [3235-minimum-cost-to-convert-string-i](https://github.com/chonyy/leetcode-solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3447-clear-digits](https://github.com/chonyy/leetcode-solutions/tree/master/3447-clear-digits) |
+| [3713-longest-balanced-substring-i](https://github.com/chonyy/leetcode-solutions/tree/master/3713-longest-balanced-substring-i) |
 ## Stack
 |  |
 | ------- |
@@ -595,6 +596,7 @@ Yes, I still hate leetcode :(
 | [3227-find-missing-and-repeated-values](https://github.com/chonyy/leetcode-solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/chonyy/leetcode-solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3713-longest-balanced-substring-i](https://github.com/chonyy/leetcode-solutions/tree/master/3713-longest-balanced-substring-i) |
 ## Tree
 |  |
 | ------- |
@@ -1022,6 +1024,7 @@ Yes, I still hate leetcode :(
 | [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/2448-count-number-of-bad-pairs) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3713-longest-balanced-substring-i](https://github.com/chonyy/leetcode-solutions/tree/master/3713-longest-balanced-substring-i) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -1417,6 +1420,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [2468-split-message-based-on-limit](https://github.com/chonyy/leetcode-solutions/tree/master/2468-split-message-based-on-limit) |
+| [3713-longest-balanced-substring-i](https://github.com/chonyy/leetcode-solutions/tree/master/3713-longest-balanced-substring-i) |
 ## Segment Tree
 |  |
 | ------- |
