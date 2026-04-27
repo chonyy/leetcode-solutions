@@ -1,6 +1,10 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
+        if (nums.empty()) {
+            return {-1, -1};
+        }
+
         int low = lower(nums, target);
         int high = upper(nums, target);
         
@@ -11,44 +15,43 @@ public:
         int n = nums.size();
         int l = 0;
         int r = n;
-        int res = -1;
         
         while(l < r) {
             int mid = l + (r - l) / 2;
-            if(nums[mid] == target) {
-                res = mid;
-                r = mid;
-            }
-            else if(nums[mid] < target) {
+            if (nums[mid] < target) {
                 l = mid + 1;
             }
             else {
                 r = mid;
             }
         }
-        return res;
+
+        if (l == n || nums[l] != target) {
+            return -1;
+        }
+
+        return l;
     }
     
     int upper(vector<int>& nums, int target) {
         int n = nums.size();
         int l = 0;
         int r = n;
-        int res = -1;
         
         while(l < r) {
             int mid = l + (r - l) / 2;
-            if(nums[mid] == target) {
-                res = mid;
-                l = mid + 1;
-            }
-            else if(nums[mid] < target) {
+            if (nums[mid] <= target) {
                 l = mid + 1;
             }
             else {
                 r = mid;
             }
         }
+
+        if (l == 0 || nums[l-1] != target) {
+            return -1;
+        }
         
-        return res;
+        return l - 1;
     }
 };
