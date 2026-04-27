@@ -399,6 +399,7 @@ Yes, I still hate leetcode :(
 | [0772-basic-calculator-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0772-basic-calculator-iii) |
 | [0953-verifying-an-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0953-verifying-an-alien-dictionary) |
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
+| [1087-brace-expansion](https://github.com/chonyy/leetcode-solutions/tree/master/1087-brace-expansion) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1143-longest-common-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1156-swap-for-longest-repeated-character-substring](https://github.com/chonyy/leetcode-solutions/tree/master/1156-swap-for-longest-repeated-character-substring) |
@@ -453,6 +454,7 @@ Yes, I still hate leetcode :(
 | [0776-n-ary-tree-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0853-car-fleet](https://github.com/chonyy/leetcode-solutions/tree/master/0853-car-fleet) |
 | [0901-online-stock-span](https://github.com/chonyy/leetcode-solutions/tree/master/0901-online-stock-span) |
+| [1087-brace-expansion](https://github.com/chonyy/leetcode-solutions/tree/master/1087-brace-expansion) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/chonyy/leetcode-solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/chonyy/leetcode-solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/chonyy/leetcode-solutions/tree/master/1944-number-of-visible-people-in-a-queue) |
@@ -494,6 +496,7 @@ Yes, I still hate leetcode :(
 | [0939-minimum-area-rectangle](https://github.com/chonyy/leetcode-solutions/tree/master/0939-minimum-area-rectangle) |
 | [0954-array-of-doubled-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [1087-brace-expansion](https://github.com/chonyy/leetcode-solutions/tree/master/1087-brace-expansion) |
 | [1202-smallest-string-with-swaps](https://github.com/chonyy/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1333-sort-the-jumbled-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1333-sort-the-jumbled-numbers) |
@@ -1065,6 +1068,7 @@ Yes, I still hate leetcode :(
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/chonyy/leetcode-solutions/tree/master/0994-rotting-oranges) |
+| [1087-brace-expansion](https://github.com/chonyy/leetcode-solutions/tree/master/1087-brace-expansion) |
 | [1197-minimum-knight-moves](https://github.com/chonyy/leetcode-solutions/tree/master/1197-minimum-knight-moves) |
 | [1202-smallest-string-with-swaps](https://github.com/chonyy/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1242-web-crawler-multithreaded](https://github.com/chonyy/leetcode-solutions/tree/master/1242-web-crawler-multithreaded) |
@@ -1256,6 +1260,7 @@ Yes, I still hate leetcode :(
 | [0494-target-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0494-target-sum) |
 | [0773-sliding-puzzle](https://github.com/chonyy/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0980-unique-paths-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0980-unique-paths-iii) |
+| [1087-brace-expansion](https://github.com/chonyy/leetcode-solutions/tree/master/1087-brace-expansion) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/chonyy/leetcode-solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/chonyy/leetcode-solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2107-find-unique-binary-string](https://github.com/chonyy/leetcode-solutions/tree/master/2107-find-unique-binary-string) |
