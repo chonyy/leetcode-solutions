@@ -1,34 +1,36 @@
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
-        return quickSelect(nums, 0, nums.size()-1, k);
+        return quickSelect(nums, 0, nums.size() - 1, k);
     }
 
     int quickSelect(vector<int>& nums, int l, int r, int k) {
-        // cout << l << " " << r << endl;
-        int last = nums[r];
-        int pivot = l;
-
+        // take nums[r] as pivot
+        // swap all num smaller than pivot to left
+        // swap nums[r] to nums[pivot]
+        int pivot = nums[r];
+        int swapIdx = l;
         for (int i = l; i < r; i ++) {
-            if (nums[i] < last) {
-                swap(nums[pivot], nums[i]);
-                pivot ++;
+            if (nums[i] < pivot) {
+                swap(nums[i], nums[swapIdx]);
+                swapIdx ++;
             }
         }
 
-        swap(nums[pivot], nums[r]);
+        // get get from r - swawpidx + 1
+        swap(nums[swapIdx], nums[r]);
+        int curK = r - swapIdx + 1;
+        // cout << swapIdx << endl;
 
-        int curK = r - pivot + 1;
-        // cout << curK << endl;
-
+        // recurse
         if (curK == k) {
-            return nums[pivot];
+            return nums[swapIdx];
         }
-        else if (curK > k) {
-            return quickSelect(nums, pivot+1, r, k);
+        else if (curK > k) { // search right
+            return quickSelect(nums, swapIdx + 1, r, k);
         }
-        else {
-            return quickSelect(nums, l, pivot-1, k - curK);
+        else { // search left
+            return quickSelect(nums, l, swapIdx - 1, k - curK);
         }
     }
 };
