@@ -384,6 +384,7 @@ Yes, I still hate leetcode :(
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0344-reverse-string](https://github.com/chonyy/leetcode-solutions/tree/master/0344-reverse-string) |
+| [0383-ransom-note](https://github.com/chonyy/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/chonyy/leetcode-solutions/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
@@ -555,6 +556,7 @@ Yes, I still hate leetcode :(
 | [0355-design-twitter](https://github.com/chonyy/leetcode-solutions/tree/master/0355-design-twitter) |
 | [0359-logger-rate-limiter](https://github.com/chonyy/leetcode-solutions/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0383-ransom-note](https://github.com/chonyy/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0424-longest-repeating-character-replacement](https://github.com/chonyy/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0454-4sum-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0454-4sum-ii) |
@@ -1035,6 +1037,7 @@ Yes, I still hate leetcode :(
 | [0169-majority-element](https://github.com/chonyy/leetcode-solutions/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/chonyy/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0900-rle-iterator](https://github.com/chonyy/leetcode-solutions/tree/master/0900-rle-iterator) |
 | [0992-subarrays-with-k-different-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
