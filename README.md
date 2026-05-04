@@ -491,6 +491,7 @@ Yes, I still hate leetcode :(
 | [0253-meeting-rooms-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/chonyy/leetcode-solutions/tree/master/0274-h-index) |
+| [0295-find-median-from-data-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
@@ -979,6 +980,7 @@ Yes, I still hate leetcode :(
 | [0244-shortest-word-distance-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0244-shortest-word-distance-ii) |
 | [0253-meeting-rooms-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/chonyy/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
+| [0295-find-median-from-data-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/chonyy/leetcode-solutions/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0392-is-subsequence) |
@@ -1121,6 +1123,7 @@ Yes, I still hate leetcode :(
 | [0225-implement-stack-using-queues](https://github.com/chonyy/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/chonyy/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0244-shortest-word-distance-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0244-shortest-word-distance-ii) |
+| [0295-find-median-from-data-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
@@ -1167,6 +1170,7 @@ Yes, I still hate leetcode :(
 | [0239-sliding-window-maximum](https://github.com/chonyy/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
+| [0295-find-median-from-data-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0332-reconstruct-itinerary](https://github.com/chonyy/leetcode-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/chonyy/leetcode-solutions/tree/master/0355-design-twitter) |
@@ -1192,6 +1196,7 @@ Yes, I still hate leetcode :(
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/chonyy/leetcode-solutions/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/chonyy/leetcode-solutions/tree/master/0362-design-hit-counter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
