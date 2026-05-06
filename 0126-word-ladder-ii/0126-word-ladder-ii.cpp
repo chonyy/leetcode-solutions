@@ -1,16 +1,16 @@
 class Solution {
 public:
     vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
-        wordList.push_back(beginWord);
-        int n = wordList.size();
-        unordered_map<string, vector<string>> graph;
+        unordered_set<string> wordSet(wordList.begin(), wordList.end());
+        wordSet.insert(beginWord);
 
-        for (int i = 0; i < n; i ++) {
-            for (int j = i + 1; j < n; j ++) {
-                if(isNeighbor(wordList[i], wordList[j])) {
-                    graph[wordList[i]].push_back(wordList[j]);
-                    graph[wordList[j]].push_back(wordList[i]);
-                }
+        // Build pattern map
+        unordered_map<string, vector<string>> patternMap;
+        for (auto& w : wordSet) {
+            for (int i = 0; i < w.size(); i++) {
+                string p = w;
+                p[i] = '*';
+                patternMap[p].push_back(w);
             }
         }
 
@@ -19,50 +19,37 @@ public:
         queue<string> q;
         q.push(beginWord);
         visited.insert(beginWord);
-        int step = 1;
         bool found = false;
 
-        while (!q.empty()) {
+        while (!q.empty() && !found) {
             int size = q.size();
-            step ++;
             unordered_set<string> travelled;
 
-            for (int i = 0; i < size; i ++) {
+            for (int i = 0; i < size; i++) {
                 string word = q.front();
                 q.pop();
 
-                for (auto& nei : graph[word]) {
-                    if (visited.contains(nei)) {
-                        continue;
-                    }
-                    parents[nei].insert(word);
+                for (int j = 0; j < word.size(); j++) {
+                    string p = word;
+                    p[j] = '*';
+                    for (auto& nei : patternMap[p]) {
+                        if (nei == word || visited.count(nei)) continue;
 
-                    if (!travelled.contains(nei)) {
-                        q.push(nei);
-                    }
-                    travelled.insert(nei); // can't use visited here. Otherwise it will block subsequent node to build the backtrack path
-
-                    if (nei == endWord) {
-                        found = true;
+                        parents[nei].insert(word);
+                        if (travelled.insert(nei).second) {
+                            q.push(nei);
+                        }
+                        if (nei == endWord) found = true;
                     }
                 }
             }
 
-            for (string word : travelled) {
-                visited.insert(word);
-            }
-
-            if (found) {
-                break;
-            }
+            for (auto& w : travelled) visited.insert(w);
         }
 
         vector<vector<string>> res;
-        vector<string> path;
-        path.push_back(endWord);
-
+        vector<string> path = {endWord};
         backtrack(endWord, beginWord, parents, path, res);
-
         return res;
     }
 
@@ -71,24 +58,10 @@ public:
             res.push_back(vector<string>(path.rbegin(), path.rend()));
             return;
         }
-
         for (auto p : parents[word]) {
             path.push_back(p);
             backtrack(p, end, parents, path, res);
             path.pop_back();
         }
-    }
-
-    bool isNeighbor(string& w1, string& w2) {
-        int n = w1.size();
-        int diff = 0;
-
-        for (int i = 0; i < n; i ++) {
-            if(w1[i] != w2[i]) {
-                diff ++;
-            }
-        }
-        
-        return diff == 1;
     }
 };
