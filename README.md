@@ -75,6 +75,7 @@ Yes, I still hate leetcode :(
 | [0149-max-points-on-a-line](https://github.com/chonyy/leetcode-solutions/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/chonyy/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/chonyy/leetcode-solutions/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0162-find-peak-element](https://github.com/chonyy/leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/chonyy/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/chonyy/leetcode-solutions/tree/master/0169-majority-element) |
@@ -328,6 +329,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0068-text-justification](https://github.com/chonyy/leetcode-solutions/tree/master/0068-text-justification) |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/chonyy/leetcode-solutions/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0289-game-of-life](https://github.com/chonyy/leetcode-solutions/tree/master/0289-game-of-life) |
 | [0348-design-tic-tac-toe](https://github.com/chonyy/leetcode-solutions/tree/master/0348-design-tic-tac-toe) |
 | [0415-add-strings](https://github.com/chonyy/leetcode-solutions/tree/master/0415-add-strings) |
@@ -1427,6 +1429,7 @@ Yes, I still hate leetcode :(
 ## Interactive
 |  |
 | ------- |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/chonyy/leetcode-solutions/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0374-guess-number-higher-or-lower](https://github.com/chonyy/leetcode-solutions/tree/master/0374-guess-number-higher-or-lower) |
 | [1095-find-in-mountain-array](https://github.com/chonyy/leetcode-solutions/tree/master/1095-find-in-mountain-array) |
 ## Randomized
