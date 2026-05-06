@@ -203,6 +203,7 @@ Yes, I still hate leetcode :(
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1584-min-cost-to-connect-all-points](https://github.com/chonyy/leetcode-solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1620-coordinate-with-maximum-network-quality](https://github.com/chonyy/leetcode-solutions/tree/master/1620-coordinate-with-maximum-network-quality) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/chonyy/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -1459,6 +1460,7 @@ Yes, I still hate leetcode :(
 ## Enumeration
 |  |
 | ------- |
+| [1620-coordinate-with-maximum-network-quality](https://github.com/chonyy/leetcode-solutions/tree/master/1620-coordinate-with-maximum-network-quality) |
 | [2468-split-message-based-on-limit](https://github.com/chonyy/leetcode-solutions/tree/master/2468-split-message-based-on-limit) |
 | [3713-longest-balanced-substring-i](https://github.com/chonyy/leetcode-solutions/tree/master/3713-longest-balanced-substring-i) |
 ## Segment Tree
