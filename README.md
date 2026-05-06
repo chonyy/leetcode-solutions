@@ -140,6 +140,7 @@ Yes, I still hate leetcode :(
 | [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
 | [0624-maximum-distance-in-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0624-maximum-distance-in-arrays) |
 | [0631-design-excel-sum-formula](https://github.com/chonyy/leetcode-solutions/tree/master/0631-design-excel-sum-formula) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/chonyy/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/chonyy/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0682-baseball-game](https://github.com/chonyy/leetcode-solutions/tree/master/0682-baseball-game) |
@@ -505,6 +506,7 @@ Yes, I still hate leetcode :(
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/chonyy/leetcode-solutions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0611-valid-triangle-number](https://github.com/chonyy/leetcode-solutions/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/chonyy/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0721-accounts-merge](https://github.com/chonyy/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
@@ -574,6 +576,7 @@ Yes, I still hate leetcode :(
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0631-design-excel-sum-formula](https://github.com/chonyy/leetcode-solutions/tree/master/0631-design-excel-sum-formula) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/chonyy/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0705-design-hashset](https://github.com/chonyy/leetcode-solutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/chonyy/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/chonyy/leetcode-solutions/tree/master/0721-accounts-merge) |
@@ -818,6 +821,7 @@ Yes, I still hate leetcode :(
 | [0611-valid-triangle-number](https://github.com/chonyy/leetcode-solutions/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0624-maximum-distance-in-arrays) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/chonyy/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0649-dota2-senate](https://github.com/chonyy/leetcode-solutions/tree/master/0649-dota2-senate) |
 | [0678-valid-parenthesis-string](https://github.com/chonyy/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
@@ -950,6 +954,7 @@ Yes, I still hate leetcode :(
 | [0438-find-all-anagrams-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0480-sliding-window-median](https://github.com/chonyy/leetcode-solutions/tree/master/0480-sliding-window-median) |
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/chonyy/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/chonyy/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0978-longest-turbulent-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0978-longest-turbulent-subarray) |
@@ -1181,6 +1186,7 @@ Yes, I still hate leetcode :(
 | [0355-design-twitter](https://github.com/chonyy/leetcode-solutions/tree/master/0355-design-twitter) |
 | [0480-sliding-window-median](https://github.com/chonyy/leetcode-solutions/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/chonyy/leetcode-solutions/tree/master/0621-task-scheduler) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/chonyy/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/chonyy/leetcode-solutions/tree/master/0743-network-delay-time) |
