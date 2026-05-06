@@ -22,6 +22,7 @@ Yes, I still hate leetcode :(
 | [0622-design-circular-queue](https://github.com/chonyy/leetcode-solutions/tree/master/0622-design-circular-queue) |
 | [0705-design-hashset](https://github.com/chonyy/leetcode-solutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/chonyy/leetcode-solutions/tree/master/0706-design-hashmap) |
+| [0716-max-stack](https://github.com/chonyy/leetcode-solutions/tree/master/0716-max-stack) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/chonyy/leetcode-solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 ## Array
 |  |
@@ -464,6 +465,7 @@ Yes, I still hate leetcode :(
 | [0394-decode-string](https://github.com/chonyy/leetcode-solutions/tree/master/0394-decode-string) |
 | [0678-valid-parenthesis-string](https://github.com/chonyy/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0682-baseball-game](https://github.com/chonyy/leetcode-solutions/tree/master/0682-baseball-game) |
+| [0716-max-stack](https://github.com/chonyy/leetcode-solutions/tree/master/0716-max-stack) |
 | [0726-number-of-atoms](https://github.com/chonyy/leetcode-solutions/tree/master/0726-number-of-atoms) |
 | [0735-asteroid-collision](https://github.com/chonyy/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/chonyy/leetcode-solutions/tree/master/0739-daily-temperatures) |
@@ -1151,6 +1153,7 @@ Yes, I still hate leetcode :(
 | [0703-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0705-design-hashset](https://github.com/chonyy/leetcode-solutions/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/chonyy/leetcode-solutions/tree/master/0706-design-hashmap) |
+| [0716-max-stack](https://github.com/chonyy/leetcode-solutions/tree/master/0716-max-stack) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0900-rle-iterator](https://github.com/chonyy/leetcode-solutions/tree/master/0900-rle-iterator) |
 | [0901-online-stock-span](https://github.com/chonyy/leetcode-solutions/tree/master/0901-online-stock-span) |
@@ -1237,6 +1240,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0220-contains-duplicate-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0220-contains-duplicate-iii) |
+| [0716-max-stack](https://github.com/chonyy/leetcode-solutions/tree/master/0716-max-stack) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2276-count-integers-in-intervals](https://github.com/chonyy/leetcode-solutions/tree/master/2276-count-integers-in-intervals) |
 | [2434-design-a-number-container-system](https://github.com/chonyy/leetcode-solutions/tree/master/2434-design-a-number-container-system) |
@@ -1348,6 +1352,7 @@ Yes, I still hate leetcode :(
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/chonyy/leetcode-solutions/tree/master/0146-lru-cache) |
+| [0716-max-stack](https://github.com/chonyy/leetcode-solutions/tree/master/0716-max-stack) |
 ## Merge Sort
 |  |
 | ------- |
