@@ -197,6 +197,7 @@ Yes, I still hate leetcode :(
 | [1333-sort-the-jumbled-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
 | [1406-stone-game-iii](https://github.com/chonyy/leetcode-solutions/tree/master/1406-stone-game-iii) |
+| [1429-first-unique-number](https://github.com/chonyy/leetcode-solutions/tree/master/1429-first-unique-number) |
 | [1470-shuffle-the-array](https://github.com/chonyy/leetcode-solutions/tree/master/1470-shuffle-the-array) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -327,6 +328,7 @@ Yes, I still hate leetcode :(
 | [0649-dota2-senate](https://github.com/chonyy/leetcode-solutions/tree/master/0649-dota2-senate) |
 | [0918-maximum-sum-circular-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0933-number-of-recent-calls](https://github.com/chonyy/leetcode-solutions/tree/master/0933-number-of-recent-calls) |
+| [1429-first-unique-number](https://github.com/chonyy/leetcode-solutions/tree/master/1429-first-unique-number) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Simulation
 |  |
@@ -605,6 +607,7 @@ Yes, I still hate leetcode :(
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1429-first-unique-number](https://github.com/chonyy/leetcode-solutions/tree/master/1429-first-unique-number) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/chonyy/leetcode-solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/chonyy/leetcode-solutions/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
@@ -1161,6 +1164,7 @@ Yes, I still hate leetcode :(
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1429-first-unique-number](https://github.com/chonyy/leetcode-solutions/tree/master/1429-first-unique-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
 | [2276-count-integers-in-intervals](https://github.com/chonyy/leetcode-solutions/tree/master/2276-count-integers-in-intervals) |
@@ -1220,6 +1224,7 @@ Yes, I still hate leetcode :(
 | [0789-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/chonyy/leetcode-solutions/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/chonyy/leetcode-solutions/tree/master/0933-number-of-recent-calls) |
+| [1429-first-unique-number](https://github.com/chonyy/leetcode-solutions/tree/master/1429-first-unique-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
 ## Bit Manipulation
