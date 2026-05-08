@@ -127,6 +127,7 @@ Yes, I still hate leetcode :(
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/chonyy/leetcode-solutions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0454-4sum-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0454-4sum-ii) |
 | [0463-island-perimeter](https://github.com/chonyy/leetcode-solutions/tree/master/0463-island-perimeter) |
+| [0477-total-hamming-distance](https://github.com/chonyy/leetcode-solutions/tree/master/0477-total-hamming-distance) |
 | [0480-sliding-window-median](https://github.com/chonyy/leetcode-solutions/tree/master/0480-sliding-window-median) |
 | [0494-target-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0494-target-sum) |
 | [0495-teemo-attacking](https://github.com/chonyy/leetcode-solutions/tree/master/0495-teemo-attacking) |
@@ -281,6 +282,7 @@ Yes, I still hate leetcode :(
 | [0380-insert-delete-getrandom-o1](https://github.com/chonyy/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0390-elimination-game](https://github.com/chonyy/leetcode-solutions/tree/master/0390-elimination-game) |
 | [0415-add-strings](https://github.com/chonyy/leetcode-solutions/tree/master/0415-add-strings) |
+| [0477-total-hamming-distance](https://github.com/chonyy/leetcode-solutions/tree/master/0477-total-hamming-distance) |
 | [0509-fibonacci-number](https://github.com/chonyy/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0528-random-pick-with-weight](https://github.com/chonyy/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
@@ -1238,6 +1240,7 @@ Yes, I still hate leetcode :(
 | [0338-counting-bits](https://github.com/chonyy/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0476-number-complement](https://github.com/chonyy/leetcode-solutions/tree/master/0476-number-complement) |
+| [0477-total-hamming-distance](https://github.com/chonyy/leetcode-solutions/tree/master/0477-total-hamming-distance) |
 | [0751-ip-to-cidr](https://github.com/chonyy/leetcode-solutions/tree/master/0751-ip-to-cidr) |
 | [0980-unique-paths-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0980-unique-paths-iii) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3314-construct-the-minimum-bitwise-array-i) |
