@@ -105,6 +105,7 @@ Yes, I still hate leetcode :(
 | [0300-longest-increasing-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/chonyy/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
+| [0305-number-of-islands-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0305-number-of-islands-ii) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/chonyy/leetcode-solutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/chonyy/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/chonyy/leetcode-solutions/tree/master/0317-shortest-distance-from-all-buildings) |
@@ -570,6 +571,7 @@ Yes, I still hate leetcode :(
 | [0244-shortest-word-distance-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0244-shortest-word-distance-ii) |
 | [0264-ugly-number-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/chonyy/leetcode-solutions/tree/master/0268-missing-number) |
+| [0305-number-of-islands-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0305-number-of-islands-ii) |
 | [0347-top-k-frequent-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/chonyy/leetcode-solutions/tree/master/0348-design-tic-tac-toe) |
 | [0349-intersection-of-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
@@ -1339,6 +1341,7 @@ Yes, I still hate leetcode :(
 | [0128-longest-consecutive-sequence](https://github.com/chonyy/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/chonyy/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/chonyy/leetcode-solutions/tree/master/0200-number-of-islands) |
+| [0305-number-of-islands-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0305-number-of-islands-ii) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/chonyy/leetcode-solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0399-evaluate-division](https://github.com/chonyy/leetcode-solutions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/chonyy/leetcode-solutions/tree/master/0684-redundant-connection) |
