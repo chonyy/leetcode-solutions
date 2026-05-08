@@ -285,6 +285,7 @@ Yes, I still hate leetcode :(
 | [0477-total-hamming-distance](https://github.com/chonyy/leetcode-solutions/tree/master/0477-total-hamming-distance) |
 | [0509-fibonacci-number](https://github.com/chonyy/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0528-random-pick-with-weight](https://github.com/chonyy/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
+| [0564-find-the-closest-palindrome](https://github.com/chonyy/leetcode-solutions/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0772-basic-calculator-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0772-basic-calculator-iii) |
 | [0877-stone-game](https://github.com/chonyy/leetcode-solutions/tree/master/0877-stone-game) |
@@ -407,6 +408,7 @@ Yes, I still hate leetcode :(
 | [0438-find-all-anagrams-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/chonyy/leetcode-solutions/tree/master/0443-string-compression) |
 | [0449-serialize-and-deserialize-bst](https://github.com/chonyy/leetcode-solutions/tree/master/0449-serialize-and-deserialize-bst) |
+| [0564-find-the-closest-palindrome](https://github.com/chonyy/leetcode-solutions/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/chonyy/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/chonyy/leetcode-solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0631-design-excel-sum-formula](https://github.com/chonyy/leetcode-solutions/tree/master/0631-design-excel-sum-formula) |
