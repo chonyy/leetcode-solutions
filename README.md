@@ -628,6 +628,7 @@ Yes, I still hate leetcode :(
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/chonyy/leetcode-solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
+| [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [2964-number-of-divisible-triplet-sums](https://github.com/chonyy/leetcode-solutions/tree/master/2964-number-of-divisible-triplet-sums) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/chonyy/leetcode-solutions/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
@@ -678,6 +679,7 @@ Yes, I still hate leetcode :(
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/chonyy/leetcode-solutions/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/chonyy/leetcode-solutions/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -737,6 +739,7 @@ Yes, I still hate leetcode :(
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/chonyy/leetcode-solutions/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/chonyy/leetcode-solutions/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/chonyy/leetcode-solutions/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 ## Binary Tree
 |  |
@@ -1248,6 +1251,7 @@ Yes, I still hate leetcode :(
 | [0477-total-hamming-distance](https://github.com/chonyy/leetcode-solutions/tree/master/0477-total-hamming-distance) |
 | [0751-ip-to-cidr](https://github.com/chonyy/leetcode-solutions/tree/master/0751-ip-to-cidr) |
 | [0980-unique-paths-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0980-unique-paths-iii) |
+| [2791-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2791-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 ## Ordered Set
 |  |
