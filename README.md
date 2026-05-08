@@ -735,6 +735,7 @@ Yes, I still hate leetcode :(
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/chonyy/leetcode-solutions/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/chonyy/leetcode-solutions/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/chonyy/leetcode-solutions/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 ## Binary Tree
 |  |
 | ------- |
@@ -946,6 +947,7 @@ Yes, I still hate leetcode :(
 | [2312-selling-pieces-of-wood](https://github.com/chonyy/leetcode-solutions/tree/master/2312-selling-pieces-of-wood) |
 | [2707-extra-characters-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 | [2826-sorting-three-groups](https://github.com/chonyy/leetcode-solutions/tree/master/2826-sorting-three-groups) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/chonyy/leetcode-solutions/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -1129,6 +1131,7 @@ Yes, I still hate leetcode :(
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/chonyy/leetcode-solutions/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/chonyy/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/chonyy/leetcode-solutions/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 ## Strongly Connected Component
 |  |
 | ------- |
@@ -1432,6 +1435,7 @@ Yes, I still hate leetcode :(
 | [1928-minimum-cost-to-reach-destination-in-time](https://github.com/chonyy/leetcode-solutions/tree/master/1928-minimum-cost-to-reach-destination-in-time) |
 | [2392-build-a-matrix-with-conditions](https://github.com/chonyy/leetcode-solutions/tree/master/2392-build-a-matrix-with-conditions) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/chonyy/leetcode-solutions/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/chonyy/leetcode-solutions/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/chonyy/leetcode-solutions/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Eulerian Circuit
 |  |
