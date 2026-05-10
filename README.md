@@ -671,6 +671,7 @@ Yes, I still hate leetcode :(
 | [0776-n-ary-tree-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/chonyy/leetcode-solutions/tree/master/1325-delete-leaves-with-a-given-value) |
@@ -774,6 +775,7 @@ Yes, I still hate leetcode :(
 | [0742-closest-leaf-in-a-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0742-closest-leaf-in-a-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/chonyy/leetcode-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/chonyy/leetcode-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/chonyy/leetcode-solutions/tree/master/1325-delete-leaves-with-a-given-value) |
@@ -1123,6 +1125,7 @@ Yes, I still hate leetcode :(
 | [0773-sliding-puzzle](https://github.com/chonyy/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/chonyy/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/chonyy/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/chonyy/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1087-brace-expansion](https://github.com/chonyy/leetcode-solutions/tree/master/1087-brace-expansion) |
 | [1197-minimum-knight-moves](https://github.com/chonyy/leetcode-solutions/tree/master/1197-minimum-knight-moves) |
