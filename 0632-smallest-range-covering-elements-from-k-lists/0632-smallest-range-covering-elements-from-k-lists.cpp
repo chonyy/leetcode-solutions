@@ -8,15 +8,13 @@ public:
         priority_queue<vector<int>, vector<vector<int>>, greater<>> pq;
 
         int maxNum = INT_MIN;
-        int minNum = INT_MAX;
         for (int i = 0; i < k; i ++) {
             pq.push({nums[i][0], i, 0});
             maxNum = max(maxNum, nums[i][0]);
-            minNum = min(minNum, nums[i][0]);
         }
 
-        int minRange = maxNum - minNum;
-        int resMin = minNum;
+        int minRange = maxNum - pq.top()[0];
+        int resMin = pq.top()[0];
         int resMax = maxNum;
 
         // pop smallest from minHeap until end
