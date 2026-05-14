@@ -1492,6 +1492,7 @@ Yes, I still hate leetcode :(
 ## Concurrency
 |  |
 | ------- |
+| [1114-print-in-order](https://github.com/chonyy/leetcode-solutions/tree/master/1114-print-in-order) |
 | [1242-web-crawler-multithreaded](https://github.com/chonyy/leetcode-solutions/tree/master/1242-web-crawler-multithreaded) |
 ## Rolling Hash
 |  |
