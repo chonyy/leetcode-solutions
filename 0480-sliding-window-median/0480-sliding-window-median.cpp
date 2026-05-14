@@ -1,47 +1,67 @@
 class Solution {
 public:
     vector<double> medianSlidingWindow(vector<int>& nums, int k) {
-        // loop with sliding window
-        // put r in max heap. If overflow, pop to minHeap
-        // remove l from set
-        // if remove from maxHeap, pop min to max
-        // if remove from minHeap, no action
-        int n = nums.size();
+        // sliding window with size
+        // multiset maxHeap
+        // multiset minHeap
+        multiset<int, greater<>> maxHeap;
+        multiset<int> minHeap;
+
         int l = 0;
         int r = 0;
+        int n = nums.size();
+
         vector<double> res;
-        multiset<int> first;
-        multiset<int> second; 
 
         while (r < n) {
-            int num = nums[r];
-            first.insert(num);
-            if (first.size() > k / 2) {
-                second.insert(*first.rbegin());
-                first.erase(first.find(*first.rbegin()));
-            }
-
-            // get res and remove l
-            if (r - l == k - 1) {
-                // get res
-                if (k % 2 == 1) {
-                    res.push_back(*second.begin());
+            // cout << r << endl;
+            // when out of bound, try remove from minHeap and maxHeap
+            if (r - l == k) {
+                int toDelete = nums[l];
+                if (minHeap.contains(toDelete)) {
+                    minHeap.erase(minHeap.find(toDelete));
                 }
-                else {
-                    res.push_back(((double)*first.rbegin() + (double)*second.begin()) / 2);
-                }
-
-                // remove l and rebalance
-                int toRemove = nums[l];
-                if (second.contains(toRemove)) {
-                    second.erase(second.find(toRemove));
-                }
-                else {
-                    first.erase(first.find(toRemove));
-                    first.insert(*second.begin());
-                    second.erase(second.begin());
+                else if (maxHeap.contains(toDelete)) {
+                    maxHeap.erase(maxHeap.find(toDelete));
+                    maxHeap.insert(*minHeap.begin());
+                    minHeap.erase(minHeap.begin());
                 }
                 l ++;
+            }
+
+            // when maxHeap.size > k / 2, move element to minHeap
+            // if maxHeap.top() > minHeap.top(), swap
+            // if odd: ans = minHeap.top();
+            // if event: avg of minHeap.top() and maxHeap.top();
+            // cout << "inserting " << endl;
+            maxHeap.insert(nums[r]);
+
+            if (maxHeap.size() > k / 2) {
+                minHeap.insert(*maxHeap.begin());
+                maxHeap.erase(maxHeap.begin());
+            }
+
+            // cout << "comparing " << endl;
+            if (!maxHeap.empty() && !minHeap.empty() && *maxHeap.begin() > *minHeap.begin()) {
+                // cout << "swapping " << endl;
+                int minVal = *minHeap.begin();
+                int maxVal = *maxHeap.begin();
+
+                minHeap.erase(minHeap.begin());
+                maxHeap.erase(maxHeap.begin());
+                minHeap.insert(maxVal);
+                maxHeap.insert(minVal);
+            }
+
+            // cout << "get and " << endl;
+            if (r - l == k - 1) {
+                if (k % 2 == 1) {
+                    res.push_back(*minHeap.begin());
+                }
+                else {
+                    double avg = ((double)*maxHeap.begin() + (double)*minHeap.begin()) / 2;
+                    res.push_back(avg);
+                }
             }
 
             r ++;
