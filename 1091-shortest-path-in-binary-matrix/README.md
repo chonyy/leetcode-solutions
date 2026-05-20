@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/shortest-path-in-binary-matrix/">1091. Shortest Path in Binary Matrix</a></h2><h3>Medium</h3><hr><div><p>Given an <code>n x n</code> binary matrix <code>grid</code>, return <em>the length of the shortest <strong>clear path</strong> in the matrix</em>. If there is no clear path, return <code>-1</code>.</p>
+<h2><a href="https://leetcode.com/problems/shortest-path-in-binary-matrix/">1171. Shortest Path in Binary Matrix</a></h2><h3>Medium</h3><hr><p>Given an <code>n x n</code> binary matrix <code>grid</code>, return <em>the length of the shortest <strong>clear path</strong> in the matrix</em>. If there is no clear path, return <code>-1</code>.</p>
 
 <p>A <strong>clear path</strong> in a binary matrix is a path from the <strong>top-left</strong> cell (i.e., <code>(0, 0)</code>) to the <strong>bottom-right</strong> cell (i.e., <code>(n - 1, n - 1)</code>) such that:</p>
 
@@ -10,21 +10,24 @@
 <p>The <strong>length of a clear path</strong> is the number of visited cells of this path.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/02/18/example1_1.png" style="width: 500px; height: 234px;">
-<pre><strong>Input:</strong> grid = [[0,1],[1,0]]
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/18/example1_1.png" style="width: 500px; height: 234px;" />
+<pre>
+<strong>Input:</strong> grid = [[0,1],[1,0]]
 <strong>Output:</strong> 2
 </pre>
 
-<p><strong>Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/02/18/example2_1.png" style="height: 216px; width: 500px;">
-<pre><strong>Input:</strong> grid = [[0,0,0],[1,1,0],[1,1,0]]
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/18/example2_1.png" style="height: 216px; width: 500px;" />
+<pre>
+<strong>Input:</strong> grid = [[0,0,0],[1,1,0],[1,1,0]]
 <strong>Output:</strong> 4
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> grid = [[1,0,0],[1,1,0],[1,1,0]]
+<pre>
+<strong>Input:</strong> grid = [[1,0,0],[1,1,0],[1,1,0]]
 <strong>Output:</strong> -1
 </pre>
 
@@ -37,4 +40,3 @@
 	<li><code>1 &lt;= n &lt;= 100</code></li>
 	<li><code>grid[i][j] is 0 or 1</code></li>
 </ul>
-</div>
