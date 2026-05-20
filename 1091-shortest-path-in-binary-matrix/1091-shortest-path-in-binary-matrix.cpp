@@ -7,39 +7,45 @@ public:
             return -1;
         }
 
-        vector<vector<int>> copy = grid;
         int rows = grid.size();
         int cols = grid[0].size();
+        vector<vector<bool>> visited = vector<vector<bool>>(rows, vector<bool>(cols));
 
-        copy[0][0] = 1;
-        queue<pair<int,int>> q;
-        q.push({0, 0});
+        priority_queue<vector<int>, vector<vector<int>>, greater<>> pq;
+        pq.push({max(rows-1, cols-1), 1, 0, 0});
 
-        while (!q.empty()) {
-            auto cur = q.front();
-            int r = cur.first;
-            int c = cur.second;
-            q.pop();
+        while (!pq.empty()) {
+            auto cur = pq.top();
+            int est = cur[0];
+            int dist = cur[1];
+            int r = cur[2];
+            int c = cur[3];
+            pq.pop();
 
             if (r == rows - 1 && c == cols - 1) {
-                return copy[r][c];
+                return dist;
             }
+
+            if (visited[r][c]) {
+                continue;
+            }
+            visited[r][c] = true;
 
             for (auto& dir : dirs) {
                 int newR = r + dir[0];
                 int newC = c + dir[1];
-                int newCost = copy[r][c] + 1;
+                int newEst = max(rows - newR - 1, cols - newC - 1);
+                int newDist = dist + 1;
 
                 if (newR < 0 || newR >= rows || newC < 0 || newC >= cols) {
                     continue;
                 }
 
-                if (copy[newR][newC] != 0) {
+                if (grid[newR][newC] == 1) {
                     continue;
                 }
 
-                copy[newR][newC] = newCost;
-                q.push({newR, newC});
+                pq.push({newEst + newDist, newDist, newR, newC});
             }
         }
 
