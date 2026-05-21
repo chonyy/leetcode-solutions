@@ -44,6 +44,7 @@ public:
                 }
             }
 
+            // need to be separated to make sure we travel all parents
             for (auto& w : travelled) visited.insert(w);
         }
 
