@@ -198,6 +198,7 @@ Yes, I still hate leetcode :(
 | [1298-maximum-candies-you-can-get-from-boxes](https://github.com/chonyy/leetcode-solutions/tree/master/1298-maximum-candies-you-can-get-from-boxes) |
 | [1325-path-with-maximum-probability](https://github.com/chonyy/leetcode-solutions/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1333-sort-the-jumbled-numbers) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/chonyy/leetcode-solutions/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1364-tuple-with-same-product](https://github.com/chonyy/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
 | [1406-stone-game-iii](https://github.com/chonyy/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1429-first-unique-number](https://github.com/chonyy/leetcode-solutions/tree/master/1429-first-unique-number) |
@@ -531,6 +532,7 @@ Yes, I still hate leetcode :(
 | [1202-smallest-string-with-swaps](https://github.com/chonyy/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1333-sort-the-jumbled-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1333-sort-the-jumbled-numbers) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/chonyy/leetcode-solutions/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/chonyy/leetcode-solutions/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/chonyy/leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
@@ -851,6 +853,7 @@ Yes, I still hate leetcode :(
 | [0881-boats-to-save-people](https://github.com/chonyy/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [0954-array-of-doubled-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/chonyy/leetcode-solutions/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/chonyy/leetcode-solutions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/chonyy/leetcode-solutions/tree/master/1899-merge-triplets-to-form-target-triplet) |
@@ -1226,6 +1229,7 @@ Yes, I still hate leetcode :(
 | [0912-sort-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/chonyy/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1325-path-with-maximum-probability](https://github.com/chonyy/leetcode-solutions/tree/master/1325-path-with-maximum-probability) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/chonyy/leetcode-solutions/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1801-number-of-orders-in-the-backlog](https://github.com/chonyy/leetcode-solutions/tree/master/1801-number-of-orders-in-the-backlog) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/chonyy/leetcode-solutions/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
