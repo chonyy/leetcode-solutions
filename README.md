@@ -61,6 +61,7 @@ Yes, I still hate leetcode :(
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/chonyy/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/chonyy/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/chonyy/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -464,6 +465,7 @@ Yes, I still hate leetcode :(
 | [0042-trapping-rain-water](https://github.com/chonyy/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/chonyy/leetcode-solutions/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/chonyy/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/chonyy/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/chonyy/leetcode-solutions/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
@@ -797,6 +799,7 @@ Yes, I still hate leetcode :(
 | [0064-minimum-path-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/chonyy/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/chonyy/leetcode-solutions/tree/master/0079-word-search) |
+| [0085-maximal-rectangle](https://github.com/chonyy/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/chonyy/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/chonyy/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0212-word-search-ii) |
@@ -904,6 +907,7 @@ Yes, I still hate leetcode :(
 | [0064-minimum-path-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/chonyy/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/chonyy/leetcode-solutions/tree/master/0072-edit-distance) |
+| [0085-maximal-rectangle](https://github.com/chonyy/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0091-decode-ways](https://github.com/chonyy/leetcode-solutions/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/chonyy/leetcode-solutions/tree/master/0097-interleaving-string) |
 | [0115-distinct-subsequences](https://github.com/chonyy/leetcode-solutions/tree/master/0115-distinct-subsequences) |
@@ -1371,6 +1375,7 @@ Yes, I still hate leetcode :(
 | ------- |
 | [0042-trapping-rain-water](https://github.com/chonyy/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/chonyy/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/chonyy/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0739-daily-temperatures](https://github.com/chonyy/leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/chonyy/leetcode-solutions/tree/master/0853-car-fleet) |
 | [0901-online-stock-span](https://github.com/chonyy/leetcode-solutions/tree/master/0901-online-stock-span) |
