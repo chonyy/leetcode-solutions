@@ -234,6 +234,7 @@ Yes, I still hate leetcode :(
 | [2085-count-common-words-with-one-occurrence](https://github.com/chonyy/leetcode-solutions/tree/master/2085-count-common-words-with-one-occurrence) |
 | [2107-find-unique-binary-string](https://github.com/chonyy/leetcode-solutions/tree/master/2107-find-unique-binary-string) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/chonyy/leetcode-solutions/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/chonyy/leetcode-solutions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/chonyy/leetcode-solutions/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
@@ -359,6 +360,7 @@ Yes, I still hate leetcode :(
 | [1929-concatenation-of-array](https://github.com/chonyy/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/chonyy/leetcode-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/chonyy/leetcode-solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/chonyy/leetcode-solutions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/chonyy/leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2551-apply-operations-to-an-array) |
 | [2846-robot-collisions](https://github.com/chonyy/leetcode-solutions/tree/master/2846-robot-collisions) |
@@ -1037,6 +1039,7 @@ Yes, I still hate leetcode :(
 | [0881-boats-to-save-people](https://github.com/chonyy/leetcode-solutions/tree/master/0881-boats-to-save-people) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1885-count-pairs-in-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/1885-count-pairs-in-two-arrays) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/chonyy/leetcode-solutions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/chonyy/leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/chonyy/leetcode-solutions/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2551-apply-operations-to-an-array](https://github.com/chonyy/leetcode-solutions/tree/master/2551-apply-operations-to-an-array) |
