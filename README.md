@@ -94,6 +94,7 @@ Yes, I still hate leetcode :(
 | [0229-majority-element-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/chonyy/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/chonyy/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+| [0243-shortest-word-distance](https://github.com/chonyy/leetcode-solutions/tree/master/0243-shortest-word-distance) |
 | [0244-shortest-word-distance-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0244-shortest-word-distance-ii) |
 | [0245-shortest-word-distance-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0245-shortest-word-distance-iii) |
 | [0253-meeting-rooms-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
@@ -399,6 +400,7 @@ Yes, I still hate leetcode :(
 | [0212-word-search-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/chonyy/leetcode-solutions/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/chonyy/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0243-shortest-word-distance](https://github.com/chonyy/leetcode-solutions/tree/master/0243-shortest-word-distance) |
 | [0244-shortest-word-distance-ii](https://github.com/chonyy/leetcode-solutions/tree/master/0244-shortest-word-distance-ii) |
 | [0245-shortest-word-distance-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0245-shortest-word-distance-iii) |
 | [0269-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0269-alien-dictionary) |
