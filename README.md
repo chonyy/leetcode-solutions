@@ -627,6 +627,7 @@ Yes, I still hate leetcode :(
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1429-first-unique-number](https://github.com/chonyy/leetcode-solutions/tree/master/1429-first-unique-number) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1600-throne-inheritance](https://github.com/chonyy/leetcode-solutions/tree/master/1600-throne-inheritance) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/chonyy/leetcode-solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/chonyy/leetcode-solutions/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
@@ -691,6 +692,7 @@ Yes, I still hate leetcode :(
 | [1361-validate-binary-tree-nodes](https://github.com/chonyy/leetcode-solutions/tree/master/1361-validate-binary-tree-nodes) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [1600-throne-inheritance](https://github.com/chonyy/leetcode-solutions/tree/master/1600-throne-inheritance) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/chonyy/leetcode-solutions/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/chonyy/leetcode-solutions/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -750,6 +752,7 @@ Yes, I still hate leetcode :(
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1462-course-schedule-iv](https://github.com/chonyy/leetcode-solutions/tree/master/1462-course-schedule-iv) |
+| [1600-throne-inheritance](https://github.com/chonyy/leetcode-solutions/tree/master/1600-throne-inheritance) |
 | [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/chonyy/leetcode-solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -1202,6 +1205,7 @@ Yes, I still hate leetcode :(
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/chonyy/leetcode-solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1429-first-unique-number](https://github.com/chonyy/leetcode-solutions/tree/master/1429-first-unique-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
+| [1600-throne-inheritance](https://github.com/chonyy/leetcode-solutions/tree/master/1600-throne-inheritance) |
 | [2013-detect-squares](https://github.com/chonyy/leetcode-solutions/tree/master/2013-detect-squares) |
 | [2276-count-integers-in-intervals](https://github.com/chonyy/leetcode-solutions/tree/master/2276-count-integers-in-intervals) |
 | [2434-design-a-number-container-system](https://github.com/chonyy/leetcode-solutions/tree/master/2434-design-a-number-container-system) |
