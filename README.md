@@ -175,6 +175,7 @@ Yes, I still hate leetcode :(
 | [0918-maximum-sum-circular-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0921-spiral-matrix-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0930-binary-subarrays-with-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0939-minimum-area-rectangle](https://github.com/chonyy/leetcode-solutions/tree/master/0939-minimum-area-rectangle) |
 | [0953-verifying-an-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0953-verifying-an-alien-dictionary) |
 | [0954-array-of-doubled-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
@@ -613,6 +614,7 @@ Yes, I still hate leetcode :(
 | [0874-walking-robot-simulation](https://github.com/chonyy/leetcode-solutions/tree/master/0874-walking-robot-simulation) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/chonyy/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/chonyy/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0930-binary-subarrays-with-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0939-minimum-area-rectangle](https://github.com/chonyy/leetcode-solutions/tree/master/0939-minimum-area-rectangle) |
 | [0953-verifying-an-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0953-verifying-an-alien-dictionary) |
 | [0954-array-of-doubled-pairs](https://github.com/chonyy/leetcode-solutions/tree/master/0954-array-of-doubled-pairs) |
@@ -1003,6 +1005,7 @@ Yes, I still hate leetcode :(
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/chonyy/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/chonyy/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/chonyy/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
+| [0930-binary-subarrays-with-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0978-longest-turbulent-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/0978-longest-turbulent-subarray) |
 | [0992-subarrays-with-k-different-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
 | [1156-swap-for-longest-repeated-character-substring](https://github.com/chonyy/leetcode-solutions/tree/master/1156-swap-for-longest-repeated-character-substring) |
@@ -1337,6 +1340,7 @@ Yes, I still hate leetcode :(
 | [0525-contiguous-array](https://github.com/chonyy/leetcode-solutions/tree/master/0525-contiguous-array) |
 | [0528-random-pick-with-weight](https://github.com/chonyy/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0560-subarray-sum-equals-k](https://github.com/chonyy/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0930-binary-subarrays-with-sum](https://github.com/chonyy/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [1140-stone-game-ii](https://github.com/chonyy/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
