@@ -224,6 +224,7 @@ Yes, I still hate leetcode :(
 | [1801-number-of-orders-in-the-backlog](https://github.com/chonyy/leetcode-solutions/tree/master/1801-number-of-orders-in-the-backlog) |
 | [1803-average-waiting-time](https://github.com/chonyy/leetcode-solutions/tree/master/1803-average-waiting-time) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/chonyy/leetcode-solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/chonyy/leetcode-solutions/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/chonyy/leetcode-solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1885-count-pairs-in-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/1885-count-pairs-in-two-arrays) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/chonyy/leetcode-solutions/tree/master/1899-merge-triplets-to-form-target-triplet) |
@@ -553,6 +554,7 @@ Yes, I still hate leetcode :(
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/chonyy/leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/chonyy/leetcode-solutions/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1885-count-pairs-in-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/1885-count-pairs-in-two-arrays) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/chonyy/leetcode-solutions/tree/master/2300-successful-pairs-of-spells-and-potions) |
@@ -880,6 +882,7 @@ Yes, I still hate leetcode :(
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/chonyy/leetcode-solutions/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/chonyy/leetcode-solutions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/chonyy/leetcode-solutions/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/chonyy/leetcode-solutions/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/chonyy/leetcode-solutions/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -1012,6 +1015,7 @@ Yes, I still hate leetcode :(
 | [0992-subarrays-with-k-different-integers](https://github.com/chonyy/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
 | [1156-swap-for-longest-repeated-character-substring](https://github.com/chonyy/leetcode-solutions/tree/master/1156-swap-for-longest-repeated-character-substring) |
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/chonyy/leetcode-solutions/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1871-jump-game-vii](https://github.com/chonyy/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/chonyy/leetcode-solutions/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/chonyy/leetcode-solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -1093,6 +1097,7 @@ Yes, I still hate leetcode :(
 | [1146-snapshot-array](https://github.com/chonyy/leetcode-solutions/tree/master/1146-snapshot-array) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/chonyy/leetcode-solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1631-path-with-minimum-effort](https://github.com/chonyy/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/chonyy/leetcode-solutions/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1885-count-pairs-in-two-arrays](https://github.com/chonyy/leetcode-solutions/tree/master/1885-count-pairs-in-two-arrays) |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/chonyy/leetcode-solutions/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
@@ -1347,6 +1352,7 @@ Yes, I still hate leetcode :(
 | [1248-count-number-of-nice-subarrays](https://github.com/chonyy/leetcode-solutions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1477-product-of-the-last-k-numbers](https://github.com/chonyy/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/chonyy/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/chonyy/leetcode-solutions/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1871-jump-game-vii](https://github.com/chonyy/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/chonyy/leetcode-solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
 ## Backtracking
