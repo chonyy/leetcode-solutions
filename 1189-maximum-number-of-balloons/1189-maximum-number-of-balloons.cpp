@@ -2,23 +2,24 @@ class Solution {
 public:
     int maxNumberOfBalloons(string text) {
         unordered_map<char,int> count;
-        
-        for(char c : text) {
+
+        for (char c : text) {
             count[c] ++;
         }
-        
-        string check = "balon";
-        int minn = INT_MAX;
-        
-        for(char c : check) {
-            if(c == 'l')
-                minn = min(minn, count[c] / 2);
-            else if(c == 'o')
-                minn = min(minn, count[c] / 2);
-            else
-                minn = min(minn, count[c]);
+
+        int res = INT_MAX;
+        unordered_map<char,int> need;
+        string balloon = "balloon";
+        for (char c : balloon) {
+            need[c] ++;
         }
-        
-        return minn;
+
+        for (auto& entry : need) {
+            int textCount = count[entry.first];
+            int words = textCount / entry.second;
+            res = min(res, words);
+        }
+
+        return res == INT_MAX ? 0: res;
     }
 };
