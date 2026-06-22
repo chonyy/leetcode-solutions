@@ -5,24 +5,62 @@ public:
             return false;
         }
 
-        int n = s.size();
-        for (int i = 0; i < n; i ++) {
-            if (tryMatch(s, i, goal, n)) {
+        vector<int> lps =  buildLps(goal);
+
+        string newS = s + s;
+
+        int n = newS.size();
+        int m = goal.size();
+        int i = 0;
+        int j = 0;
+
+        while (i < n) {
+            if (newS[i] == goal[j]) {
+                i ++;
+                j ++;
+            }
+            else {
+                if (j > 0) {
+                    j = lps[j-1];
+                }
+                else {
+                    i ++;
+                }
+            }
+
+            if (j == m) {
                 return true;
             }
         }
         
+        
         return false;
     }
 
-    bool tryMatch(string& s, int start, string& goal, int n) {
-        for (int i = 0; i < n; i ++) {
-            int sIdx = (start + i) % n;
-            if (goal[i] != s[sIdx]) {
-                return false;
+    vector<int> buildLps(string& s) {
+        int n = s.size();
+        vector<int> lps(n);
+
+        int i = 1;
+        int j = 0;
+
+        while (i < n) {
+            if (s[i] == s[j]) {
+                j ++;
+                lps[i] = j;
+                i ++;
+            }
+            else {
+                if (j > 0) {
+                    j = lps[j-1];
+                }
+                else {
+                    j = 0;
+                    i ++;
+                }
             }
         }
-        
-        return true;
+
+        return lps;
     }
 };
