@@ -273,6 +273,7 @@ Yes, I still hate leetcode :(
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/chonyy/leetcode-solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3483-alternating-groups-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3483-alternating-groups-ii) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3637-trionic-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3637-trionic-array-i) |
 ## Math
 |  |
@@ -575,6 +576,7 @@ Yes, I still hate leetcode :(
 | [2502-sort-the-people](https://github.com/chonyy/leetcode-solutions/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/chonyy/leetcode-solutions/tree/master/2846-robot-collisions) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -901,6 +903,7 @@ Yes, I still hate leetcode :(
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/chonyy/leetcode-solutions/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/chonyy/leetcode-solutions/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Graph
 |  |
 | ------- |
@@ -1082,6 +1085,7 @@ Yes, I still hate leetcode :(
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/chonyy/leetcode-solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -1123,6 +1127,7 @@ Yes, I still hate leetcode :(
 | [2826-sorting-three-groups](https://github.com/chonyy/leetcode-solutions/tree/master/2826-sorting-three-groups) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Counting
 |  |
 | ------- |
