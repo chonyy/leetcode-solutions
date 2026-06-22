@@ -441,6 +441,7 @@ Yes, I still hate leetcode :(
 | [0752-open-the-lock](https://github.com/chonyy/leetcode-solutions/tree/master/0752-open-the-lock) |
 | [0763-partition-labels](https://github.com/chonyy/leetcode-solutions/tree/master/0763-partition-labels) |
 | [0772-basic-calculator-iii](https://github.com/chonyy/leetcode-solutions/tree/master/0772-basic-calculator-iii) |
+| [0796-rotate-string](https://github.com/chonyy/leetcode-solutions/tree/master/0796-rotate-string) |
 | [0953-verifying-an-alien-dictionary](https://github.com/chonyy/leetcode-solutions/tree/master/0953-verifying-an-alien-dictionary) |
 | [0981-time-based-key-value-store](https://github.com/chonyy/leetcode-solutions/tree/master/0981-time-based-key-value-store) |
 | [1087-brace-expansion](https://github.com/chonyy/leetcode-solutions/tree/master/1087-brace-expansion) |
@@ -1450,6 +1451,7 @@ Yes, I still hate leetcode :(
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/chonyy/leetcode-solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0572-subtree-of-another-tree](https://github.com/chonyy/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
+| [0796-rotate-string](https://github.com/chonyy/leetcode-solutions/tree/master/0796-rotate-string) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/chonyy/leetcode-solutions/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/chonyy/leetcode-solutions/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 ## Hash Function
